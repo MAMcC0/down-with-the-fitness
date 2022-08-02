@@ -46,26 +46,6 @@ const resolvers = {
     user: async (parent,  { _id } ) => {
       const params = _id ? { _id } : {};
       return User.find(params)
-    }
-  },
-  Mutation: {
-    createWorkout: async (parent, args) => {
-      const workout = await Workout.create(args);
-      return workout;
-    },
-    //---- maybe will be used in the future idk? (will see tmrw)
-    // createVote: async (parent, { _id, techNum }) => {
-    //   const vote = await Matchup.findOneAndUpdate(
-    //     { _id },
-    //     { $inc: { [`tech${techNum}_votes`]: 1 } },
-    //     { new: true }
-    //   );
-    //   return vote;
-    // },
-    createUser: async (parent, args) => {
-      const user = await User.create({username, email, password});
-      const token = signToken(user)
-      return {token, user};
     },
 
     login: async (parent, { email, password }) => {
@@ -101,8 +81,8 @@ const resolvers = {
 
       return user;
     }
-  },
+  };
 
-};
+
 
 module.exports = resolvers;
