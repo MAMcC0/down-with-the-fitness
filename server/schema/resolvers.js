@@ -1,3 +1,4 @@
+const { AuthenticationError } = require('apollo-server-express');
 const { Exercise, Workout, User } = require('../models');
 
 const resolvers = {
@@ -29,9 +30,28 @@ const resolvers = {
     //   return vote;
     // },
     createUser: async (parent, args) => {
-      const user = await User.create(args, {new : true});
-      return user;
+      const user = await User.create({username, email, password});
+      const token = signToken(user)
+      return {token, user};
     },
+
+    login: async (parent, { email, password }) => {
+      const user = await User.findOne({ email });
+
+      if (!user) {
+        throw new AuthenticationError('Whoops! Wrong email!')
+      }
+
+      const correctPass = await user.CorrectPassword(password);
+
+      if(!correctPass){
+        throw new AuthenticationError('Whoops! Wrong password!')
+      }
+      const token = signToken(user);
+
+      return { token, user}
+    },
+
     deleteUser: async (parent, { _id }) => {
       const user = await User.destroy(
         { _id },
@@ -39,10 +59,10 @@ const resolvers = {
       );
       return user;
     },
-    updateUser: async (parent, {_id, workoutName }) => {
+    updateUser: async (parent, {_id, password }) => {
       const user = await User.findOneAndUpdate(
         { _id },
-        { $inc: { [`workout${workoutName}`] : Exercise} },
+        // { $inc: {`password`}:User},
         { new: true}
       );
 
