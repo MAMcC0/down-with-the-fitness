@@ -24,12 +24,15 @@ const exerciseSchema = new Schema({
         minlength: 5,
         maxlength: 100,
         required: true
+    },
+    bodyArea: {
+        type: String,
+        required: true
+    },
+    bodyArea: {
+        type: String,
+        required: true
     }
-
-bodyArea: {
-    type: String,
-    required: true
-}
 
 })
 
