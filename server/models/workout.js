@@ -16,6 +16,10 @@ const workoutSchema = new Schema({
         maxlength: 120,
         trim: true,
     },
+    workoutType: {
+        type: String,
+        required: true,
+    },
     userCreated: {
         type: Boolean,
         required: true,
@@ -30,7 +34,7 @@ const workoutSchema = new Schema({
     },
     // set savedExercises to be an array of data 
     //that adheres to the exerciseSchema
-    savedExercises: [exerciseSchema],
+    exercises: [exerciseSchema],
 });
 
 const Workout = model('Workout', workoutSchema);
