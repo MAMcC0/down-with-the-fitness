@@ -1,15 +1,48 @@
-const { AuthenticationError } = require('apollo-server-express');
-const { Exercise, Workout, User } = require('../models');
+const { Exercise, Workout } = require('../models');
+const { User } = require('../models');
+const { signToken } = require('../utils/auth');
+
 
 const resolvers = {
-  Query: {
-    exercise: async () => {
-      return Exercise.find({});
+    Query: {
+        typeOfExercises: async (parent, {type}) => {
+            return Exercise.find({bodyArea: type});
+        },
+        fullBodyExercises: async () => {
+            return Exercise.find({});
+        },
+        workouts: async () => {
+            return Workout.find({});
+        },
+        listUserWorkouts: async (parent, { _id }) => {
+            return User.findById({ _id }).populate({path: 'Workout'}).populate({path: 'Exercise'});
+        }
     },
-    workout: async (parent, { _id }) => {
-      const params = _id ? { _id } : {};
-      return Workout.find(params);
+    Mutation: {
+        createWorkout: async (parent, { wrkoutData }, context) => {
+            if (context.user) {
+                const updatedUser = await User.findByIdAndUpdate(
+                    { _id: context.user._id },
+                    { $push: { savedExercises: wrkoutData } },
+                    { new: true }
+                );
+                return updatedUser;
+            }
+            throw new AuthenticationError('You need to be logged in!');
+        },
+        removeWorkout: async (parent, { wrkoutId }, context) => {
+            if (context.user) {
+                const updatedUser = await User.findOneAndUpdate(
+                    { _id: context.user._id },
+                    { $pull: { savedExercises: { wrkoutId } } },
+                    { new: true }
+                );
+                return updatedUser;
+            }
+            throw new AuthenticationError('You need to be logged in!');
+        },
     },
+
     user: async (parent,  { _id } ) => {
       const params = _id ? { _id } : {};
       return User.find(params)
@@ -69,6 +102,7 @@ const resolvers = {
       return user;
     }
   },
+
 };
 
 module.exports = resolvers;
