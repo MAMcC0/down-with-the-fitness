@@ -18,7 +18,10 @@ const typeDefs = gql`
   }
 
   type Exercise {
-    id: ID!
+    exerciseId: ID!
+    exerciseName: String
+    description: String
+    duration: Number
   }
 
   type Auth {
