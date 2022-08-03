@@ -6,7 +6,7 @@ const exerciseSchema = require('./Exercise');
 
 const workoutSchema = new Schema({
     workoutId: {
-        type: String,
+        type: Number,
         required: true,
     },
     workoutName: {
