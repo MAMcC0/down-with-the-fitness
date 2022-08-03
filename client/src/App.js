@@ -34,11 +34,11 @@ function App() {
               path="/exerciseguide"
               element={<ExerciseGuide />}
             />
-          </Routes>
+      </Routes>
         </div>
       </Router>
     </ApolloProvider>
-  );
-}
+  )
+};
 
 export default App;
