@@ -14,7 +14,7 @@ const typeDefs = gql`
     workoutName: [String]
     workoutType: String
     userCreated: Boolean
-    createdAt: Date
+    createdAt: String
     exercises: [Exercise]
   }
 
@@ -22,7 +22,7 @@ const typeDefs = gql`
     exerciseId: ID!
     exerciseName: String
     description: String
-    duration: Number
+    duration: Int
     bodyArea: String
     link: String
   }
@@ -40,10 +40,10 @@ const typeDefs = gql`
   }
 
   type Query {
-    me: User
     listUserWorkouts: User
     workouts: Workout
-    user(username: String): User
+    typeOfExercises: Exercise
+    fullBodyExercises: Exercise
   }
   
    type Mutation {
