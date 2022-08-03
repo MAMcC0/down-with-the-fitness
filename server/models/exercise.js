@@ -27,7 +27,10 @@ const exerciseSchema = new Schema({
     bodyArea: {
         type: String,
         required: true
-    }
+    },
+    link: {
+        type: String,
+    },
 })
 
 const Exercise = model('Exercise', exerciseSchema);
