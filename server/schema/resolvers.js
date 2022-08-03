@@ -46,10 +46,10 @@ const resolvers = {
       throw new AuthenticationError('You need to be logged in!');
     },
 
-    user: async (parent, { _id }) => {
-      const params = _id ? { _id } : {};
-      return User.find(params)
-    },
+     createUser: async (parent, { _id }) => {
+       const params = _id ? { _id } : {};
+       return User.find(params)
+     },
 
     login: async (parent, { email, password }) => {
       const user = await User.findOne({ email });
@@ -78,7 +78,7 @@ const resolvers = {
     updateUser: async (parent, { _id, password }) => {
       const user = await User.findOneAndUpdate(
         { _id },
-        // { $inc: {`password`}:User},
+      //  { $inc: {`password`}:User},
         { new: true }
       );
 

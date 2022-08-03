@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose');
-const dateFormat = require('../utils/dateFormat');
+
 
 // import schema from Exercise.js
 const exerciseSchema = require('./Exercise');
@@ -31,7 +31,12 @@ const workoutSchema = new Schema({
     },
     // set savedExercises to be an array of data 
     //that adheres to the exerciseSchema
-    exercises: [exerciseSchema]
+    exercises: [
+        {
+            type: Schema.Types.String,
+            ref: 'Exercise',
+        },
+    ],
 });
 
 const Workout = model('Workout', workoutSchema);
