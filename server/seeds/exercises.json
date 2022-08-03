@@ -73,12 +73,93 @@
     },
     {
         "exerciseId": 10,
+        "exerciseName": "Push-ups",
+        "description": "Rotating punches overhead, like hitting a speed bag",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/v9LABVJzv8A"
+    },
+    {
+        "exerciseId": 11,
         "exerciseName": "Speed Bag Punches",
         "description": "Rotating punches overhead, like hitting a speed bag",
         "duration": 30,
         "bodyArea": "Arms",
         "link": "https://www.youtube.com/embed/8lDhhrj-odk"
-    }
+    },
+    {
+        "exerciseId": 12,
+        "exerciseName": "Accordion Push-ups",
+        "description": "A set of push-ups with increasingly wide arms",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/01xjUrLWWrk"
+    },
+    {
+        "exerciseId": 13,
+        "exerciseName": "Dragon Push-ups",
+        "description": "Angled push-ups, with alternating offset leg position",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/sflrxv53L-o"
+    },
+    {
+        "exerciseId": 14,
+        "exerciseName": "Combo Chest Expansions",
+        "description": "Crossing arms at chest height, alternating with a full arm open",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/g-1mM5SuKQ8"
+    },
+    {
+        "exerciseId": 15,
+        "exerciseName": "Close-hand Push-ups",
+        "description": "Push-ups with hands touching in center",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/SwoNNo4W1OU"
+    },
+    {
+        "exerciseId": 16,
+        "exerciseName": "Wide-hand Push-ups",
+        "description": "Push-ups with hands wide",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/1Y8pTxdwf3M"
+    },
+    {
+        "exerciseId": 17,
+        "exerciseName": "Chest Expansions",
+        "description": "Straight arms at chest height from full open to full close in front",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/El_Sj5hisSs"
+    },
+    {
+        "exerciseId": 18,
+        "exerciseName": "Burpee with Push-up",
+        "description": "A burpee with an added push-up",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/ZQzikdjmkKg"
+    },
+    {
+        "exerciseId": 19,
+        "exerciseName": "Micro Chest Expansions",
+        "description": "Small extensions of arms outstretched, chest height, at side.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/77FNvJPaVjs"
+    },
+    {
+        "exerciseId": 20,
+        "exerciseName": "Raised Arm Circles",
+        "description": "Rotating arms outstretched to side in small circles",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/D40wm6vbI_0"
+    },
+    {
         "id": 21,
         "exerciseName" : "Side Plank Knee Taps",
         "description": "Get in plank position with one are supporting and turn to side making sure feet are stacked the raise top leg knee to chest",
