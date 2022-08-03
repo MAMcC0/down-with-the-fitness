@@ -1,43 +1,52 @@
 [
     {
-      "username": "Test",
+      "name": "Test",
       "email": "test@test.com",
-      "password": "password12345"
+      "password": "password12345",
+      "workouts": [16]
+
     },
     {
-      "username": "Sal",
+      "name": "Sal",
       "email": "sal@hotmail.com",
-      "password": "password12345"
+      "password": "password12345",
+      "workouts": [17]
     },
     {
-      "username": "Quentin",
-      "email": "qball@gmail.com",
-      "password": "password12345"
+      "name": "Quentin",
+      "email": "@gmail.com",
+      "password": "password12345",
+      "workouts": [18]
     },
     {
-      "username": "Todd",
+      "name": "Todd",
       "email": "Todd23er@aol.com",
-      "password": "password12345"
+      "password": "password12345",
+      "workouts": [19]
     },
     {
-      "username": "Timothy",
+      "name": "Timothy",
       "email": "Timmer321@aol.com",
-      "password": "password12345"
+      "password": "password12345",
+      "workouts": [20]
     },
     {
-      "username": "Rebeccah",
+      "name": "Rebeccah",
       "email": "Bekka35@aol.com",
-      "password": "password12345"
+      "password": "password12345",
+      "workouts": [21]
     },
     {
-      "username": "Ricardo",
+      "name": "Ricardo",
       "email": "rickythekoala@aol.com",
-      "password": "password12345"
+      "password": "password12345",
+      "workouts": [22]
     },
     {
-      "username": "Smith",
+      "name": "Smith",
       "email": "smithkimmy@aol.com",
-      "password": "password12345"
+      "password": "password12345",
+      "workouts": [23]
     }
   
   ]
