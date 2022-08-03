@@ -1,0 +1,108 @@
+[
+    {
+        "workoutId": 1,
+        "workoutName": "Arms 1",
+        "workoutType": "Arms",
+        "userCreated": false,
+        "exercises": [1,2,3,4,5]
+    },
+    {
+        "workoutId": 2,
+        "workoutName": "Arms 2",
+        "workoutType": "Arms",
+        "userCreated": false,
+        "exercises": [2,4,6,8,10]
+    },
+    {
+        "workoutId": 3,
+        "workoutName": "Arms 3",
+        "workoutType": "Arms",
+        "userCreated": false,
+        "exercises": [1,3,5,7,9]
+    },
+    {
+        "workoutId": 4,
+        "workoutName": "Chest 1",
+        "workoutType": "Chest",
+        "userCreated": false,
+        "exercises": [11,12,13,14,15]
+    },
+    {
+        "workoutId": 5,
+        "workoutName": "Chest 2",
+        "workoutType": "Chest",
+        "userCreated": false,
+        "exercises": [12,14,16,18,20]
+
+    },
+    {
+        "workoutId": 6,
+        "workoutName": "Chest 3",
+        "workoutType": "Chest",
+        "userCreated": false,
+        "exercises": [11,13,15,17,19]
+    },
+    {
+        "workoutId": 7,
+        "workoutName": "Abs 1",
+        "workoutType": "Abs",
+        "userCreated": false,
+        "exercises": [21,22,23,24,25]
+    },
+    {
+        "workoutId": 8,
+        "workoutName": "Abs 2",
+        "workoutType": "Abs",
+        "userCreated": false,
+        "exercises": [22,24,26,28,30]
+    },
+    {
+        "workoutId": 9,
+        "workoutName": "Abs 3",
+        "workoutType": "Abs",
+        "userCreated": false,
+        "exercises": [21,23,25,27,29]
+    },
+    {
+        "workoutId": 10,
+        "workoutName": "Legs 1",
+        "workoutType": "Legs",
+        "userCreated": false,
+        "exercises": [31,32,33,34,35]
+    },
+    {
+        "workoutId": 11,
+        "workoutName": "Legs 2",
+        "workoutType": "Legs",
+        "userCreated": false,
+        "exercises": [31,33,35,37,39]
+    },
+    {
+        "workoutId": 12,
+        "workoutName": "Legs 3",
+        "workoutType": "Legs",
+        "userCreated": false,
+        "exercises": [32,34,36,38,40]
+    },
+    {
+        "workoutId": 13,
+        "workoutName": "Full Body 1",
+        "workoutType": "Full Body",
+        "userCreated": false,
+        "exercises": [1,11,21,31,41]
+    },
+    {
+        "workoutId": 14,
+        "workoutName": "Full Body 2",
+        "workoutType": "Full Body",
+        "userCreated": false,
+        "exercises": [5,15,25,35,45]
+    },
+    {
+        "workoutId": 15,
+        "workoutName": "Full Body 3",
+        "workoutType": "Full Body",
+        "userCreated": false,
+        "exercises": [1,10,20,30,40]
+    }
+]
