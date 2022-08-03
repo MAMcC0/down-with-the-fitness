@@ -1,0 +1,166 @@
+[
+    {
+        "id": 21,
+        "exerciseName" : "Side Plank Knee Taps",
+        "description": "Get in plank position with one are supporting and turn to side making sure feet are stacked the raise top leg knee to chest",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "link": "https://www.youtube.com/embed/CsP26894Fw8" 
+    },
+    {
+        "id": 22,
+        "exerciseName" : "Elbow Plank Leg Raises",
+        "description": "Get in plank position on elbows then alternate raising legs",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "link": "https://www.youtube.com/embed/Akf3IP0H9fA" 
+    },
+    {
+        "id": 23,
+        "exerciseName" : "Side Star Planks",
+        "description": "Get in plank position with one are supporting and turn to side making sure feet are stacked",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "link": "https://www.youtube.com/embed/ioXJRP6HdbU"
+    },
+    {
+        "id": 24,
+        "exerciseName" : "Crunches",
+        "description": "A crunch",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "link": "https://www.youtube.com/embed/HiRsmHH7psA" 
+    },
+    {
+        "id": 25,
+        "exerciseName" : "Twists",
+        "description": "Stand with legs shoulder-width apart and twist from one side to center then the other side back to center",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "link": "https://www.youtube.com/embed/h6TY6N1B7BA"
+    },
+    {
+        "id": 26,
+        "exerciseName" : "Knee-To-Elbow",
+        "description": "Stand with legs shoulder-width apart and touch same side elbow to leg",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "link": "https://www.youtube.com/embed/ZL9Y-IIedb0"
+    },
+    {
+        "id": 27,
+        "exerciseName" : "V-Ups",
+        "description": "Lay on back with legs and arms in v-shape then try and touch them",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "link": "https://www.youtube.com/embed/-JIwvMSk4vo" 
+    },
+    {
+        "id": 28,
+        "exerciseName" : "Raised Leg Circle",
+        "description": "Lay on back with legs 90 degrees from body and push butt upwards by engaging core then rotate legs together in circle",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "link": "https://www.youtube.com/embed/2Vwfd-Q8MDs" 
+    },
+    {
+        "id": 29,
+        "exerciseName" : "Pulse Ups",
+        "description": "Lay on back with legs 90 degrees from body and push butt upwards by engaging core",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "link": "https://www.youtube.com/embed/Dv3G4WOFG5A" 
+    },
+    {
+        "id": 30,
+        "exerciseName" : "Pulse Ups",
+        "description": "Lay on back with legs 90 degrees from body and push butt upwards by engaging core",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "link": "https://www.youtube.com/embed/Dv3G4WOFG5A" 
+    },
+    {
+        "id": 31,
+        "exerciseName" : "Hop Heel Clicks",
+        "description": "Legs shoulder width apart just to touch heels together",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "link": "https://www.youtube.com/embed/4XcGTvcSRxY"
+    },
+    {
+        "id": 32,
+        "exerciseName" : "Half Squat Walk",
+        "description": "Legs shoulder width apart squat halfway then move one leg at a time to walk",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "link": "https://www.youtube.com/embed/wqfRvXc7BHY"
+    },
+    {
+        "id": 33,
+        "exerciseName" : "Side Splits",
+        "description": "Legs into split position as far as you can go, then bounce once at your limit",
+        "duration": 45,
+        "bodyArea": "Legs",
+        "link": "https://www.youtube.com/embed/HAQvQXovwuo"
+    },
+    {
+        "id": 34,
+        "exerciseName" : "Side Kicks",
+        "description": "Knee raised up to hip length then twist planted leg 90 degrees away and kick up",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "link": "https://www.youtube.com/embed/eGH70NGZ1po" 
+    },
+    {
+        "id": 35,
+        "exerciseName" : "Side Kicks/ Back Legs",
+        "description": "Knee raised up to hip length then twist planted leg 90 degrees away and kick up",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "link": "https://www.youtube.com/embed/kYVhL1HOOjE"
+    },
+    {
+        "id": 36,
+        "exerciseName" : "Side Lunges",
+        "description": "Legs planted past shoulder width and lean down to each side",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "link": "https://www.youtube.com/embed/dTGZS-WCH4U" 
+    },
+    {
+        "id": 37,
+        "exerciseName" : "Reverse Lunges",
+        "description": "Step backward till knee is at a 90 degree angle",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "link": "https://www.youtube.com/embed/-Q_2HR5OhEY"
+    },
+    {
+        "id": 38,
+        "exerciseName" : "Balance Side Lunges",
+        "description": "Raise knee up to 90 degrees against chest then step to the side into lunge position",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "link": "https://www.youtube.com/embed/mXEiJQPqqgE"
+    },
+    {
+        "id": 39,
+        "exerciseName" : "Back Kicks",
+        "description": "Raise leg back and kick backwards",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "link": "https://www.youtube.com/embed/YLfUEHxYvMw" 
+    },
+    {
+        "id": 40,
+        "exerciseName" : "Side Leg Raise",
+        "description": "Raise leg to side so its 90 degrees from the body ",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "link": "https://www.youtube.com/embed/H8RrfDOLiZU"
+    }
+
+   
+
+
+]
