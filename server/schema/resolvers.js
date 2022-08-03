@@ -46,7 +46,7 @@ const resolvers = {
       throw new AuthenticationError('You need to be logged in!');
     },
 
-    createUser: async (parent, { _id }) => {
+    user: async (parent, { _id }) => {
       const params = _id ? { _id } : {};
       return User.find(params)
     },
@@ -75,15 +75,15 @@ const resolvers = {
       );
       return user;
     },
-    // updateUser: async (parent, { _id, password }) => {
-    //   const user = await User.findOneAndUpdate(
-    //     { _id },
-    //     // { $inc: {`password`}:User},
-    //     { new: true }
-    //   );
+    updateUser: async (parent, { _id, password }) => {
+      const user = await User.findOneAndUpdate(
+        { _id },
+      //  { $inc: {`password`}:User},
+        { new: true }
+      );
 
-    //   return user;
-    // }
+      return user;
+    }
   }
 };
 
