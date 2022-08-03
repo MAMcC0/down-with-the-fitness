@@ -1,20 +1,17 @@
 const db = require('../config/connection');
 
-const { Users, Workouts, Exercises } = require('../models')
-const { exercises, workouts, users } = require('../seeds')
+const { User, Workout, Exercise } = require('../models')
+const exercises = require('./exercises.json');
+const workouts = require('./workouts.json');
+const users = require('./users.json');
 
 db.once('open', async () => {
 
-  const seedDatabase = await
-
-    Exercises.insertMany(exercises).then(() => {
-      Workouts.insertMany(workouts).then(() => {
-        Users.insertMany(users).then(() => {
-
-          console.log('All Seeds Planted');
-          process.exit(0);
-
-        });
-      });
-    });
+    await Exercise.insertMany(exercises)
+     await Workout.insertMany(workouts)
+      await  User.insertMany(users)
+      console.log("Seeds planted!")
+      process.exit(0);
+     
+    
 });
