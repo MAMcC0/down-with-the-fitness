@@ -31,8 +31,8 @@ function App() {
               element={<Liveworkout />}
             />
             <Route 
-              path="*"
-              element={<NotFound />}
+              path="/exerciseguide"
+              element={<ExerciseGuide />}
             />
           </Routes>
         </div>
