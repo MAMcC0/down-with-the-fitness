@@ -34,14 +34,14 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-    removeWorkout: async (parent, { wrkoutId }, context) => {
+    removeWorkout: async (parent, { workoutId }, context) => {
       if (context.user) {
-        const updatedUser = await User.findOneAndUpdate(
-          { _id: context.user._id },
-          { $pull: { exercises: { wrkoutId } } },
-          { new: true }
-        );
-        return updatedUser;
+        const updatedWorkoutData = await Workout.findOneAndUpdate(
+          { _id: context.workout.workoutId },
+          { $pull: { workoutData: { workoutId} } },
+          { new: true}
+        )
+        return updatedWorkoutData;
       }
       throw new AuthenticationError('You need to be logged in!');
     },

@@ -5,7 +5,7 @@ const dateFormat = require('../utils/dateFormat');
 const exerciseSchema = require('./Exercise');
 
 const workoutSchema = new Schema({
-    wrkoutId: {
+    workoutId: {
         type: String,
         required: true,
     },
