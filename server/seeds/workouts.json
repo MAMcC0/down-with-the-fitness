@@ -104,5 +104,61 @@
         "workoutType": "Full Body",
         "userCreated": false,
         "exercises": [1,10,20,30,40]
+    },
+    {
+        "workoutId": 16,
+        "workoutName": "Full Body Hit!",
+        "workoutType": "Full Body",
+        "userCreated": true,
+        "exercises": [1,10,20,30,40]
+    },
+    {
+        "workoutId": 17,
+        "workoutName": "Leg Day!",
+        "workoutType": "Legs",
+        "userCreated": true,
+        "exercises": [32,34,36,38,40]
+    },
+    {
+        "workoutId": 18,
+        "workoutName": "Ab Crusher!",
+        "workoutType": "Abs",
+        "userCreated": true,
+        "exercises": [22,24,26,28,30]
+    },
+    {
+        "workoutId": 19,
+        "workoutName": "Chest Workout",
+        "workoutType": "Chest",
+        "userCreated": true,
+        "exercises": [11,13,15,17,19]
+    },
+    {
+        "workoutId": 20,
+        "workoutName": "Upper Body Day!!",
+        "workoutType": "Arms",
+        "userCreated": true,
+        "exercises": [2,4,6,8,10]
+    },
+    {
+        "workoutId": 21,
+        "workoutName": "Get Those Legs Burning!",
+        "workoutType": "Legs",
+        "userCreated": true,
+        "exercises": [31,32,33,34,35]
+    },
+    {
+        "workoutId": 22,
+        "workoutName": "Push Day!",
+        "workoutType": "Full Body",
+        "userCreated": true,
+        "exercises": [5,15,25,35,45]
+    },
+    {
+        "workoutId": 23,
+        "workoutName": "Bulk Up!",
+        "workoutType": "Chest",
+        "userCreated": true,
+        "exercises": [11,12,13,14,15]
     }
 ]
