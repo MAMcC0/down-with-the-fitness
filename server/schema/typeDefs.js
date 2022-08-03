@@ -12,10 +12,11 @@ const typeDefs = gql`
   type Workout {
     workoutId: ID!
     workoutName: [String]
+    workoutType: String
     userCreated: Boolean
     createdAt: Date
     link: String
-    savedExercises: [Exercise]
+    exercises: [Exercise]
   }
 
   type Exercise {
@@ -23,8 +24,11 @@ const typeDefs = gql`
     exerciseName: String
     description: String
     duration: Number
+    bodyArea: String
   }
+
   input WorkoutInput {
+    workoutId: String!
     workoutName: String
     workoutType: String
     exercises: [ID!]
@@ -47,6 +51,7 @@ const typeDefs = gql`
     deleteUser(_id: String!) : User
     login(email: String, password: String) : Auth
     createWorkout(workoutInfo: WorkoutInput) : Workout
+    removeWorkout(workoutId: ID!) : Workout
  }
 
 
