@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
-import Homepage from ('./components/homepage');
-import ExerciseGuide from ('./components/exerciseguide');
-import Liveworkout from ('./components/liveworkout');
-import Workoutpage from ('./components/workoutpage')
+import Homepage from ('./pages/homepage');
+import ExerciseGuide from ('./pages/exerciseguide');
+import Liveworkout from ('./pages/liveworkout');
+import Workoutpage from ('./pages/workoutpage')
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const client = new ApolloClient({
@@ -34,11 +34,11 @@ function App() {
               path="/exerciseguide"
               element={<ExerciseGuide />}
             />
-          </Routes>
+      </Routes>
         </div>
       </Router>
     </ApolloProvider>
-  );
-}
+  )
+};
 
 export default App;
