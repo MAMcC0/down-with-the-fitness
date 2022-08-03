@@ -1,5 +1,84 @@
 [
     {
+        "exerciseId": 1,
+        "exerciseName": "Overhead Punches",
+        "description": "Punching straight up, alternating arms",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/UPV4156lSyc"
+    },
+    {
+        "exerciseId": 2,
+        "exerciseName": "Archers",
+        "description": "Extending one arms, while the other pulls back like an archer",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/3Qp8BQ0Rcrc"
+    },
+    {
+        "exerciseId": 3,
+        "exerciseName": "Raised Arm Circles",
+        "description": "Arms outstretched, moving arms in small circles",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/g3oaRLbo-yw"
+    },
+    {
+        "exerciseId": 4,
+        "exerciseName": "Push-ups",
+        "description": "In push-up position, bending arms and push straight back up",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/v9LABVJzv8A"
+    },
+    {
+        "exerciseId": 5,
+        "exerciseName": "Jab + Jab + Cross",
+        "description": "Two punches with one arm, single punch with other arm.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/UPV4156lSyc"
+    },
+    {
+        "exerciseId": 6,
+        "exerciseName": "Step Jacks",
+        "description": "Alternating stepping directly outward, with an arm raise for each step.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/JHdVMkRBuRA"
+    },
+    {
+        "exerciseId": 7,
+        "exerciseName": "Seal Jacks",
+        "description": "A jumping jack, with arms meeting in the front instead of overhead",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/fxrmaUVAajo"
+    },
+    {
+        "exerciseId": 8,
+        "exerciseName": "Infinite Chops",
+        "description": "Hands interlocked, arms straight, moving in a figure-8 pattern at chest height",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/q4CKZ7OI6Ps"
+    },
+    {
+        "exerciseId": 9,
+        "exerciseName": "Straight Punches",
+        "description": "Punching straight forward, alternating arms",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/M_4Vt5lfEUE"
+    },
+    {
+        "exerciseId": 10,
+        "exerciseName": "Speed Bag Punches",
+        "description": "Rotating punches overhead, like hitting a speed bag",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "link": "https://www.youtube.com/embed/8lDhhrj-odk"
+    }
         "id": 21,
         "exerciseName" : "Side Plank Knee Taps",
         "description": "Get in plank position with one are supporting and turn to side making sure feet are stacked the raise top leg knee to chest",
@@ -159,8 +238,4 @@
         "bodyArea": "Legs",
         "link": "https://www.youtube.com/embed/H8RrfDOLiZU"
     }
-
-   
-
-
 ]

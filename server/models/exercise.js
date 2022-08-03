@@ -2,7 +2,7 @@ const { Schema, model } = require('mongoose');
 
 const exerciseSchema = new Schema({
     exerciseId: {
-        type: String,
+        type: Number,
         required: true,
     },
     exerciseName: {

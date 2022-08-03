@@ -31,7 +31,7 @@ const workoutSchema = new Schema({
     },
     // set savedExercises to be an array of data 
     //that adheres to the exerciseSchema
-    exercises: [exerciseSchema],
+    exercises: [exerciseSchema]
 });
 
 const Workout = model('Workout', workoutSchema);
