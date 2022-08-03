@@ -19,14 +19,18 @@ const resolvers = {
     }
   },
   Mutation: {
-    createWorkout: async (parent, { wrkoutData }, context) => {
+    createWorkout: async (parent, { workoutInfo }, context) => {
       if (context.user) {
-        const updatedUser = await User.findByIdAndUpdate(
-          { _id: context.user._id },
-          { $push: { savedExercises: wrkoutData } },
+        const workoutData = await Workout.create(
+          { workoutName: workoutInfo.workoutType, workoutType: workoutInfo.workoutType, userCreated: true },    
           { new: true }
         );
-        return updatedUser;
+        const updatedWorkoutData = await Workout.findOneAndUpdate(
+          { _id: workoutData._id },
+          { $push: { exercises: workoutInfo.exercises } },
+          { new: true}
+        )
+        return updatedWorkoutData;
       }
       throw new AuthenticationError('You need to be logged in!');
     },
@@ -34,14 +38,13 @@ const resolvers = {
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $pull: { savedExercises: { wrkoutId } } },
+          { $pull: { exercises: { wrkoutId } } },
           { new: true }
         );
         return updatedUser;
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-
 
     user: async (parent, { _id }) => {
       const params = _id ? { _id } : {};
