@@ -1,6 +1,6 @@
 const db = require('../config/connection');
-//const { ?? } = require('../models');
 
+const users = require('./users.json')
 const wrkoutGroups = require('./wrkoutGroups.json');
 
 db.once('open', async () => {
