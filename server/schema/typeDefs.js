@@ -15,7 +15,6 @@ const typeDefs = gql`
     workoutType: String
     userCreated: Boolean
     createdAt: Date
-    link: String
     exercises: [Exercise]
   }
 
@@ -25,6 +24,7 @@ const typeDefs = gql`
     description: String
     duration: Number
     bodyArea: String
+    link: String
   }
 
   input WorkoutInput {
@@ -52,10 +52,7 @@ const typeDefs = gql`
     login(email: String, password: String) : Auth
     createWorkout(workoutInfo: WorkoutInput) : Workout
     removeWorkout(workoutId: ID!) : Workout
- }
-
-
- 
+ } 
 `;
 
 module.exports = typeDefs;

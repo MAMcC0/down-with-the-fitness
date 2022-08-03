@@ -2,7 +2,7 @@ const { Schema, model } = require('mongoose');
 
 const exerciseSchema = new Schema({
     exerciseId: {
-        type: String,
+        type: Number,
         required: true,
     },
     exerciseName: {
@@ -27,7 +27,10 @@ const exerciseSchema = new Schema({
     bodyArea: {
         type: String,
         required: true
-    }
+    },
+    link: {
+        type: String,
+    },
 })
 
 const Exercise = model('Exercise', exerciseSchema);

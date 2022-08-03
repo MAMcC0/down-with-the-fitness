@@ -29,12 +29,9 @@ const workoutSchema = new Schema({
         default: Date.now,
         get: (timestamp) => dateFormat(timestamp),
     },
-    link: {
-        type: String,
-    },
     // set savedExercises to be an array of data 
     //that adheres to the exerciseSchema
-    exercises: [exerciseSchema],
+    exercises: [exerciseSchema]
 });
 
 const Workout = model('Workout', workoutSchema);

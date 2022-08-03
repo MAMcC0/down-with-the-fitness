@@ -1,13 +1,20 @@
 const db = require('../config/connection');
-//const { ?? } = require('../models');
 
-const wrkoutGroups = require('./wrkoutGroups.json');
+const { Users, Workouts, Exercises } = require('../models')
+const { exercises, workouts, users } = require('../seeds')
 
 db.once('open', async () => {
- // await ???.deleteMany({});
 
-  //const exercises = await ???.insertMany(wrkoutGroups);
+  const seedDatabase = await
 
-  console.log('exercises seeded!');
-  process.exit(0);
+    Exercises.insertMany(exercises).then(() => {
+      Workouts.insertMany(workouts).then(() => {
+        Users.insertMany(users).then(() => {
+
+          console.log('All Seeds Planted');
+          process.exit(0);
+
+        });
+      });
+    });
 });
