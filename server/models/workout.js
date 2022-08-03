@@ -5,7 +5,7 @@ const dateFormat = require('../utils/dateFormat');
 const exerciseSchema = require('./Exercise');
 
 const workoutSchema = new Schema({
-    wrkoutId: {
+    workoutId: {
         type: String,
         required: true,
     },
@@ -15,6 +15,10 @@ const workoutSchema = new Schema({
         minlength: 1,
         maxlength: 120,
         trim: true,
+    },
+    workoutType: {
+        type: String,
+        required: true,
     },
     userCreated: {
         type: Boolean,
@@ -30,7 +34,7 @@ const workoutSchema = new Schema({
     },
     // set savedExercises to be an array of data 
     //that adheres to the exerciseSchema
-    savedExercises: [exerciseSchema],
+    exercises: [exerciseSchema],
 });
 
 const Workout = model('Workout', workoutSchema);
