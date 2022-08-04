@@ -62,3 +62,5 @@ function HomeButtons() {
         </div>
     );
 }
+
+export default HomeButtons;
