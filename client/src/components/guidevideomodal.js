@@ -18,7 +18,9 @@ function videoModal() {
                 <Modal.Header closeButton>
                     <Modal.Title>{exercise.exerciseName}</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>{exercise.description}</Modal.Body>
+                <Modal.Body>{exercise.description}
+                    {exercise.link}
+                </Modal.Body>
                 <Modal.Footer>
                     <Button variant="dark" onClick={handleClose}>
                         Dismiss
