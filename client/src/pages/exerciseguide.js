@@ -6,14 +6,14 @@ function exerciseCard() {
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{exercise.exerciseName}</Card.Title>
         <Card.Text>
-
+        {exercise.description}
         </Card.Text>
-        <Button variant="primary">Watch Instructional Video</Button>
+        <Button id='modal-button' variant="primary">Watch Instructional Video</Button>
       </Card.Body>
     </Card>
   );
 }
 
-export default BasicExample;
+export default exerciseCard;
