@@ -27,6 +27,8 @@ function HomeButtons() {
         </Accordion.Item>
         </Accordion>
 
+        <br />
+
         <Accordion>
         <Accordion.Item eventKey="1">
             <Accordion.Header>My Custom Workouts</Accordion.Header>
@@ -43,6 +45,23 @@ function HomeButtons() {
             </Accordion.Body>
         </Accordion.Item>
         </Accordion>
+
+    <br />
+
+        <div class="create-workout-button">
+            <Button variant="primary" size="lg" active>
+                Create Custom Workout
+            </Button>{' '}
+        </div>
+
+        <br />
+
+        <div class="create-workout-button">
+            <Button variant="primary" size="lg" active>
+                Exercise Guide
+            </Button>{' '}
+        </div>
+
     </div>
   );
 }
