@@ -1,5 +1,7 @@
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
+import { useQuery, useMutation } from '@apollo/client';
+import { QUERY_EXERCISES, QUERY_USER_WORKOUTS } from '../../utils/queries';
 
 export default function customWorkoutsButtons() {
   return (

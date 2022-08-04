@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { useQuery, useMutation } from '@apollo/client';
+import { QUERY_EXERCISES } from '../../utils/queries';
 
 export default function createModal() {
     const [show, setShow] = useState(false);
