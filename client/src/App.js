@@ -14,21 +14,23 @@ const client = new ApolloClient({
 
 function App() {
   return (
+    <div>
+      <NavBar />
     <ApolloProvider client={client}>
       <Router>
         <div className="flex-column justify-center align-center min-100-vh bg-primary">
           <Routes>
             <Route 
               path="/" 
-              element={<HomePage />}
+              element={<Homepage />}
             />
             <Route 
               path="/workouts" 
-              element={<WorkoutPage />}
+              element={<Workoutpage />}
             />
             <Route 
               path="/workouts/:id" 
-              element={<LiveWorkout />}
+              element={<Liveworkout />}
             />
             <Route 
               path="/exerciseguide"
@@ -38,6 +40,8 @@ function App() {
         </div>
       </Router>
     </ApolloProvider>
+    <Footer />
+    </div>
   )
 };
 
