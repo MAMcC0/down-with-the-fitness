@@ -4,6 +4,7 @@
         "description": "Punching straight up, alternating arms",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 1",
         "link": "https://www.youtube.com/embed/UPV4156lSyc"
     },
     {
@@ -11,6 +12,7 @@
         "description": "Extending one arms, while the other pulls back like an archer",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 1",
         "link": "https://www.youtube.com/embed/3Qp8BQ0Rcrc"
     },
     {
@@ -18,6 +20,7 @@
         "description": "Arms outstretched, moving arms in small circles",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 1",
         "link": "https://www.youtube.com/embed/g3oaRLbo-yw"
     },
     {
@@ -25,6 +28,7 @@
         "description": "In push-up position, bending arms and push straight back up",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 1",
         "link": "https://www.youtube.com/embed/v9LABVJzv8A"
     },
     {
@@ -32,6 +36,7 @@
         "description": "Two punches with one arm, single punch with other arm.",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 1",
         "link": "https://www.youtube.com/embed/UPV4156lSyc"
     },
     {
@@ -39,6 +44,7 @@
         "description": "Alternating stepping directly outward, with an arm raise for each step.",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 2",
         "link": "https://www.youtube.com/embed/JHdVMkRBuRA"
     },
     {
@@ -46,6 +52,7 @@
         "description": "A jumping jack, with arms meeting in the front instead of overhead",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 2",
         "link": "https://www.youtube.com/embed/fxrmaUVAajo"
     },
     {
@@ -53,6 +60,7 @@
         "description": "Hands interlocked, arms straight, moving in a figure-8 pattern at chest height",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 2",
         "link": "https://www.youtube.com/embed/q4CKZ7OI6Ps"
     },
     {
@@ -60,6 +68,7 @@
         "description": "Punching straight forward, alternating arms",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 2",
         "link": "https://www.youtube.com/embed/M_4Vt5lfEUE"
     },
     {
@@ -67,6 +76,7 @@
         "description": "Rotating punches overhead, like hitting a speed bag",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 2",
         "link": "https://www.youtube.com/embed/v9LABVJzv8A"
     },
     {
@@ -74,6 +84,7 @@
         "description": "Rotating punches overhead, like hitting a speed bag",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 3",
         "link": "https://www.youtube.com/embed/8lDhhrj-odk"
     },
     {
@@ -81,6 +92,7 @@
         "description": "A set of push-ups with increasingly wide arms",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 3",
         "link": "https://www.youtube.com/embed/01xjUrLWWrk"
     },
     {
@@ -88,6 +100,7 @@
         "description": "Angled push-ups, with alternating offset leg position",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 3",
         "link": "https://www.youtube.com/embed/sflrxv53L-o"
     },
     {
@@ -95,6 +108,7 @@
         "description": "Crossing arms at chest height, alternating with a full arm open",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 3",
         "link": "https://www.youtube.com/embed/g-1mM5SuKQ8"
     },
     {
@@ -102,6 +116,7 @@
         "description": "Push-ups with hands touching in center",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 3",
         "link": "https://www.youtube.com/embed/SwoNNo4W1OU"
     },
     {
@@ -109,6 +124,7 @@
         "description": "Push-ups with hands wide",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 1",
         "link": "https://www.youtube.com/embed/1Y8pTxdwf3M"
     },
     {
@@ -116,6 +132,7 @@
         "description": "Straight arms at chest height from full open to full close in front",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 2",
         "link": "https://www.youtube.com/embed/El_Sj5hisSs"
     },
     {
@@ -123,6 +140,7 @@
         "description": "A burpee with an added push-up",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 3",
         "link": "https://www.youtube.com/embed/ZQzikdjmkKg"
     },
     {
@@ -130,6 +148,7 @@
         "description": "Small extensions of arms outstretched, chest height, at side.",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 1",
         "link": "https://www.youtube.com/embed/77FNvJPaVjs"
     },
     {
@@ -137,6 +156,7 @@
         "description": "Rotating arms outstretched to side in small circles",
         "duration": 30,
         "bodyArea": "Arms",
+        "workoutName": "Arms 2",
         "link": "https://www.youtube.com/embed/D40wm6vbI_0"
     },
     {
@@ -144,6 +164,7 @@
         "description": "Get in plank position with one are supporting and turn to side making sure feet are stacked the raise top leg knee to chest",
         "duration": 30,
         "bodyArea": "Abs",
+        "workoutName": "Abs 1",
         "link": "https://www.youtube.com/embed/CsP26894Fw8" 
     },
     {
@@ -151,6 +172,7 @@
         "description": "Get in plank position on elbows then alternate raising legs",
         "duration": 30,
         "bodyArea": "Abs",
+        "workoutName": "Abs 1",
         "link": "https://www.youtube.com/embed/Akf3IP0H9fA" 
     },
     {
@@ -158,6 +180,7 @@
         "description": "Get in plank position with one are supporting and turn to side making sure feet are stacked",
         "duration": 30,
         "bodyArea": "Abs",
+        "workoutName": "Abs 1",
         "link": "https://www.youtube.com/embed/ioXJRP6HdbU"
     },
     {
@@ -165,6 +188,7 @@
         "description": "A crunch",
         "duration": 30,
         "bodyArea": "Abs",
+        "workoutName": "Abs 1",
         "link": "https://www.youtube.com/embed/HiRsmHH7psA" 
     },
     {
@@ -172,6 +196,7 @@
         "description": "Stand with legs shoulder-width apart and twist from one side to center then the other side back to center",
         "duration": 30,
         "bodyArea": "Abs",
+        "workoutName": "Abs 3",
         "link": "https://www.youtube.com/embed/h6TY6N1B7BA"
     },
     {
@@ -179,6 +204,7 @@
         "description": "Stand with legs shoulder-width apart and touch same side elbow to leg",
         "duration": 30,
         "bodyArea": "Abs",
+        "workoutName": "Abs 2",
         "link": "https://www.youtube.com/embed/ZL9Y-IIedb0"
     },
     {
@@ -186,6 +212,7 @@
         "description": "Lay on back with legs and arms in v-shape then try and touch them",
         "duration": 30,
         "bodyArea": "Abs",
+        "workoutName": "Abs 2",
         "link": "https://www.youtube.com/embed/-JIwvMSk4vo" 
     },
     {
@@ -193,6 +220,7 @@
         "description": "Lay on back with legs 90 degrees from body and push butt upwards by engaging core then rotate legs together in circle",
         "duration": 30,
         "bodyArea": "Abs",
+        "workoutName": "Abs 2",
         "link": "https://www.youtube.com/embed/2Vwfd-Q8MDs" 
     },
     {
@@ -200,6 +228,7 @@
         "description": "Lay on back with legs 90 degrees from body and push butt upwards by engaging core",
         "duration": 30,
         "bodyArea": "Abs",
+        "workoutName": "Abs 3",
         "link": "https://www.youtube.com/embed/Dv3G4WOFG5A" 
     },
     {
@@ -207,6 +236,7 @@
         "description": "Lay on back with legs 90 degrees from body and push butt upwards by engaging core",
         "duration": 30,
         "bodyArea": "Abs",
+        "workoutName": "Abs 3",
         "link": "https://www.youtube.com/embed/Dv3G4WOFG5A" 
     },
     {
@@ -214,6 +244,7 @@
         "description": "Legs shoulder width apart just to touch heels together",
         "duration": 30,
         "bodyArea": "Legs",
+        "workoutName": "Legs 1",
         "link": "https://www.youtube.com/embed/4XcGTvcSRxY"
     },
     {
@@ -221,6 +252,7 @@
         "description": "Legs shoulder width apart squat halfway then move one leg at a time to walk",
         "duration": 30,
         "bodyArea": "Legs",
+        "workoutName": "Legs 1",
         "link": "https://www.youtube.com/embed/wqfRvXc7BHY"
     },
     {
@@ -228,6 +260,7 @@
         "description": "Legs into split position as far as you can go, then bounce once at your limit",
         "duration": 45,
         "bodyArea": "Legs",
+        "workoutName": "Legs 1",
         "link": "https://www.youtube.com/embed/HAQvQXovwuo"
     },
     {
@@ -235,6 +268,7 @@
         "description": "Knee raised up to hip length then twist planted leg 90 degrees away and kick up",
         "duration": 30,
         "bodyArea": "Legs",
+        "workoutName": "Legs 1",
         "link": "https://www.youtube.com/embed/eGH70NGZ1po" 
     },
     {
@@ -242,6 +276,7 @@
         "description": "Knee raised up to hip length then twist planted leg 90 degrees away and kick up",
         "duration": 30,
         "bodyArea": "Legs",
+        "workoutName": "Legs 2",
         "link": "https://www.youtube.com/embed/kYVhL1HOOjE"
     },
     {
@@ -249,6 +284,7 @@
         "description": "Legs planted past shoulder width and lean down to each side",
         "duration": 30,
         "bodyArea": "Legs",
+        "workoutName": "Legs 2",
         "link": "https://www.youtube.com/embed/dTGZS-WCH4U" 
     },
     {
@@ -256,6 +292,7 @@
         "description": "Step backward till knee is at a 90 degree angle",
         "duration": 30,
         "bodyArea": "Legs",
+        "workoutName": "Legs 2",
         "link": "https://www.youtube.com/embed/-Q_2HR5OhEY"
     },
     {
@@ -263,6 +300,7 @@
         "description": "Raise knee up to 90 degrees against chest then step to the side into lunge position",
         "duration": 30,
         "bodyArea": "Legs",
+        "workoutName": "Legs 3",
         "link": "https://www.youtube.com/embed/mXEiJQPqqgE"
     },
     {
@@ -270,6 +308,7 @@
         "description": "Raise leg back and kick backwards",
         "duration": 30,
         "bodyArea": "Legs",
+        "workoutName": "Legs 3",
         "link": "https://www.youtube.com/embed/YLfUEHxYvMw" 
     },
     {
@@ -277,6 +316,7 @@
         "description": "Raise leg to side so its 90 degrees from the body ",
         "duration": 30,
         "bodyArea": "Legs",
+        "workoutName": "Legs 3",
         "link": "https://www.youtube.com/embed/H8RrfDOLiZU"
     }
 ]
