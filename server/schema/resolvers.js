@@ -10,7 +10,6 @@ const resolvers = {
     },
     fullBodyExercises: async (parent, {type}) => {
       return Exercise.find({exerciseName: type});
-      //.populate({ path: 'exercises'});
     },
     workouts: async () => {
       try {
@@ -21,7 +20,7 @@ const resolvers = {
       }
     },
     listUserWorkouts: async (parent, {userID}) => {
-      return User.find({userID}).populate({ path: 'workouts' }).populate({ path: 'exercises' });
+      return User.findOne({_id: userID}).populate('workouts').populate({ path: 'workouts', populate: 'exercises' });
     }
   },
   Mutation: {

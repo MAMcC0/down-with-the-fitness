@@ -3,14 +3,14 @@ const { gql } = require('apollo-server-express');
 const typeDefs = gql`
 
   type User {
-    _id: ID!
-    username: String!
+    _id: ID
+    username: String
     email: String
     workouts: [Workout]
   }
 
   type Exercise {
-    _id: ID!
+    _id: ID
     exerciseName: String
     description: String
     duration: Int
@@ -19,7 +19,7 @@ const typeDefs = gql`
   }
 
   type Workout {
-    _id: ID!
+    _id: ID
     workoutName: String
     workoutType: String
     userCreated: Boolean

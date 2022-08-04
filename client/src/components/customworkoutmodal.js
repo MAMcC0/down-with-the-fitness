@@ -17,7 +17,8 @@ export default function createModal() {
                 <Modal.Header closeButton>
                     <Modal.Title>Create Custom Workout</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>FORM**
+                <Modal.Body>
+                    
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="dark" onClick={handleClose}>Create</Button>

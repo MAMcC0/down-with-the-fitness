@@ -24,6 +24,10 @@ const exerciseSchema = new Schema({
         type: String,
         required: true
     },
+    workoutName: {
+        type: String,
+        required: true
+    },
     link: {
         type: String,
     },

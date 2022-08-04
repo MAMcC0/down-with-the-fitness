@@ -20,6 +20,7 @@
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@mui/material": "^5.9.3",
+    "@trimbleinc/modus-react-bootstrap": "^1.1.1",
     "bootstrap": "^5.2.0",
     "react-bootstrap": "^2.4.0"
   }
