@@ -3,50 +3,50 @@
       "username": "Test",
       "email": "test@test.com",
       "password": "password12345",
-      "workouts": [16]
+      "workouts": []
 
     },
     {
       "username": "Sal",
       "email": "sal@hotmail.com",
       "password": "password12345",
-      "workouts": [17]
+      "workouts": []
     },
     {
       "username": "Quentin",
       "email": "qball@gmail.com",
       "password": "password12345",
-      "workouts": [18]
+      "workouts": []
     },
     {
       "username": "Todd",
       "email": "Todd23er@aol.com",
       "password": "password12345",
-      "workouts": [19]
+      "workouts": []
     },
     {
       "username": "Timothy",
       "email": "Timmer321@aol.com",
       "password": "password12345",
-      "workouts": [20]
+      "workouts": []
     },
     {
       "username": "Rebeccah",
       "email": "Bekka35@aol.com",
       "password": "password12345",
-      "workouts": [21]
+      "workouts": []
     },
     {
       "username": "Ricardo",
       "email": "rickythekoala@aol.com",
       "password": "password12345",
-      "workouts": [22]
+      "workouts": []
     },
     {
       "username": "Smith",
       "email": "smithkimmy@aol.com",
       "password": "password12345",
-      "workouts": [23]
+      "workouts": []
     }
   
   ]
