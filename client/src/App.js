@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
-import Homepage from ('./pages/homepage');
-import ExerciseGuide from ('./pages/exerciseguide');
-import Liveworkout from ('./pages/liveworkout');
-import Workoutpage from ('./pages/workoutpage')
+import Homepage from './pages/homepage';
+import ExerciseGuide from './pages/exerciseguide.js';
+import Liveworkout from './pages/liveworkout.js';
+import Workoutpage from './pages/workoutpage.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const client = new ApolloClient({

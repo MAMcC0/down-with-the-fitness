@@ -1,6 +1,5 @@
 [
     {
-        "exerciseId": 1,
         "exerciseName": "Overhead Punches",
         "description": "Punching straight up, alternating arms",
         "duration": 30,
@@ -8,7 +7,6 @@
         "link": "https://www.youtube.com/embed/UPV4156lSyc"
     },
     {
-        "exerciseId": 2,
         "exerciseName": "Archers",
         "description": "Extending one arms, while the other pulls back like an archer",
         "duration": 30,
@@ -16,7 +14,6 @@
         "link": "https://www.youtube.com/embed/3Qp8BQ0Rcrc"
     },
     {
-        "exerciseId": 3,
         "exerciseName": "Raised Arm Circles",
         "description": "Arms outstretched, moving arms in small circles",
         "duration": 30,
@@ -24,7 +21,6 @@
         "link": "https://www.youtube.com/embed/g3oaRLbo-yw"
     },
     {
-        "exerciseId": 4,
         "exerciseName": "Push-ups",
         "description": "In push-up position, bending arms and push straight back up",
         "duration": 30,
@@ -32,7 +28,6 @@
         "link": "https://www.youtube.com/embed/v9LABVJzv8A"
     },
     {
-        "exerciseId": 5,
         "exerciseName": "Jab + Jab + Cross",
         "description": "Two punches with one arm, single punch with other arm.",
         "duration": 30,
@@ -40,7 +35,6 @@
         "link": "https://www.youtube.com/embed/UPV4156lSyc"
     },
     {
-        "exerciseId": 6,
         "exerciseName": "Step Jacks",
         "description": "Alternating stepping directly outward, with an arm raise for each step.",
         "duration": 30,
@@ -48,7 +42,6 @@
         "link": "https://www.youtube.com/embed/JHdVMkRBuRA"
     },
     {
-        "exerciseId": 7,
         "exerciseName": "Seal Jacks",
         "description": "A jumping jack, with arms meeting in the front instead of overhead",
         "duration": 30,
@@ -56,7 +49,6 @@
         "link": "https://www.youtube.com/embed/fxrmaUVAajo"
     },
     {
-        "exerciseId": 8,
         "exerciseName": "Infinite Chops",
         "description": "Hands interlocked, arms straight, moving in a figure-8 pattern at chest height",
         "duration": 30,
@@ -64,7 +56,6 @@
         "link": "https://www.youtube.com/embed/q4CKZ7OI6Ps"
     },
     {
-        "exerciseId": 9,
         "exerciseName": "Straight Punches",
         "description": "Punching straight forward, alternating arms",
         "duration": 30,
@@ -72,7 +63,6 @@
         "link": "https://www.youtube.com/embed/M_4Vt5lfEUE"
     },
     {
-        "exerciseId": 10,
         "exerciseName": "Push-ups",
         "description": "Rotating punches overhead, like hitting a speed bag",
         "duration": 30,
@@ -80,7 +70,6 @@
         "link": "https://www.youtube.com/embed/v9LABVJzv8A"
     },
     {
-        "exerciseId": 11,
         "exerciseName": "Speed Bag Punches",
         "description": "Rotating punches overhead, like hitting a speed bag",
         "duration": 30,
@@ -88,7 +77,6 @@
         "link": "https://www.youtube.com/embed/8lDhhrj-odk"
     },
     {
-        "exerciseId": 12,
         "exerciseName": "Accordion Push-ups",
         "description": "A set of push-ups with increasingly wide arms",
         "duration": 30,
@@ -96,7 +84,6 @@
         "link": "https://www.youtube.com/embed/01xjUrLWWrk"
     },
     {
-        "exerciseId": 13,
         "exerciseName": "Dragon Push-ups",
         "description": "Angled push-ups, with alternating offset leg position",
         "duration": 30,
@@ -104,7 +91,6 @@
         "link": "https://www.youtube.com/embed/sflrxv53L-o"
     },
     {
-        "exerciseId": 14,
         "exerciseName": "Combo Chest Expansions",
         "description": "Crossing arms at chest height, alternating with a full arm open",
         "duration": 30,
@@ -112,7 +98,6 @@
         "link": "https://www.youtube.com/embed/g-1mM5SuKQ8"
     },
     {
-        "exerciseId": 15,
         "exerciseName": "Close-hand Push-ups",
         "description": "Push-ups with hands touching in center",
         "duration": 30,
@@ -120,7 +105,6 @@
         "link": "https://www.youtube.com/embed/SwoNNo4W1OU"
     },
     {
-        "exerciseId": 16,
         "exerciseName": "Wide-hand Push-ups",
         "description": "Push-ups with hands wide",
         "duration": 30,
@@ -128,7 +112,6 @@
         "link": "https://www.youtube.com/embed/1Y8pTxdwf3M"
     },
     {
-        "exerciseId": 17,
         "exerciseName": "Chest Expansions",
         "description": "Straight arms at chest height from full open to full close in front",
         "duration": 30,
@@ -136,7 +119,6 @@
         "link": "https://www.youtube.com/embed/El_Sj5hisSs"
     },
     {
-        "exerciseId": 18,
         "exerciseName": "Burpee with Push-up",
         "description": "A burpee with an added push-up",
         "duration": 30,
@@ -144,7 +126,6 @@
         "link": "https://www.youtube.com/embed/ZQzikdjmkKg"
     },
     {
-        "exerciseId": 19,
         "exerciseName": "Micro Chest Expansions",
         "description": "Small extensions of arms outstretched, chest height, at side.",
         "duration": 30,
@@ -152,7 +133,6 @@
         "link": "https://www.youtube.com/embed/77FNvJPaVjs"
     },
     {
-        "exerciseId": 20,
         "exerciseName": "Raised Arm Circles",
         "description": "Rotating arms outstretched to side in small circles",
         "duration": 30,
@@ -160,7 +140,6 @@
         "link": "https://www.youtube.com/embed/D40wm6vbI_0"
     },
     {
-        "exerciseId": 21,
         "exerciseName" : "Side Plank Knee Taps",
         "description": "Get in plank position with one are supporting and turn to side making sure feet are stacked the raise top leg knee to chest",
         "duration": 30,
@@ -168,7 +147,6 @@
         "link": "https://www.youtube.com/embed/CsP26894Fw8" 
     },
     {
-        "exerciseId": 22,
         "exerciseName" : "Elbow Plank Leg Raises",
         "description": "Get in plank position on elbows then alternate raising legs",
         "duration": 30,
@@ -176,7 +154,6 @@
         "link": "https://www.youtube.com/embed/Akf3IP0H9fA" 
     },
     {
-        "exerciseId": 23,
         "exerciseName" : "Side Star Planks",
         "description": "Get in plank position with one are supporting and turn to side making sure feet are stacked",
         "duration": 30,
@@ -184,7 +161,6 @@
         "link": "https://www.youtube.com/embed/ioXJRP6HdbU"
     },
     {
-        "exerciseId": 24,
         "exerciseName" : "Crunches",
         "description": "A crunch",
         "duration": 30,
@@ -192,7 +168,6 @@
         "link": "https://www.youtube.com/embed/HiRsmHH7psA" 
     },
     {
-        "exerciseId": 25,
         "exerciseName" : "Twists",
         "description": "Stand with legs shoulder-width apart and twist from one side to center then the other side back to center",
         "duration": 30,
@@ -200,7 +175,6 @@
         "link": "https://www.youtube.com/embed/h6TY6N1B7BA"
     },
     {
-        "exerciseId": 26,
         "exerciseName" : "Knee-To-Elbow",
         "description": "Stand with legs shoulder-width apart and touch same side elbow to leg",
         "duration": 30,
@@ -208,7 +182,6 @@
         "link": "https://www.youtube.com/embed/ZL9Y-IIedb0"
     },
     {
-        "exerciseId": 27,
         "exerciseName" : "V-Ups",
         "description": "Lay on back with legs and arms in v-shape then try and touch them",
         "duration": 30,
@@ -216,7 +189,6 @@
         "link": "https://www.youtube.com/embed/-JIwvMSk4vo" 
     },
     {
-        "exerciseId": 28,
         "exerciseName" : "Raised Leg Circle",
         "description": "Lay on back with legs 90 degrees from body and push butt upwards by engaging core then rotate legs together in circle",
         "duration": 30,
@@ -224,7 +196,6 @@
         "link": "https://www.youtube.com/embed/2Vwfd-Q8MDs" 
     },
     {
-        "exerciseId": 29,
         "exerciseName" : "Pulse Ups",
         "description": "Lay on back with legs 90 degrees from body and push butt upwards by engaging core",
         "duration": 30,
@@ -232,7 +203,6 @@
         "link": "https://www.youtube.com/embed/Dv3G4WOFG5A" 
     },
     {
-        "exerciseId": 30,
         "exerciseName" : "Pulse Ups",
         "description": "Lay on back with legs 90 degrees from body and push butt upwards by engaging core",
         "duration": 30,
@@ -240,7 +210,6 @@
         "link": "https://www.youtube.com/embed/Dv3G4WOFG5A" 
     },
     {
-        "exerciseId": 31,
         "exerciseName" : "Hop Heel Clicks",
         "description": "Legs shoulder width apart just to touch heels together",
         "duration": 30,
@@ -248,7 +217,6 @@
         "link": "https://www.youtube.com/embed/4XcGTvcSRxY"
     },
     {
-        "exerciseId": 32,
         "exerciseName" : "Half Squat Walk",
         "description": "Legs shoulder width apart squat halfway then move one leg at a time to walk",
         "duration": 30,
@@ -256,7 +224,6 @@
         "link": "https://www.youtube.com/embed/wqfRvXc7BHY"
     },
     {
-        "exerciseId": 33,
         "exerciseName" : "Side Splits",
         "description": "Legs into split position as far as you can go, then bounce once at your limit",
         "duration": 45,
@@ -264,7 +231,6 @@
         "link": "https://www.youtube.com/embed/HAQvQXovwuo"
     },
     {
-        "exerciseId": 34,
         "exerciseName" : "Side Kicks",
         "description": "Knee raised up to hip length then twist planted leg 90 degrees away and kick up",
         "duration": 30,
@@ -272,7 +238,6 @@
         "link": "https://www.youtube.com/embed/eGH70NGZ1po" 
     },
     {
-        "exerciseId": 35,
         "exerciseName" : "Side Kicks/ Back Legs",
         "description": "Knee raised up to hip length then twist planted leg 90 degrees away and kick up",
         "duration": 30,
@@ -280,7 +245,6 @@
         "link": "https://www.youtube.com/embed/kYVhL1HOOjE"
     },
     {
-        "exerciseId": 36,
         "exerciseName" : "Side Lunges",
         "description": "Legs planted past shoulder width and lean down to each side",
         "duration": 30,
@@ -288,7 +252,6 @@
         "link": "https://www.youtube.com/embed/dTGZS-WCH4U" 
     },
     {
-        "exerciseId": 37,
         "exerciseName" : "Reverse Lunges",
         "description": "Step backward till knee is at a 90 degree angle",
         "duration": 30,
@@ -296,7 +259,6 @@
         "link": "https://www.youtube.com/embed/-Q_2HR5OhEY"
     },
     {
-        "exerciseId": 38,
         "exerciseName" : "Balance Side Lunges",
         "description": "Raise knee up to 90 degrees against chest then step to the side into lunge position",
         "duration": 30,
@@ -304,7 +266,6 @@
         "link": "https://www.youtube.com/embed/mXEiJQPqqgE"
     },
     {
-        "exerciseId": 39,
         "exerciseName" : "Back Kicks",
         "description": "Raise leg back and kick backwards",
         "duration": 30,
@@ -312,7 +273,6 @@
         "link": "https://www.youtube.com/embed/YLfUEHxYvMw" 
     },
     {
-        "exerciseId": 40,
         "exerciseName" : "Side Leg Raise",
         "description": "Raise leg to side so its 90 degrees from the body ",
         "duration": 30,

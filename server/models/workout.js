@@ -1,14 +1,7 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 
-
-// import schema from Exercise.js
-const exerciseSchema = require('./Exercise');
 
 const workoutSchema = new Schema({
-    workoutId: {
-        type: Number,
-        required: true,
-    },
     workoutName: {
         type: String,
         required: 'You need to name this workout!',
@@ -29,11 +22,9 @@ const workoutSchema = new Schema({
         default: Date.now,
         get: (timestamp) => dateFormat(timestamp),
     },
-    // set savedExercises to be an array of data 
-    //that adheres to the exerciseSchema
     exercises: [
         {
-            type: Schema.Types.String,
+            type: Schema.Types.ObjectId,
             ref: 'Exercise',
         },
     ],

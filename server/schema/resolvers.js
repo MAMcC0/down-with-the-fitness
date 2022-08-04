@@ -12,7 +12,12 @@ const resolvers = {
       return Exercise.find({});
     },
     workouts: async () => {
-      return Workout.find({});
+      try {
+        return await Workout.find({}).populate({ path: 'exercises'});
+      }
+      catch(err) {
+        console.log(err);
+      }
     },
     listUserWorkouts: async (parent, { _id }) => {
       return User.findById({ _id }).populate({ path: 'Workout' }).populate({ path: 'Exercise' });
@@ -46,9 +51,10 @@ const resolvers = {
       throw new AuthenticationError('You need to be logged in!');
     },
 
-    createUser: async (parent, { _id }) => {
-      const params = _id ? { _id } : {};
-      return User.find(params)
+    createUser: async (parent, args) => {
+      const user = await User.create(args);
+      const token = signToken(user);
+      return { token, user };
     },
 
     login: async (parent, { email, password }) => {
@@ -75,15 +81,15 @@ const resolvers = {
       );
       return user;
     },
-    // updateUser: async (parent, { _id, password }) => {
-    //   const user = await User.findOneAndUpdate(
-    //     { _id },
-    //     // { $inc: {`password`}:User},
-    //     { new: true }
-    //   );
+    updateUser: async (parent, { _id, password }) => {
+      const user = await User.findOneAndUpdate(
+        { _id },
+      //  { $inc: {`password`}:User},
+        { new: true }
+      );
 
-    //   return user;
-    // }
+      return user;
+    }
   }
 };
 
