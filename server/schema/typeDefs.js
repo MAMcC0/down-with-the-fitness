@@ -9,17 +9,8 @@ const typeDefs = gql`
     workouts: [Workout]
   }
 
-  type Workout {
-    workoutId: ID!
-    workoutName: [String]
-    workoutType: String
-    userCreated: Boolean
-    createdAt: String
-    exercises: [Exercise]
-  }
-
   type Exercise {
-    exerciseId: ID!
+    _id: ID!
     exerciseName: String
     description: String
     duration: Int
@@ -27,8 +18,18 @@ const typeDefs = gql`
     link: String
   }
 
+  type Workout {
+    _id: ID!
+    workoutName: String
+    workoutType: String
+    userCreated: Boolean
+    createdAt: String
+    exercises: [Exercise]
+  }
+
+
   input WorkoutInput {
-    workoutId: String!
+    id: ID!
     workoutName: String
     workoutType: String
     exercises: [ID!]
@@ -41,7 +42,7 @@ const typeDefs = gql`
 
   type Query {
     listUserWorkouts: User
-    workouts: Workout
+    workouts: [Workout] 
     typeOfExercises: Exercise
     fullBodyExercises: Exercise
   }
