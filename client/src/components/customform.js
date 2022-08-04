@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 function targetAreaSelection(userInput) {
+    
     //if else if chain
     // return renderfunction(match)
     
@@ -43,3 +44,13 @@ export default function customWorkoutForm() {
     </Form>
   );
 }
+
+{/* <div>
+  <Chip
+    icon={<i className="material-icons">check</i>}
+    label="Push-ups"
+    variant="solid"
+    type="filter"
+    className="mr-2"
+  ></Chip>
+</div> */}
