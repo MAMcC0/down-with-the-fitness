@@ -5,11 +5,12 @@ const { signToken } = require('../utils/auth');
 
 const resolvers = {
   Query: {
-    typeOfExercises: async (parent, { type }) => {
-      return Exercise.find({ bodyArea: type });
+    typeOfExercises: async (parent) => {
+      return Exercise.find();
     },
-    fullBodyExercises: async () => {
-      return Exercise.find({});
+    fullBodyExercises: async (parent, {type}) => {
+      return Exercise.find({exerciseName: type});
+      //.populate({ path: 'exercises'});
     },
     workouts: async () => {
       try {
@@ -19,8 +20,8 @@ const resolvers = {
         console.log(err);
       }
     },
-    listUserWorkouts: async (parent, { _id }) => {
-      return User.findById({ _id }).populate({ path: 'Workout' }).populate({ path: 'Exercise' });
+    listUserWorkouts: async (parent, {userID}) => {
+      return User.find({userID}).populate({ path: 'workouts' }).populate({ path: 'exercises' });
     }
   },
   Mutation: {

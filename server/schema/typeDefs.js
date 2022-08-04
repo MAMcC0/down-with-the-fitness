@@ -41,10 +41,10 @@ const typeDefs = gql`
   }
 
   type Query {
-    listUserWorkouts: User
+    listUserWorkouts(userID: ID!): User
     workouts: [Workout] 
-    typeOfExercises: Exercise
-    fullBodyExercises: Exercise
+    typeOfExercises: [Exercise]
+    fullBodyExercises: [Exercise]
   }
   
    type Mutation {
