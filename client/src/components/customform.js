@@ -1,25 +1,23 @@
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 
 function targetAreaSelection(userInput) {
-    
-    //if else if chain
-    // return renderfunction(match)
-    
-    //function targetAreaSelection(){
-        //if(arms === exercise.bodyarea where body area equals arms){
-            //return renderfunction(arms)
-        // }
-        // function renderfunction(retobj)
-        // for loop retObj.length
-        // (things needed to create chips)
-    // }
+  //if else if chain
+  // return renderfunction(match)
+  //function targetAreaSelection(){
+  //if(arms === exercise.bodyarea where body area equals arms){
+  //return renderfunction(arms)
+  // }
+  // function renderfunction(retobj)
+  // for loop retObj.length
+  // (things needed to create chips)
+  // }
 }
 
 export default function customWorkoutForm() {
   return (
     <Form>
-      <fieldset >
+      <fieldset>
         <Form.Group className="mb-3">
           <Form.Label htmlFor="TextInput">Workout Title</Form.Label>
           <Form.Control id="TextInput" placeholder=" input" />
@@ -36,7 +34,7 @@ export default function customWorkoutForm() {
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Check
-            //return nested function
+          //return nested function
           />
         </Form.Group>
         <Button type="submit">Create</Button>
@@ -44,13 +42,3 @@ export default function customWorkoutForm() {
     </Form>
   );
 }
-
-{/* <div>
-  <Chip
-    icon={<i className="material-icons">check</i>}
-    label="Push-ups"
-    variant="solid"
-    type="filter"
-    className="mr-2"
-  ></Chip>
-</div> */}
