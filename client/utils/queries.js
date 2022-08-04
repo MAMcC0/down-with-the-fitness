@@ -1,22 +1,74 @@
 import { gql } from '@apollo/client';
 
-export const QUERY_TECH = gql`
-  query tech {
-    tech {
-      _id
-      name
+import { useQuery, useMutation } from '@apollo/client';
+
+
+export const QUERY_WORKOUTS = gql`
+  query workouts {
+    workouts {
+      workoutName
+      workoutType
+      userCreated
+      exercises {
+        exerciseName
+        description
+        duration
+        bodyArea
+        link
+      }
     }
   }
 `;
 
-export const QUERY_MATCHUPS = gql`
-  query matchups($_id: String) {
-    matchups(_id: $_id) {
-      _id
-      tech1
-      tech2
-      tech1_votes
-      tech2_votes
+export const QUERY_WORKOUT_TYPES = gql`
+  query workouts {
+    workouts {
+      workoutType
+      userCreated
+      exercises {
+        exerciseName
+        bodyArea
+      }
     }
   }
+`;
+
+export const QUERY_USER_WORKOUTS = gql`
+  query workouts {
+    workouts {
+      workoutName
+      workoutType
+      userCreated
+      exercises {
+        exerciseName
+        description
+        duration
+        bodyArea
+        link
+      }
+    }
+  }
+`;
+
+
+export const QUERY_EXERCISES = gql`
+  query fullBodyExercises {
+      exercises {
+        exerciseName
+        description
+        duration
+        bodyArea
+        link
+      }
+    }
+`;
+
+export const QUERY_EXERCISE_LINK = gql`
+  query fullBodyExercises {
+      exercises {
+        exerciseName
+        description
+        link
+      }
+    }
 `;

@@ -20,15 +20,15 @@ function App() {
           <Routes>
             <Route 
               path="/" 
-              element={<Homepage />}
+              element={<HomePage />}
             />
             <Route 
               path="/workouts" 
-              element={<Workoutpage />}
+              element={<WorkoutPage />}
             />
             <Route 
               path="/workouts/:id" 
-              element={<Liveworkout />}
+              element={<LiveWorkout />}
             />
             <Route 
               path="/exerciseguide"

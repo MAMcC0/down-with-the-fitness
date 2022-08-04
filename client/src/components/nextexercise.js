@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-
+import { useQuery, useMutation } from '@apollo/client';
 function HeaderAndFooterExample() {
   return (
     <Card className="text-center">
