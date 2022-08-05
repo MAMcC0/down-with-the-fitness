@@ -740,7 +740,135 @@
         "description": "In a straight arm plank position, jump and bring both feet next to your hands, bringing you to a deep squat position and jump back to return to your original position.",
         "duration": 30,
         "bodyArea": "Legs",
-        "workoutName": "Cardio Day!",
-        "link": "https://www.youtube.com/embed/ueGvIOHMZG0"
+        "workoutName": "Leg Day!",
+        "link": "https://www.youtube.com/embed/ArZXCfbjxWs"
+    },
+    {
+        "exerciseName" : "Scissor Kicks",
+        "description": "Lying on your back, bring both legs up, keeping them straight, and flutter both legs up and down.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/0vDI5aU402c"
+    },
+    {
+        "exerciseName" : "Hollow Hold",
+        "description": "Lying on your back, bring both arms and legs up, keeping them straight and hold.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/4xRpGgttca8"
+    },
+    {
+        "exerciseName" : "Jack Knives",
+        "description": "Lying on your back, keep both arms and legs straight and lift both arms and legs having your arms slightly touch your toes.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/GtkoW7TMHqw"
+    },
+    {
+        "exerciseName" : "Half Wipers",
+        "description": "Lying on your back, bring both knees to your chest and arms reaching out side by side. Then slowly move your knees from one side to another.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/VfONiltq6IE"
+    },
+    {
+        "exerciseName" : "Plank Rolls",
+        "description": "Assume an elbow plank position and drop your hips from one side to another.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/t3elxPJ1HU4"
+    },
+    {
+        "exerciseName" : "Chest Squeeze",
+        "description": "In a standing position, bring both palms together and squeeze together.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/anxpxp0rbHs"
+    },
+    {
+        "exerciseName" : "Shoulder Taps",
+        "description": "In a straight arm plank position, touch one hand to the opposite shoulder and alternate arms.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/C6At19Q9i2Q"
+    },
+    {
+        "exerciseName" : "Diamond Push Ups",
+        "description": "Perform a push up with your hands in a diamond shape.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/XtU2VQVuLYs"
+    },
+    {
+        "exerciseName" : "Wall Walks",
+        "description": "Perform a push up with your feet toward a wall. When at the max height, walk your feet backwards up the wall and slowly walk back down.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/2v-yninc1ww"
+    },
+    {
+        "exerciseName" : "Hand Stand Push Ups",
+        "description": "Perform a handstand against a wall and when comfortable bend your arms to do a push up.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/04FFqnk4qcQ"
+    },
+    {
+        "exerciseName" : "Reverse Plank Bridge",
+        "description": "With your chest facing the sky, hold yourself up by straight arms and bent knees.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/hW4cbpEaVG0"
+    },
+    {
+        "exerciseName" : "Forward Arm Circles",
+        "description": "While standing, keep your arms out from your sides and rotate them in forward circles.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/140RTNMciH8"
+    },
+    {
+        "exerciseName" : "Tricep Dips",
+        "description": "Using a raised flat surface, maintain an upright sitting position while being help up by your palms on the surface, slowly bend your elbows, and come back up",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/0326dy_-CzM"
+    },
+    {
+        "exerciseName" : "Big Arm Chops",
+        "description": "In a standing position, bring both arm forward and raise/lower both arms to create a scissor motion.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/4h8ppROoJxU"
+    },
+    {
+        "exerciseName" : "Small Arm Chops",
+        "description": "In a standing position, bring both arm forward and raise/lower both arms to create a scissor motion.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/Z2k_hXBdmkw"
+    },
+    {
+        "exerciseName" : "Get Those Legs Burning!",
+        "description": "In a standing position, bring both arm forward and raise/lower both arms to create a scissor motion.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/Z2k_hXBdmkw"
     }
 ]

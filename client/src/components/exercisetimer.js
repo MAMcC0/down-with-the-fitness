@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { useQuery, useMutation } from '@apollo/client';
-import { QUERY_WORKOUTS} from '../../utils/queries';
+import React from 'react';
 
-export default function exerciseTimer({exTimer}){
+
+export default function ExerciseTimer({exTimer}){
    
         return (
             <div>

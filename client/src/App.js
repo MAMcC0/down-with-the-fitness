@@ -6,6 +6,8 @@ import ExerciseGuide from './pages/exerciseguide.js';
 import Liveworkout from './pages/liveworkout.js';
 import Workoutpage from './pages/workoutpage.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from '../src/components/navbar'
+import Footer from '../src/components/footer'
 
 const client = new ApolloClient({
   uri: '/graphql',

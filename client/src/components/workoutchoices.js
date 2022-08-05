@@ -1,6 +1,7 @@
 import { useQuery } from '@apollo/client';
 import Accordion from 'react-bootstrap/Accordion';
-import { QUERY_WORKOUTS } from '../../utils/queries'
+import { QUERY_WORKOUTS } from '../utils/queries'
+import ListGroup from 'react-bootstrap/ListGroup';
 let workoutChoice = []
 
 const WorkoutChoices = () => {
@@ -8,7 +9,7 @@ const WorkoutChoices = () => {
     const workout = data?.exercises || [];
     console.log(data)
     for (let i = 0; i < data.length; i++) {
-        if (workout.workoutType === `${workoutbutton}`) {
+        if (workout.workoutType === `${workoutbutton.value()}`) {
             workoutChoice.push(workout.workoutType[i])
         }
         console.log(workoutChoice)
@@ -35,5 +36,5 @@ const WorkoutChoices = () => {
     )
 }
 
-
+1
 export default WorkoutChoices;

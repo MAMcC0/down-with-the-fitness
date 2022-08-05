@@ -1,29 +1,28 @@
 import { useQuery } from '@apollo/client';
-import { QUERY_WORKOUTS} from '../../utils/queries';
-import workoutTimer from '../components/workouttimer';
-import React, { useEffect } from 'react'
+import { QUERY_WORKOUTS } from '../utils/queries';
+import WorkoutTimer from '../components/workouttimer';
+import ExerciseTimer from '../components/exercisetimer';
+import React, { useEffect, useState } from 'react'
 
-
-
-
-function liveworkout() {
+function LiveWorkout() {
+  
+  let timerDuration = (data) => {
+        
+    let workoutArray = data.workout.exercises;
+    let duration = 0;
+    workoutArray.forEach(exercise => duration = exercise.duration + duration);
+    
+    return duration; 
+};
     const {data} = useQuery(QUERY_WORKOUTS);
-    const [timerWorkout, setTimer] = useState(timerDuration(data));
-    const [exerciseTime, setExerciseTime] = useState(exerciseTimer(data));
+    let [timerWorkout, setTimer] = useState(timerDuration(data));
+    let [exerciseTime, setExerciseTime] = useState(ExerciseTimer(data));
     const [currentEx, setCurrentEx] = useState('');
-    const [index, setIndex] = useState(0);
+    let [index, setIndex] = useState(0);
     const [checkTime, setCheckTime] = useState(false);
 
-    let timerDuration = (data) => {
-        
-        let workoutArray = data.workout.exercises;
-        let duration = 0;
-        workoutArray.forEach(exercise => duration = exercise.duration + duration);
-        
-        return duration; 
-    };
     
-    let exerciseTimer = (data) => {
+    let ExerciseTimer = (data) => {
         let duration = data.workouts.exercise.duration[index];
         return duration;
 
@@ -57,8 +56,11 @@ function liveworkout() {
     // }, [])
 
   return (
-   <workoutTimer timer={timerWorkout} />
-   <exerciseTimer exTimer={exerciseTime}/>
+    <div>
+   <WorkoutTimer timer={timerWorkout} />
+   <ExerciseTimer exTimer={exerciseTime}/>
+   </div>
   )
 }
 
+export default LiveWorkout;
