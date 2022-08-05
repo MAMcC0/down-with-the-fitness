@@ -9,8 +9,11 @@ const resolvers = {
       return Exercise.find();
     },
     fullBodyExercises: async (parent, {type}) => {
-      return Exercise.find({exerciseName: type});
+      return Exercise.find({exerciseName: type}).populate('exercises');
     },
+    // fullBodyExercises: async (parent) => {
+    //   return Exercise.find();
+    // },
     workouts: async () => {
       try {
         return await Workout.find({}).populate({ path: 'exercises'});
@@ -20,7 +23,7 @@ const resolvers = {
       }
     },
     listUserWorkouts: async (parent, {userID}) => {
-      return User.findOne({_id: userID}).populate('workouts').populate({ path: 'workouts', populate: 'exercises' });
+      return User.findOne({userID}).populate({ path: 'workouts' }).populate({ path: 'workouts', populate: 'exercises' });
     }
   },
   Mutation: {

@@ -9,8 +9,6 @@ db.once('open', async () => {
     await User.deleteMany({})
     await Workout.deleteMany({})
     await Exercise.deleteMany({})
-    // await Exercise.insertMany(exercises)
-    // await Workout.insertMany(workouts)
     const users = await User.create(usersSeeds)
     for (let i = 0; i < workouts.length; i++) {
         const { _id } = await Workout.create(workouts[i]);      
@@ -24,8 +22,7 @@ db.once('open', async () => {
         );
       }
     for (let i = 0; i < exercises.length; i++) {
-        const { _id, workoutName } = await Exercise.create(exercises[i]);
-        console.log(workoutName);      
+        const { _id, workoutName } = await Exercise.create(exercises[i]);     
         const exerciseSeeds = await Workout.findOneAndUpdate(
           { workoutName: workoutName },
           {
