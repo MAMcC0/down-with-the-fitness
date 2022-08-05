@@ -8,12 +8,9 @@ const resolvers = {
     typeOfExercises: async (parent) => {
       return Exercise.find();
     },
-    fullBodyExercises: async (parent, {type}) => {
-      return Exercise.find({exerciseName: type}).populate('exercises');
+    fullBodyExercises: async (parent) => {
+      return Exercise.find();
     },
-    // fullBodyExercises: async (parent) => {
-    //   return Exercise.find();
-    // },
     workouts: async () => {
       try {
         return await Workout.find({}).populate({ path: 'exercises'});
