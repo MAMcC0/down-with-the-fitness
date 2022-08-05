@@ -4,7 +4,7 @@ const { Schema, model, Types } = require('mongoose');
 const workoutSchema = new Schema({
     workoutName: {
         type: String,
-        required: 'You need to name this workout!',
+        required: true,
         minlength: 1,
         maxlength: 120,
         trim: true,
@@ -15,7 +15,7 @@ const workoutSchema = new Schema({
     },
     userCreated: {
         type: Boolean,
-        required: true,
+        default: true,
     },
     createdAt: {
         type: Date,

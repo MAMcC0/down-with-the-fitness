@@ -29,10 +29,9 @@ const typeDefs = gql`
 
 
   input WorkoutInput {
-    id: ID!
-    workoutName: String
-    workoutType: String
-    exercises: [ID!]
+    workoutName: String!
+    workoutType: String!
+    exercises: [String!]
   }
 
   type Auth {
