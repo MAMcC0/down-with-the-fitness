@@ -942,5 +942,13 @@
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
         "link": "https://www.youtube.com/embed/Z2k_hXBdmkw"
-    }
+    },
+    {
+        "exerciseName" : "Get Those Legs Burning!",
+        "description": "In a standing position, bring both arm forward and raise/lower both arms to create a scissor motion.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/Z2k_hXBdmkw"
+    },
 ]
