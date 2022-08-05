@@ -11,7 +11,16 @@ function LiveWorkout() {
   const [currentEx, setCurrentEx] = useState('');
   let [index, setIndex] = useState(0);
   const [checkTime, setCheckTime] = useState(false);
-
+  
+  let timerDuration = (data) => {
+      
+    let workoutArray = data.workout.exercises;
+    let duration = 0;
+    workoutArray.forEach(exercise => duration = exercise.duration + duration);
+    
+    return duration; 
+};
+  
   let ExerciseTimer = (data) => {
     let duration = data.workouts.exercise.duration[index];
     return duration;
@@ -40,9 +49,8 @@ function LiveWorkout() {
     setIndex(newIndex);
   }, [checkTime]);
 
-  // useEffect (() => {
 
-  // }, [])
+
 
   return (
     <div>

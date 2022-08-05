@@ -1,10 +1,10 @@
 import React from 'react'
 import { Button, Card } from 'react-bootstrap';
 import { QUERY_EXERCISES } from '../utils/queries'
-import { useQuery, useMutation } from '@apollo/client';
+import { useQuery } from '@apollo/client';
 
-const exercisePage = () => {
-  const { loading, data } = useQuery(QUERY_EXERCISES);
+const ExercisePage = () => {
+  const { data } = useQuery(QUERY_EXERCISES);
   const exercises = data?.exercises || [];
   return (
     <div>
@@ -24,4 +24,4 @@ const exercisePage = () => {
   )
 }
 
-export default exercisePage;
+export default ExercisePage;

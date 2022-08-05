@@ -9,7 +9,7 @@ const WorkoutChoices = () => {
     const workout = data?.exercises || [];
     console.log(data)
     for (let i = 0; i < data.length; i++) {
-        if (workout.workoutType === `${workoutbutton.value()}`) {
+        if (workout.workoutType === 1) {
             workoutChoice.push(workout.workoutType[i])
         }
         console.log(workoutChoice)
@@ -36,5 +36,4 @@ const WorkoutChoices = () => {
     )
 }
 
-1
 export default WorkoutChoices;
