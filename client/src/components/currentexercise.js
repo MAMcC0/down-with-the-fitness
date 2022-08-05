@@ -9,7 +9,7 @@ function currentExerciseCard() {
     <Card style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title>{exercise.exerciseName}</Card.Title>
-        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card.Img variant="top" src="{function for diagram}" />
         <Card.Text>
           {exercise.description}
         </Card.Text>
