@@ -34,11 +34,11 @@ export default function customWorkoutForm() {
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Check
-          //return nested function
+            return exerciseChip
           />
         </Form.Group>
         <Button type="submit">Create</Button>
       </fieldset>
     </Form>
   );
-}
+  }
