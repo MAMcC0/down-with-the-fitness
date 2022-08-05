@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { useQuery, useMutation } from '@apollo/client';
 import { QUERY_EXERCISES } from '../../utils/queries';
+import customWorkoutForm from './customform';
 
 export default function createModal() {
     const [show, setShow] = useState(false);
@@ -18,7 +19,9 @@ export default function createModal() {
                     <Modal.Title>Create Custom Workout</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    
+                    <div id="custom-workout-form">
+                        {customWorkoutForm}
+                    </div>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="dark" onClick={handleClose}>Create</Button>
