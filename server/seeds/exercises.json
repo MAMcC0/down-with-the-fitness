@@ -152,12 +152,12 @@
         "link": "https://www.youtube.com/embed/77FNvJPaVjs"
     },
     {
-        "exerciseName": "Raised Arm Circles",
-        "description": "Rotating arms outstretched to side in small circles",
+        "exerciseName": "Clapping Push Ups",
+        "description": "Assume a Push Up position and as you reach the max height of your push up, lift yourself slightly off of the ground, clap, and firmly press your hands back to the ground",
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest 2",
-        "link": "https://www.youtube.com/embed/D40wm6vbI_0"
+        "link": "https://www.youtube.com/embed/Z9psWZT0WuQ"
     },
     {
         "exerciseName" : "Side Plank Knee Taps",
@@ -232,12 +232,12 @@
         "link": "https://www.youtube.com/embed/Dv3G4WOFG5A" 
     },
     {
-        "exerciseName" : "Pulse Ups",
-        "description": "Lay on back with legs 90 degrees from body and push butt upwards by engaging core",
+        "exerciseName" : "Plank Macarena",
+        "description": "In an upward pank position, keeping your arms straight, reach one arm to your opposite shoulder and hip and alternate. Then do the same on elbows.",
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 3",
-        "link": "https://www.youtube.com/embed/Dv3G4WOFG5A" 
+        "link": "https://www.youtube.com/embed/Bp0KV7skGEs"
     },
     {
         "exerciseName" : "Hop Heel Clicks",
@@ -318,5 +318,629 @@
         "bodyArea": "Legs",
         "workoutName": "Legs 3",
         "link": "https://www.youtube.com/embed/H8RrfDOLiZU"
+    },
+    {
+        "exerciseName" : "Air Guitar",
+        "description": "Raise knee up, keeping a relaxed upright position in a 90 degree angle from the body. Then coming down in a controlled motion, bending at the hips and reaching forward. ",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 1",
+        "link": "https://www.youtube.com/embed/biSSQoKtS44"
+    },
+    {
+        "exerciseName" : "Ab Sprint",
+        "description": "Keeping in an ab hold position and similar to bicycle crunches, raise one leg to your chest in a 90 degree angle and bring your opposite arm to the knee that is bent and alternate.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body 1",
+        "link": "https://www.youtube.com/embed/F9LQ74r9tdE"
+    },
+    {
+        "exerciseName" : "Afata",
+        "description": "Standing up, move your hip from side to side alternating from front to back.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body 1",
+        "link": "https://www.youtube.com/embed/M39fyahPrtU"
+    },
+    {
+        "exerciseName" : "Balancing Triceps/Biceps",
+        "description": "Standing and balancing on one leg, turn your wrists up and do a bicep curl on both arms. Using weights or no weights",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Full Body 1",
+        "link": "https://www.youtube.com/embed/5tvR0kDXCl8"
+    },
+    {
+        "exerciseName" : "Arabesque Lunge",
+        "description": "Preform an arabesque and then bring that same leg down into a lunge. Alternate legs.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 1",
+        "link": "https://www.youtube.com/embed/5tvR0kDXCl8"
+    },
+    {
+        "exerciseName" : "Bear Crawl",
+        "description": "Assume a press-up position with your knees bent at 90-degree, knees elevated, and walk your right hand and left foot forward, pause and then return to the starting position.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body 2",
+        "link": "https://www.youtube.com/embed/t8XLor7unqU"
+    },
+    {
+        "exerciseName" : "Up-Down Planks",
+        "description": "Assume a plank position and arm by arm move to an elbow plank and back up.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Full Body 2",
+        "link": "https://www.youtube.com/embed/L4oFJRDAU4Q"
+    },
+    {
+        "exerciseName" : "Kick Backs",
+        "description": "Assume a position on your hands and knees and while alternating legs, raise one leg straight up",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 2",
+        "link": "https://www.youtube.com/embed/7eBxlQd6tWI"
+    },
+    {
+        "exerciseName" : "Plank Rotation",
+        "description": "Assume a plank position and raise one arm up completely turning your body sideways. Alternate arms.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Full Body 2",
+        "link": "https://www.youtube.com/embed/7eBxlQd6tWI"
+    },
+    {
+        "exerciseName" : "High Knees",
+        "description": "In a standing position and alternating legs, bring one knee to your chest while also bringing the opposite arm down to 90 degrees and alternate.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 2",
+        "link": "https://www.youtube.com/embed/DfjpR6dzLVg"
+    },
+    {
+        "exerciseName" : "Reverse Crunches",
+        "description": "Laying on your back, bring both legs up and lift your glutes off the floor for 2 seconds.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body 3",
+        "link": "https://www.youtube.com/embed/QYNZwyDKmhk"
+    },
+    {
+        "exerciseName" : "Raised Leg Push Ups",
+        "description": "Assume a push-up position with one leg lifted off of the ground, lower your body and as you push back up alternate lifted legs.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Full Body 3",
+        "link": "https://www.youtube.com/embed/XA8T_bHHkl0"
+    },
+    {
+        "exerciseName" : "Lunge Step-Ups",
+        "description": "Assume a standing position and preform a lunge. As you release, bring that same leg up to your chest at a 90 degree angle and alternate legs.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 3",
+        "link": "https://www.youtube.com/embed/KM6-6xTRpow"
+    },
+    {
+        "exerciseName" : "Get-Ups",
+        "description": "With your chest raised and glutes on the ground, use your feet to pick yourself up and reach one arm up. Alternate arms and legs.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Full Body 3",
+        "link": "https://www.youtube.com/embed/n47X4HOhfUk"
+    },
+    {
+        "exerciseName" : "Squats",
+        "description": "Assume a standing position and slowly bend your knees while keeping your core engaged, lowering your glutes for 2 seconds and returning to a standing position.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 3",
+        "link": "https://www.youtube.com/embed/xqvCmoLULNY"
+    },
+    {
+        "exerciseName" : "Sit Ups",
+        "description": "With your back on the ground and knees bent, slowly lift your upper body to your knees and keep your core engaged.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body Hit!",
+        "link": "https://www.youtube.com/embed/swOyWKk7Oko"
+    },
+    {
+        "exerciseName" : "Donkey Kicks",
+        "description": "With your arms straight and knees on the ground, slowly lift one leg while keeping a bent knee and alternate.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body Hit!",
+        "link": "https://www.youtube.com/embed/SJ1Xuz9D-ZQ"
+    },
+    {
+        "exerciseName" : "Leg Raises",
+        "description": "Lying on your back, lift both legs off of the ground keeping them straight and slowly bring them back down to the ground.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body Hit!",
+        "link": "https://www.youtube.com/embed/Wp4BlxcFTkE"
+    },
+    {
+        "exerciseName" : "Superman",
+        "description": "Lying on your chest, bring both arms over your head and lift both your arms and legs, hold for 3 seconds, and then slowly come back to position.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body Hit!",
+        "link": "https://www.youtube.com/embed/z6PJMT2y8GQ"
+    },
+    {
+        "exerciseName" : "Straight Arm Plank",
+        "description": "Assume a plank position, keeping your arms straight and core tight.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body Hit!",
+        "link": "https://www.youtube.com/embed/OxTE4Fu-Kmw"
+    },
+    {
+        "exerciseName" : "Bridges",
+        "description": "Lying on your back, slowly lift your hips off of the ground, hold for 3 seconds, and return back to position.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Leg Day!",
+        "link": "https://www.youtube.com/embed/_leI4qFfPVw"
+    },
+    {
+        "exerciseName" : "Mountain Climbers",
+        "description": "Assume a straight arm plank position, step one leg up to your chest and alternate.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Leg Day!",
+        "link": "https://www.youtube.com/embed/zT-9L3CEcmk"
+    },
+    {
+        "exerciseName" : "Side Lying Leg Lift",
+        "description": "Assume a side plank position and slowly lift one leg, keeping it straight, and then slowly bringing it back down to the ground.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Leg Day!",
+        "link": "https://www.youtube.com/embed/jgh6sGwtTwk"
+    },
+    {
+        "exerciseName" : "Jump Knee Tucks",
+        "description": "In a standing position, jump and bring your knees up above your hips.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Leg Day!",
+        "link": "https://www.youtube.com/embed/ArZXCfbjxWs"
+    },
+    {
+        "exerciseName" : "Scissor Kicks",
+        "description": "Lying on your back, bring both legs up, keeping them straight, and flutter both legs up and down.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/0vDI5aU402c"
+    },
+    {
+        "exerciseName" : "Hollow Hold",
+        "description": "Lying on your back, bring both arms and legs up, keeping them straight and hold.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/4xRpGgttca8"
+    },
+    {
+        "exerciseName" : "Jack Knives",
+        "description": "Lying on your back, keep both arms and legs straight and lift both arms and legs having your arms slightly touch your toes.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/GtkoW7TMHqw"
+    },
+    {
+        "exerciseName" : "Half Wipers",
+        "description": "Lying on your back, bring both knees to your chest and arms reaching out side by side. Then slowly move your knees from one side to another.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/VfONiltq6IE"
+    },
+    {
+        "exerciseName" : "Plank Rolls",
+        "description": "Assume an elbow plank position and drop your hips from one side to another.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/t3elxPJ1HU4"
+    },
+    {
+        "exerciseName" : "Chest Squeeze",
+        "description": "In a standing position, bring both palms together and squeeze together.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/anxpxp0rbHs"
+    },
+    {
+        "exerciseName" : "Shoulder Taps",
+        "description": "In a straight arm plank position, touch one hand to the opposite shoulder and alternate arms.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/C6At19Q9i2Q"
+    },
+    {
+        "exerciseName" : "Diamond Push Ups",
+        "description": "Perform a push up with your hands in a diamond shape.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/XtU2VQVuLYs"
+    },
+    {
+        "exerciseName" : "Wall Walks",
+        "description": "Perform a push up with your feet toward a wall. When at the max height, walk your feet backwards up the wall and slowly walk back down.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/2v-yninc1ww"
+    },
+    {
+        "exerciseName" : "Hand Stand Push Ups",
+        "description": "Perform a handstand against a wall and when comfortable bend your arms to do a push up.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/04FFqnk4qcQ"
+    },
+    {
+        "exerciseName" : "Reverse Plank Bridge",
+        "description": "With your chest facing the sky, hold yourself up by straight arms and bent knees.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/hW4cbpEaVG0"
+    },
+    {
+        "exerciseName" : "Forward Arm Circles",
+        "description": "While standing, keep your arms out from your sides and rotate them in forward circles.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/140RTNMciH8"
+    },
+    {
+        "exerciseName" : "Tricep Dips",
+        "description": "Using a raised flat surface, maintain an upright sitting position while being help up by your palms on the surface, slowly bend your elbows, and come back up",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/0326dy_-CzM"
+    },
+    {
+        "exerciseName" : "Big Arm Chops",
+        "description": "In a standing position, bring both arm forward and raise/lower both arms to create a scissor motion.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/4h8ppROoJxU"
+    },
+    {
+        "exerciseName" : "Small Arm Chops",
+        "description": "In a standing position, bring both arm forward and raise/lower both arms to create a scissor motion.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/Z2k_hXBdmkw"
+    },
+    {
+        "exerciseName" : "Air Guitar",
+        "description": "Raise knee up, keeping a relaxed upright position in a 90 degree angle from the body. Then coming down in a controlled motion, bending at the hips and reaching forward. ",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 1",
+        "link": "https://www.youtube.com/embed/biSSQoKtS44"
+    },
+    {
+        "exerciseName" : "Ab Sprint",
+        "description": "Keeping in an ab hold position and similar to bicycle crunches, raise one leg to your chest in a 90 degree angle and bring your opposite arm to the knee that is bent and alternate.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body 1",
+        "link": "https://www.youtube.com/embed/F9LQ74r9tdE"
+    },
+    {
+        "exerciseName" : "Afata",
+        "description": "Standing up, move your hip from side to side alternating from front to back.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body 1",
+        "link": "https://www.youtube.com/embed/M39fyahPrtU"
+    },
+    {
+        "exerciseName" : "Balancing Triceps/Biceps",
+        "description": "Standing and balancing on one leg, turn your wrists up and do a bicep curl on both arms. Using weights or no weights",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Full Body 1",
+        "link": "https://www.youtube.com/embed/5tvR0kDXCl8"
+    },
+    {
+        "exerciseName" : "Arabesque Lunge",
+        "description": "Preform an arabesque and then bring that same leg down into a lunge. Alternate legs.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 1",
+        "link": "https://www.youtube.com/embed/5tvR0kDXCl8"
+    },
+    {
+        "exerciseName" : "Bear Crawl",
+        "description": "Assume a press-up position with your knees bent at 90-degree, knees elevated, and walk your right hand and left foot forward, pause and then return to the starting position.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body 2",
+        "link": "https://www.youtube.com/embed/t8XLor7unqU"
+    },
+    {
+        "exerciseName" : "Up-Down Planks",
+        "description": "Assume a plank position and arm by arm move to an elbow plank and back up.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Full Body 2",
+        "link": "https://www.youtube.com/embed/L4oFJRDAU4Q"
+    },
+    {
+        "exerciseName" : "Kick Backs",
+        "description": "Assume a position on your hands and knees and while alternating legs, raise one leg straight up",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 2",
+        "link": "https://www.youtube.com/embed/7eBxlQd6tWI"
+    },
+    {
+        "exerciseName" : "Plank Rotation",
+        "description": "Assume a plank position and raise one arm up completely turning your body sideways. Alternate arms.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Full Body 2",
+        "link": "https://www.youtube.com/embed/7eBxlQd6tWI"
+    },
+    {
+        "exerciseName" : "High Knees",
+        "description": "In a standing position and alternating legs, bring one knee to your chest while also bringing the opposite arm down to 90 degrees and alternate.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 2",
+        "link": "https://www.youtube.com/embed/DfjpR6dzLVg"
+    },
+    {
+        "exerciseName" : "Reverse Crunches",
+        "description": "Laying on your back, bring both legs up and lift your glutes off the floor for 2 seconds.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body 3",
+        "link": "https://www.youtube.com/embed/QYNZwyDKmhk"
+    },
+    {
+        "exerciseName" : "Raised Leg Push Ups",
+        "description": "Assume a push-up position with one leg lifted off of the ground, lower your body and as you push back up alternate lifted legs.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Full Body 3",
+        "link": "https://www.youtube.com/embed/XA8T_bHHkl0"
+    },
+    {
+        "exerciseName" : "Lunge Step-Ups",
+        "description": "Assume a standing position and preform a lunge. As you release, bring that same leg up to your chest at a 90 degree angle and alternate legs.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 3",
+        "link": "https://www.youtube.com/embed/KM6-6xTRpow"
+    },
+    {
+        "exerciseName" : "Get-Ups",
+        "description": "With your chest raised and glutes on the ground, use your feet to pick yourself up and reach one arm up. Alternate arms and legs.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Full Body 3",
+        "link": "https://www.youtube.com/embed/n47X4HOhfUk"
+    },
+    {
+        "exerciseName" : "Squats",
+        "description": "Assume a standing position and slowly bend your knees while keeping your core engaged, lowering your glutes for 2 seconds and returning to a standing position.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body 3",
+        "link": "https://www.youtube.com/embed/xqvCmoLULNY"
+    },
+    {
+        "exerciseName" : "Sit Ups",
+        "description": "With your back on the ground and knees bent, slowly lift your upper body to your knees and keep your core engaged.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body Hit!",
+        "link": "https://www.youtube.com/embed/swOyWKk7Oko"
+    },
+    {
+        "exerciseName" : "Donkey Kicks",
+        "description": "With your arms straight and knees on the ground, slowly lift one leg while keeping a bent knee and alternate.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Full Body Hit!",
+        "link": "https://www.youtube.com/embed/SJ1Xuz9D-ZQ"
+    },
+    {
+        "exerciseName" : "Leg Raises",
+        "description": "Lying on your back, lift both legs off of the ground keeping them straight and slowly bring them back down to the ground.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body Hit!",
+        "link": "https://www.youtube.com/embed/Wp4BlxcFTkE"
+    },
+    {
+        "exerciseName" : "Superman",
+        "description": "Lying on your chest, bring both arms over your head and lift both your arms and legs, hold for 3 seconds, and then slowly come back to position.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body Hit!",
+        "link": "https://www.youtube.com/embed/z6PJMT2y8GQ"
+    },
+    {
+        "exerciseName" : "Straight Arm Plank",
+        "description": "Assume a plank position, keeping your arms straight and core tight.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Full Body Hit!",
+        "link": "https://www.youtube.com/embed/OxTE4Fu-Kmw"
+    },
+    {
+        "exerciseName" : "Bridges",
+        "description": "Lying on your back, slowly lift your hips off of the ground, hold for 3 seconds, and return back to position.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Leg Day!",
+        "link": "https://www.youtube.com/embed/_leI4qFfPVw"
+    },
+    {
+        "exerciseName" : "Mountain Climbers",
+        "description": "Assume a straight arm plank position, step one leg up to your chest and alternate.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Leg Day!",
+        "link": "https://www.youtube.com/embed/zT-9L3CEcmk"
+    },
+    {
+        "exerciseName" : "Side Lying Leg Lift",
+        "description": "Assume a side plank position and slowly lift one leg, keeping it straight, and then slowly bringing it back down to the ground.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Leg Day!",
+        "link": "https://www.youtube.com/embed/jgh6sGwtTwk"
+    },
+    {
+        "exerciseName" : "Jump Knee Tucks",
+        "description": "In a standing position, jump and bring your knees up above your hips.",
+        "duration": 30,
+        "bodyArea": "Legs",
+        "workoutName": "Leg Day!",
+        "link": "https://www.youtube.com/embed/ArZXCfbjxWs"
+    },
+    {
+        "exerciseName" : "Scissor Kicks",
+        "description": "Lying on your back, bring both legs up, keeping them straight, and flutter both legs up and down.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/0vDI5aU402c"
+    },
+    {
+        "exerciseName" : "Hollow Hold",
+        "description": "Lying on your back, bring both arms and legs up, keeping them straight and hold.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/4xRpGgttca8"
+    },
+    {
+        "exerciseName" : "Jack Knives",
+        "description": "Lying on your back, keep both arms and legs straight and lift both arms and legs having your arms slightly touch your toes.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/GtkoW7TMHqw"
+    },
+    {
+        "exerciseName" : "Half Wipers",
+        "description": "Lying on your back, bring both knees to your chest and arms reaching out side by side. Then slowly move your knees from one side to another.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/VfONiltq6IE"
+    },
+    {
+        "exerciseName" : "Plank Rolls",
+        "description": "Assume an elbow plank position and drop your hips from one side to another.",
+        "duration": 30,
+        "bodyArea": "Abs",
+        "workoutName": "Ab Crusher!",
+        "link": "https://www.youtube.com/embed/t3elxPJ1HU4"
+    },
+    {
+        "exerciseName" : "Chest Squeeze",
+        "description": "In a standing position, bring both palms together and squeeze together.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/anxpxp0rbHs"
+    },
+    {
+        "exerciseName" : "Shoulder Taps",
+        "description": "In a straight arm plank position, touch one hand to the opposite shoulder and alternate arms.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/C6At19Q9i2Q"
+    },
+    {
+        "exerciseName" : "Diamond Push Ups",
+        "description": "Perform a push up with your hands in a diamond shape.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/XtU2VQVuLYs"
+    },
+    {
+        "exerciseName" : "Wall Walks",
+        "description": "Perform a push up with your feet toward a wall. When at the max height, walk your feet backwards up the wall and slowly walk back down.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/2v-yninc1ww"
+    },
+    {
+        "exerciseName" : "Hand Stand Push Ups",
+        "description": "Perform a handstand against a wall and when comfortable bend your arms to do a push up.",
+        "duration": 30,
+        "bodyArea": "Chest",
+        "workoutName": "Chest Workout",
+        "link": "https://www.youtube.com/embed/04FFqnk4qcQ"
+    },
+    {
+        "exerciseName" : "Reverse Plank Bridge",
+        "description": "With your chest facing the sky, hold yourself up by straight arms and bent knees.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/hW4cbpEaVG0"
+    },
+    {
+        "exerciseName" : "Forward Arm Circles",
+        "description": "While standing, keep your arms out from your sides and rotate them in forward circles.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/140RTNMciH8"
+    },
+    {
+        "exerciseName" : "Tricep Dips",
+        "description": "Using a raised flat surface, maintain an upright sitting position while being help up by your palms on the surface, slowly bend your elbows, and come back up",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/0326dy_-CzM"
+    },
+    {
+        "exerciseName" : "Big Arm Chops",
+        "description": "In a standing position, bring both arm forward and raise/lower both arms to create a scissor motion.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/4h8ppROoJxU"
+    },
+    {
+        "exerciseName" : "Small Arm Chops",
+        "description": "In a standing position, bring both arm forward and raise/lower both arms to create a scissor motion.",
+        "duration": 30,
+        "bodyArea": "Arms",
+        "workoutName": "Upper Body Day!!",
+        "link": "https://www.youtube.com/embed/Z2k_hXBdmkw"
     }
 ]
