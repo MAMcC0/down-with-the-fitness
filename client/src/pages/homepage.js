@@ -8,3 +8,5 @@ function homeContainer() {
         </div>
     )
 }
+
+export default homeContainer;

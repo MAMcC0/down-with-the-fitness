@@ -1,6 +1,5 @@
 import { gql } from '@apollo/client';
 
-import { useQuery, useMutation } from '@apollo/client';
 
 
 export const QUERY_WORKOUTS = gql`
@@ -71,4 +70,22 @@ export const QUERY_EXERCISE_LINK = gql`
         link
       }
     }
+`;
+
+
+export const QUERY_SPECIFIC_WORKOUT_TYPE = gql`
+  query workouts($workoutType: String) {
+    workouts(workoutType: $workoutType) {
+      workoutName
+      workoutType
+      userCreated
+      exercises {
+        exerciseName
+        description
+        duration
+        bodyArea
+        link
+      }
+    }
+  }
 `;
