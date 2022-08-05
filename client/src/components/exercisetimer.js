@@ -22,7 +22,11 @@ function exerciseTimer(){
             },1000)
         })
         }
+        return (
+            <div>
+                <p>{duration} seconds left!</p>
+            </div>
+        )
     }
 
 
-}

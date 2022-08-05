@@ -15,8 +15,10 @@ function workoutTimer(){
     };
     const [timerW, setTimer] = useState(timerDuration);
 
-
-<div>
-
-</div>
+//will need a function to format seconds 
+return(
+    <div>
+        <p>{timerW}</p>
+    </div>
+)
 }
