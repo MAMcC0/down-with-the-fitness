@@ -1,5 +1,7 @@
+import React from 'react'
 import { Button, Card } from 'react-bootstrap';
-import { QUERY_EXERCISES } from '../../utils/queries'
+import { QUERY_EXERCISES } from '../utils/queries'
+import { useQuery, useMutation } from '@apollo/client';
 
 const exercisePage = () => {
   const { loading, data } = useQuery(QUERY_EXERCISES);
