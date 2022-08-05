@@ -1,5 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import exerciseChip from "./chips";
 
 function targetAreaSelection(userInput) {
   //if else if chain
@@ -23,8 +24,8 @@ export default function customWorkoutForm() {
           <Form.Control id="TextInput" placeholder=" input" />
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label htmlFor="Select">Target Area</Form.Label>
-          <Form.Select id="Select" placeholder="Select one...">
+          <Form.Label htmlFor="TargetArea">Target Area</Form.Label>
+          <Form.Select id="TargetArea" placeholder="Select one...">
             <option>Full Body</option>
             <option>Arms</option>
             <option>Chest</option>
@@ -33,9 +34,9 @@ export default function customWorkoutForm() {
           </Form.Select>
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Check
-            return exerciseChip
-          />
+          <div id="chippies">
+            {exerciseChip}
+          </div>
         </Form.Group>
         <Button type="submit">Create</Button>
       </fieldset>
