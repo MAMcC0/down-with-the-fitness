@@ -12,7 +12,7 @@ export default function createModal() {
     const handleShow = () => setShow(true);
 
     return (
-        <div class="create-workout-modal">
+        <div className="create-workout-modal">
             <Button variant="dark" onClick={handleShow}>Create Custom Workout</Button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>

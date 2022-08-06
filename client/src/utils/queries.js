@@ -8,19 +8,19 @@ export const QUERY_WORKOUTS = gql`
       workoutName
       workoutType
       userCreated
-      exercises {
-        exerciseName
-        description
-        duration
-        bodyArea
-        link
-      }
+      # exercises {
+      #   exerciseName
+      #   description
+      #   duration
+      #   bodyArea
+      #   link
+      # }
     }
   }
 `;
 
 export const QUERY_WORKOUT_TYPES = gql`
-  query workouts {
+  query typeOfExercises {
     workouts {
       workoutType
       userCreated
@@ -33,8 +33,8 @@ export const QUERY_WORKOUT_TYPES = gql`
 `;
 
 export const QUERY_USER_WORKOUTS = gql`
-  query workouts {
-    workouts {
+  query listUserWorkouts($userCreated: Boolean) {
+    workouts(userCreated: true) {
       workoutName
       workoutType
       userCreated

@@ -1,3 +1,4 @@
+import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import { useQuery, useMutation } from '@apollo/client';
@@ -5,13 +6,13 @@ import { QUERY_EXERCISES, QUERY_USER_WORKOUTS } from '../../utils/queries';
 
 export default function customWorkoutsButtons() {
   return (
-    <div class="homebuttons">
+    <div className="homebuttons">
         <Accordion>
         <Accordion.Item eventKey="0">
             <Accordion.Header>Custom Workout 1</Accordion.Header>
             <Accordion.Body>
-                <div class="home-workout-buttons-standardf">                    
-                        <ul class="custom-1">
+                <div className="home-workout-buttons-standardf">                    
+                        <ul className="custom-1">
                           <li>exercise 1</li>
                           <li>exercise 2</li>                  
                           <li>exercise 3</li>
@@ -28,8 +29,8 @@ export default function customWorkoutsButtons() {
         <Accordion.Item eventKey="0">
             <Accordion.Header>Custom Workout 2</Accordion.Header>
             <Accordion.Body>
-                <div class="home-workout-buttons-standardf">                    
-                        <ul class="custom-1">
+                <div className="home-workout-buttons-standardf">                    
+                        <ul className="custom-1">
                           <li>exercise 1</li>
                           <li>exercise 2</li>                  
                           <li>exercise 3</li>
@@ -46,8 +47,8 @@ export default function customWorkoutsButtons() {
         <Accordion.Item eventKey="0">
             <Accordion.Header>Custom Workout 3</Accordion.Header>
             <Accordion.Body>
-                <div class="home-workout-buttons-standardf">                    
-                        <ul class="custom-1">
+                <div className="home-workout-buttons-standardf">                    
+                        <ul className="custom-1">
                           <li>exercise 1</li>
                           <li>exercise 2</li>                  
                           <li>exercise 3</li>

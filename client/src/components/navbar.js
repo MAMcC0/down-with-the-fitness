@@ -1,3 +1,4 @@
+import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -14,8 +15,8 @@ function NavBar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <NavDropdown title="Workouts" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Standard Workouts</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
+                            <NavDropdown.Item href="/workouts">Standard Workouts</NavDropdown.Item>
+                            <NavDropdown.Item href="/">
                                 My Custom Workouts
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.4">
