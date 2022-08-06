@@ -17,10 +17,10 @@ const client = new ApolloClient({
 function App() {
   return (
     <div>
-      <NavBar />
     <ApolloProvider client={client}>
       <Router>
         <div className="flex-column justify-center align-center min-100-vh bg-primary">
+        <NavBar />
           <Routes>
             <Route 
               path="/" 
@@ -39,10 +39,10 @@ function App() {
               element={<ExerciseGuide />}
             />
       </Routes>
+      <Footer />
         </div>
       </Router>
     </ApolloProvider>
-    <Footer />
     </div>
   )
 };

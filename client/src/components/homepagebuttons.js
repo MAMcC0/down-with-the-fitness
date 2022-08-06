@@ -1,3 +1,4 @@
+import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
@@ -6,12 +7,12 @@ import { QUERY_WORKOUTS, QUERY_USER_WORKOUTS, QUERY_WORKOUT_TYPES } from '../uti
 
 function HomeButtons() {
     return (
-        <div class="homebuttons">
+        <div className="homebuttons">
             <Accordion>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Standard Workouts</Accordion.Header>
                     <Accordion.Body>
-                        <div class="home-workout-buttons-standardf">
+                        <div className="home-workout-buttons-standardf">
                             <ButtonGroup vertical>
                                 <Button>Full Body Workouts</Button>
                                 <Button>Arm Workouts</Button>
@@ -30,7 +31,7 @@ function HomeButtons() {
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>My Custom Workouts</Accordion.Header>
                     <Accordion.Body>
-                        <div class="home-workout-buttons-custom">
+                        <div className="home-workout-buttons-custom">
                             <ButtonGroup vertical>
                                 <Button>Full Body Workouts</Button>
                                 <Button>Arm Workouts</Button>
@@ -45,7 +46,7 @@ function HomeButtons() {
 
             <br />
 
-            <div class="create-workout-button">
+            <div className="create-workout-button">
                 <Button variant="primary" size="lg" active>
                     Create Custom Workout
                 </Button>{' '}
@@ -53,7 +54,7 @@ function HomeButtons() {
 
             <br />
 
-            <div class="create-workout-button">
+            <div className="create-workout-button">
                 <Button variant="primary" size="lg" active>
                     Exercise Guide
                 </Button>{' '}

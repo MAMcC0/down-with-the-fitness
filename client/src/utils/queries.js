@@ -3,8 +3,8 @@ import { gql } from '@apollo/client';
 
 
 export const QUERY_WORKOUTS = gql`
-  query workouts {
-    workouts {
+  query workout {
+    workout {
       workoutName
       workoutType
       userCreated

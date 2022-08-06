@@ -1,19 +1,20 @@
+import React from 'react'
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import exerciseChip from "./chips";
 
-function targetAreaSelection(userInput) {
-  //if else if chain
-  // return renderfunction(match)
-  //function targetAreaSelection(){
-  //if(arms === exercise.bodyarea where body area equals arms){
-  //return renderfunction(arms)
-  // }
-  // function renderfunction(retobj)
-  // for loop retObj.length
-  // (things needed to create chips)
-  // }
-}
+// function targetAreaSelection(userInput) {
+//   //if else if chain
+//   // return renderfunction(match)
+//   //function targetAreaSelection(){
+//   //if(arms === exercise.bodyarea where body area equals arms){
+//   //return renderfunction(arms)
+//   // }
+//   // function renderfunction(retobj)
+//   // for loop retObj.length
+//   // (things needed to create chips)
+//   // }
+// }
 
 export default function customWorkoutForm() {
   return (
