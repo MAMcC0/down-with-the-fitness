@@ -2,7 +2,6 @@ import { useQuery, useMutation } from '@apollo/client';
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import exTimer from 'exerciseTimer'
 
 
 function currentExerciseCard() {
@@ -16,7 +15,7 @@ function currentExerciseCard() {
         </Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroup.Item>{exTimer}</ListGroup.Item>
+        <ListGroup.Item>{Timer}</ListGroup.Item>
         <ListGroup.Item>"Next up: {exercise.NEXTEXERCISE}"</ListGroup.Item>
       </ListGroup>
     </Card>
