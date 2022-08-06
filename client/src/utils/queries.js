@@ -5,16 +5,17 @@ import { gql } from '@apollo/client';
 export const QUERY_WORKOUTS = gql`
   query workouts {
     workouts {
+      _id
       workoutName
       workoutType
       userCreated
-      # exercises {
-      #   exerciseName
-      #   description
-      #   duration
-      #   bodyArea
-      #   link
-      # }
+      exercises {
+        exerciseName
+        description
+        duration
+        bodyArea
+        link
+      }
     }
   }
 `;
