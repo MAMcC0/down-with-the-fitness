@@ -1,15 +1,14 @@
-import React from 'react'
-import Accordion from 'react-bootstrap/Accordion';
-import ListGroup from 'react-bootstrap/ListGroup';
 import { useQuery } from '@apollo/client';
+import Accordion from 'react-bootstrap/Accordion';
 import { QUERY_WORKOUTS } from '../utils/queries'
+import ListGroup from 'react-bootstrap/ListGroup';
+import React from 'react'
 
 
+let workoutChoice = []
 
-// let workoutChoice = []
-
-const WorkoutChoices = () => {
-    const { data } = useQuery(QUERY_WORKOUTS);
+const CustomWorkoutChoices = () => {
+    const { loading, data } = useQuery(QUERY_WORKOUTS);
     console.log(data)
     const workout = data?.exercises || [];
    
@@ -41,4 +40,4 @@ const WorkoutChoices = () => {
     )
 }
 
-export default WorkoutChoices;
+export default CustomWorkoutChoices;

@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { useQuery, useMutation } from '@apollo/client';
 import { QUERY_WORKOUTS, QUERY_USER_WORKOUTS, QUERY_WORKOUT_TYPES } from '../utils/queries'
+import { Link } from 'react-router-dom';
 
 function HomeButtons() {
     return (
@@ -14,11 +15,11 @@ function HomeButtons() {
                     <Accordion.Body>
                         <div className="home-workout-buttons-standardf">
                             <ButtonGroup vertical>
-                                <Button>Full Body Workouts</Button>
-                                <Button>Arm Workouts</Button>
-                                <Button>Chest Workouts</Button>
-                                <Button>Ab Workouts</Button>
-                                <Button>Legs Workouts</Button>
+                                <Link className='text-dark' to='/workouts/fullbody'>Full Body Workouts</Link>                             
+                                <Link className='text-dark' to='/workouts/armworkouts'>Arm Workouts</Link>
+                                <Link className='text-dark' to='/workouts/chestworkouts'>Chest Workouts</Link>
+                                <Link className='text-dark' to='/workouts/abworkouts'>Ab Workouts</Link>
+                                <Link className='text-dark' to='/workouts/legworkouts'>Legs Workouts</Link>
                             </ButtonGroup>
                         </div>
                     </Accordion.Body>
@@ -33,11 +34,11 @@ function HomeButtons() {
                     <Accordion.Body>
                         <div className="home-workout-buttons-custom">
                             <ButtonGroup vertical>
-                                <Button>Full Body Workouts</Button>
-                                <Button>Arm Workouts</Button>
-                                <Button>Chest Workouts</Button>
-                                <Button>Ab Workouts</Button>
-                                <Button>Legs Workouts</Button>
+                            <Link className='text-dark' to='/customworkouts/fullbody'>Full Body Workouts</Link>                             
+                                <Link className='text-dark' to='/customworkouts/armworkouts'>Arm Workouts</Link>
+                                <Link className='text-dark' to='/customworkouts/chestworkouts'>Chest Workouts</Link>
+                                <Link className='text-dark' to='/customworkouts/abworkouts'>Ab Workouts</Link>
+                                <Link className='text-dark' to='/customworkouts/legworkouts'>Legs Workouts</Link>
                             </ButtonGroup>
                         </div>
                     </Accordion.Body>
