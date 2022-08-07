@@ -6,12 +6,18 @@ const { signToken } = require('../utils/auth');
 
 const resolvers = {
   Query: {
-    typeOfExercises: async (parent) => {
-      return Exercise.find();
-    },
+    // typeOfExercises: async (parent) => {
+    //   return await Exercise.find();
+    // },
     fullBodyExercises: async (parent) => {
-      return Exercise.find();
+      try {
+        return await Exercise.find();
+      }
+      catch (err) {
+        console.log(err);
+      }
     },
+    
     workouts: async () => {
       try {
         return await Workout.find({}).populate({ path: 'exercises' });
@@ -30,7 +36,7 @@ const resolvers = {
         console.log(workoutInfo);
         if (context.user) {
           const workoutData = await Workout.create(
-            {workoutName: workoutInfo.workoutName, workoutType: workoutInfo.workoutType}
+            { workoutName: workoutInfo.workoutName, workoutType: workoutInfo.workoutType }
           )
           console.log(workoutData);
           const updatedWorkoutData = await Workout.findOneAndUpdate(
@@ -40,11 +46,11 @@ const resolvers = {
           ).populate('exercises')
           return updatedWorkoutData;
         }
-      } catch(err){
+      } catch (err) {
         console.log(err);
         throw new AuthenticationError('You need to be logged in!');
       }
-      
+
     },
     removeWorkout: async (parent, { workoutId }, context) => {
       if (context.user) {

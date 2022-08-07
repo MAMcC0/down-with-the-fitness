@@ -56,9 +56,7 @@ function HomeButtons() {
             <br />
 
             <div className="create-workout-button">
-                <Button variant="primary" size="lg" active>
-                    Exercise Guide
-                </Button>{' '}
+            <Link className='text-dark' to='/exerciseguide'>Exercise Guide</Link>
             </div>
 
         </div>

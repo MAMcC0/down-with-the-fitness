@@ -42,7 +42,7 @@ const typeDefs = gql`
   type Query {
     listUserWorkouts(userID: ID!): User
     workouts: [Workout] 
-    typeOfExercises: [Exercise]
+    # typeOfExercises: [Exercise]
     fullBodyExercises: [Exercise]
   }
   
