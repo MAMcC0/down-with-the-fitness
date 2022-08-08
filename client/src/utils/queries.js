@@ -78,6 +78,7 @@ query findWorkOutByID ($ID: String){
       bodyArea
       link
   }
+}
 }`;
 
 // export const QUERY_WORKOUT_TYPES = gql`
