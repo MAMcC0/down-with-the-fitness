@@ -5,13 +5,10 @@ import { QUERY_WORKOUTS } from '../utils/queries';
 
 
 function WorkoutPage() { 
-const { loading, data } = useQuery(QUERY_WORKOUTS);
-const workout = data?.workouts || [];
-console.log(workout)
-
-
-
-
+    const { loading, data } = useQuery(QUERY_WORKOUTS);
+    const workout = data?.workouts || [];
+    console.log(workout)
+    
     return (
         <div>
             {loading ? (
