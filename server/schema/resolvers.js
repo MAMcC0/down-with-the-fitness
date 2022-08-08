@@ -26,11 +26,21 @@ const resolvers = {
         console.log(err);
       }
     },
-
+  
+    
     listUserWorkouts: async (parent, { userCreated }) => {
-      return Workout.find({ userCreated: true }).populate( 'exercises' );    }
+      return Workout.find({ userCreated: true }).populate( 'exercises' );    },
+
+    findWorkOutByID: async (parent, {_id}) => {
+      const liveWorkout = await Workout.findOne({_id});
+      return liveWorkout;
+    }
+
   },
   
+
+
+
   Mutation: {
     createWorkout: async (parent, { workoutInfo }, context) => {
       try {

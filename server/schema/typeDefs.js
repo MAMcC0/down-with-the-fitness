@@ -45,6 +45,7 @@ const typeDefs = gql`
     workouts(userCreated: Boolean): [Workout] 
     # typeOfExercises: [Exercise]
     fullBodyExercises: [Exercise]
+    findWorkOutByID(_id: ID!): [Workout]
   }
   
    type Mutation {
