@@ -32,7 +32,7 @@ const resolvers = {
       return Workout.find({ userCreated: true }).populate( 'exercises' );    },
 
     findWorkOutByID: async (parent, {_id}) => {
-      const liveWorkout = await Workout.findOne({_id});
+      const liveWorkout = await Workout.find({_id}).populate({ path: 'exercises'});
       return liveWorkout;
     }
 
