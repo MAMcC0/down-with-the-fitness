@@ -15,7 +15,7 @@
         "bodyArea": "Arms",
         "workoutName": "Arms 2",
         "link": "https://www.youtube.com/embed/3Qp8BQ0Rcrc",
-        "img": "/images/muscle-diagrams/overhead-punches.PNG"
+        "img": "/images/muscle-diagrams/archers.PNG"
     },
     {
         "exerciseName": "Raised Arm Circles",
@@ -24,7 +24,7 @@
         "bodyArea": "Arms",
         "workoutName": "Arms 3",
         "link": "https://www.youtube.com/embed/g3oaRLbo-yw",
-        "img": "/images/muscle-diagrams/overhead-punches.PNG"
+        "img": "/images/muscle-diagrams/raised-arm-circles.PNG"
     },
     {
         "exerciseName": "Push-ups",
@@ -33,7 +33,7 @@
         "bodyArea": "Arms",
         "workoutName": "Arms 1",
         "link": "https://www.youtube.com/embed/v9LABVJzv8A",
-        "img": "/images/muscle-diagrams/overhead-punches.PNG"
+        "img": "/images/muscle-diagrams/push-ups.PNG"
     },
     {
         "exerciseName": "Jab + Jab + Cross",
@@ -41,7 +41,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Arms 2",
-        "link": "https://www.youtube.com/embed/UPV4156lSyc"
+        "link": "https://www.youtube.com/embed/UPV4156lSyc",
+        "img": "/images/muscle-diagrams/jab-jab-cross.PNG"
     },
     {
         "exerciseName": "Step Jacks",
@@ -49,7 +50,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Arms 3",
-        "link": "https://www.youtube.com/embed/JHdVMkRBuRA"
+        "link": "https://www.youtube.com/embed/JHdVMkRBuRA",
+        "img": "/images/muscle-diagrams/step-jacks.PNG"
     },
     {
         "exerciseName": "Seal Jacks",
@@ -57,7 +59,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Arms 1",
-        "link": "https://www.youtube.com/embed/fxrmaUVAajo"
+        "link": "https://www.youtube.com/embed/fxrmaUVAajo",
+        "img": "/images/muscle-diagrams/seal-jacks.PNG"
     },
     {
         "exerciseName": "Infinite Chops",
@@ -65,7 +68,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Arms 2",
-        "link": "https://www.youtube.com/embed/q4CKZ7OI6Ps"
+        "link": "https://www.youtube.com/embed/q4CKZ7OI6Ps",
+        "img": "/images/muscle-diagrams/infinite-chops.PNG"
     },
     {
         "exerciseName": "Straight Punches",
@@ -73,15 +77,17 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Arms 3",
-        "link": "https://www.youtube.com/embed/M_4Vt5lfEUE"
+        "link": "https://www.youtube.com/embed/M_4Vt5lfEUE",
+        "img": "/images/muscle-diagrams/straight-punches.PNG"
     },
     {
-        "exerciseName": "Speed punches",
+        "exerciseName": "Speed Bag punches",
         "description": "Rotating punches overhead, like hitting a speed bag",
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Arms 1",
-        "link": "https://www.youtube.com/embed/v9LABVJzv8A"
+        "link": "https://www.youtube.com/embed/v9LABVJzv8A",
+        "img": "/images/muscle-diagrams/speed-bag-punches.PNG"
     },
     {
         "exerciseName": "Speed Bag Punches",
@@ -89,7 +95,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Arms 2",
-        "link": "https://www.youtube.com/embed/8lDhhrj-odk"
+        "link": "https://www.youtube.com/embed/8lDhhrj-odk",
+        "img": "/images/muscle-diagrams/speed-bag-punches.PNG"
     },
     {
         "exerciseName": "Accordion Push-ups",
@@ -97,7 +104,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest 1",
-        "link": "https://www.youtube.com/embed/01xjUrLWWrk"
+        "link": "https://www.youtube.com/embed/01xjUrLWWrk",
+        "img": "/images/muscle-diagrams/accordion-push-ups.PNG"
     },
     {
         "exerciseName": "Dragon Push-ups",
@@ -105,7 +113,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest 2",
-        "link": "https://www.youtube.com/embed/sflrxv53L-o"
+        "link": "https://www.youtube.com/embed/sflrxv53L-o",
+        "img": "/images/muscle-diagrams/dragon-push-ups.PNG"
     },
     {
         "exerciseName": "Combo Chest Expansions",
@@ -113,7 +122,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest 3",
-        "link": "https://www.youtube.com/embed/g-1mM5SuKQ8"
+        "link": "https://www.youtube.com/embed/g-1mM5SuKQ8",
+        "img": "/images/muscle-diagrams/combo-chest-expansions.PNG"
     },
     {
         "exerciseName": "Close-hand Push-ups",
@@ -121,7 +131,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest 1",
-        "link": "https://www.youtube.com/embed/SwoNNo4W1OU"
+        "link": "https://www.youtube.com/embed/SwoNNo4W1OU",
+        "img": "/images/muscle-diagrams/close-hand-push-ups.PNG"
     },
     {
         "exerciseName": "Wide-hand Push-ups",
@@ -129,7 +140,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest 2",
-        "link": "https://www.youtube.com/embed/1Y8pTxdwf3M"
+        "link": "https://www.youtube.com/embed/1Y8pTxdwf3M",
+        "img": "/images/muscle-diagrams/wide-hand-push-ups.PNG"
     },
     {
         "exerciseName": "Chest Expansions",
@@ -137,7 +149,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest 3",
-        "link": "https://www.youtube.com/embed/El_Sj5hisSs"
+        "link": "https://www.youtube.com/embed/El_Sj5hisSs",
+        "img": "/images/muscle-diagrams/chest-expansions.PNG"
     },
     {
         "exerciseName": "Burpee with Push-up",
@@ -145,7 +158,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest 1",
-        "link": "https://www.youtube.com/embed/ZQzikdjmkKg"
+        "link": "https://www.youtube.com/embed/ZQzikdjmkKg",
+        "img": "/images/muscle-diagrams/burpee-with-push-up.PNG"
     },
     {
         "exerciseName": "Micro Chest Expansions",
@@ -153,7 +167,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest 2",
-        "link": "https://www.youtube.com/embed/77FNvJPaVjs"
+        "link": "https://www.youtube.com/embed/77FNvJPaVjs",
+        "img": "/images/muscle-diagrams/micro-chest-expansions.PNG"
     },
     {
         "exerciseName": "Clapping Push Ups",
@@ -161,7 +176,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest 3",
-        "link": "https://www.youtube.com/embed/Z9psWZT0WuQ"
+        "link": "https://www.youtube.com/embed/Z9psWZT0WuQ",
+        "img": "/images/muscle-diagrams/clapping-push-ups.PNG"
     },
     {
         "exerciseName" : "Side Plank Knee Taps",
@@ -169,7 +185,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 1",
-        "link": "https://www.youtube.com/embed/CsP26894Fw8" 
+        "link": "https://www.youtube.com/embed/CsP26894Fw8",
+        "img": "/images/muscle-diagrams/side-plank-knee-taps.PNG"
     },
     {
         "exerciseName" : "Elbow Plank Leg Raises",
@@ -177,7 +194,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 2",
-        "link": "https://www.youtube.com/embed/Akf3IP0H9fA" 
+        "link": "https://www.youtube.com/embed/Akf3IP0H9fA" ,
+        "img": "/images/muscle-diagrams/elbow-plank-kleg-raises.PNG"
     },
     {
         "exerciseName" : "Side Star Planks",
@@ -185,7 +203,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 3",
-        "link": "https://www.youtube.com/embed/ioXJRP6HdbU"
+        "link": "https://www.youtube.com/embed/ioXJRP6HdbU",
+        "img": "/images/muscle-diagrams/side-star-planks.PNG"
     },
     {
         "exerciseName" : "Crunches",
@@ -193,7 +212,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 1",
-        "link": "https://www.youtube.com/embed/HiRsmHH7psA" 
+        "link": "https://www.youtube.com/embed/HiRsmHH7psA",
+        "img": "/images/muscle-diagrams/crunches.PNG"
     },
     {
         "exerciseName" : "Twists",
@@ -201,7 +221,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 2",
-        "link": "https://www.youtube.com/embed/h6TY6N1B7BA"
+        "link": "https://www.youtube.com/embed/h6TY6N1B7BA",
+        "img": "/images/muscle-diagrams/twists.PNG"
     },
     {
         "exerciseName" : "Knee-To-Elbow",
@@ -209,7 +230,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 3",
-        "link": "https://www.youtube.com/embed/ZL9Y-IIedb0"
+        "link": "https://www.youtube.com/embed/ZL9Y-IIedb0",
+        "img": "/images/muscle-diagrams/knee-to-elbow.PNG"
     },
     {
         "exerciseName" : "V-Ups",
@@ -217,7 +239,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 1",
-        "link": "https://www.youtube.com/embed/-JIwvMSk4vo" 
+        "link": "https://www.youtube.com/embed/-JIwvMSk4vo",
+        "img": "/images/muscle-diagrams/v-ups.PNG"
     },
     {
         "exerciseName" : "Raised Leg Circle",
@@ -225,7 +248,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 2",
-        "link": "https://www.youtube.com/embed/2Vwfd-Q8MDs" 
+        "link": "https://www.youtube.com/embed/2Vwfd-Q8MDs",
+        "img": "/images/muscle-diagrams/raised-leg-circles.PNG"
     },
     {
         "exerciseName" : "Pulse Ups",
@@ -233,7 +257,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 3",
-        "link": "https://www.youtube.com/embed/Dv3G4WOFG5A" 
+        "link": "https://www.youtube.com/embed/Dv3G4WOFG5A",
+        "img": "/images/muscle-diagrams/pulse-ups.PNG"
     },
     {
         "exerciseName" : "Plank Macarena",
@@ -241,7 +266,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 1",
-        "link": "https://www.youtube.com/embed/Bp0KV7skGEs"
+        "link": "https://www.youtube.com/embed/Bp0KV7skGEs",
+        "img": "/images/muscle-diagrams/plank-macarena.PNG"
     },
     {
         "exerciseName" : "Hop Heel Clicks",
@@ -249,7 +275,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Legs 1",
-        "link": "https://www.youtube.com/embed/4XcGTvcSRxY"
+        "link": "https://www.youtube.com/embed/4XcGTvcSRxY",
+        "img": "/images/muscle-diagrams/hop-heel-clicks.PNG"
     },
     {
         "exerciseName" : "Half Squat Walk",
@@ -257,7 +284,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Legs 2",
-        "link": "https://www.youtube.com/embed/wqfRvXc7BHY"
+        "link": "https://www.youtube.com/embed/wqfRvXc7BHY",
+        "img": "/images/muscle-diagrams/half-squat-walk.PNG"
     },
     {
         "exerciseName" : "Side Splits",
@@ -265,7 +293,8 @@
         "duration": 45,
         "bodyArea": "Legs",
         "workoutName": "Legs 3",
-        "link": "https://www.youtube.com/embed/HAQvQXovwuo"
+        "link": "https://www.youtube.com/embed/HAQvQXovwuo",
+        "img": "/images/muscle-diagrams/side-splits.PNG"
     },
     {
         "exerciseName" : "Side Kicks",
@@ -273,7 +302,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Legs 1",
-        "link": "https://www.youtube.com/embed/eGH70NGZ1po" 
+        "link": "https://www.youtube.com/embed/eGH70NGZ1po",
+        "img": "/images/muscle-diagrams/side-kicks.PNG"
     },
     {
         "exerciseName" : "Side Kicks/ Back Legs",
@@ -281,7 +311,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Legs 2",
-        "link": "https://www.youtube.com/embed/kYVhL1HOOjE"
+        "link": "https://www.youtube.com/embed/kYVhL1HOOjE",
+        "img": "/images/muscle-diagrams/side-kicks-back-leg.PNG"
     },
     {
         "exerciseName" : "Side Lunges",
@@ -289,7 +320,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Legs 3",
-        "link": "https://www.youtube.com/embed/dTGZS-WCH4U" 
+        "link": "https://www.youtube.com/embed/dTGZS-WCH4U",
+        "img": "/images/muscle-diagrams/side-lunges.PNG"
     },
     {
         "exerciseName" : "Reverse Lunges",
@@ -297,7 +329,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Legs 1",
-        "link": "https://www.youtube.com/embed/-Q_2HR5OhEY"
+        "link": "https://www.youtube.com/embed/-Q_2HR5OhEY",
+        "img": "/images/muscle-diagrams/reverse-lunges.PNG"
     },
     {
         "exerciseName" : "Balance Side Lunges",
@@ -305,7 +338,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Legs 2",
-        "link": "https://www.youtube.com/embed/mXEiJQPqqgE"
+        "link": "https://www.youtube.com/embed/mXEiJQPqqgE",
+        "img": "/images/muscle-diagrams/balance-side-lunges.PNG"
     },
     {
         "exerciseName" : "Back Kicks",
@@ -313,7 +347,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Legs 3",
-        "link": "https://www.youtube.com/embed/YLfUEHxYvMw" 
+        "link": "https://www.youtube.com/embed/YLfUEHxYvMw",
+        "img": "/images/muscle-diagrams/back-kicks.PNG"
     },
     {
         "exerciseName" : "Side Leg Raise",
@@ -321,7 +356,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Legs 1",
-        "link": "https://www.youtube.com/embed/H8RrfDOLiZU"
+        "link": "https://www.youtube.com/embed/H8RrfDOLiZU",
+        "img": "/images/muscle-diagrams/side-leg-raises.PNG"
     },
     {
         "exerciseName" : "Air Guitar",
@@ -329,7 +365,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Full Body 1",
-        "link": "https://www.youtube.com/embed/biSSQoKtS44"
+        "link": "https://www.youtube.com/embed/biSSQoKtS44",
+        "img": "/images/muscle-diagrams/air-guitar.PNG"
     },
     {
         "exerciseName" : "Ab Sprint",
@@ -337,7 +374,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Full Body 1",
-        "link": "https://www.youtube.com/embed/F9LQ74r9tdE"
+        "link": "https://www.youtube.com/embed/F9LQ74r9tdE",
+        "img": "/images/muscle-diagrams/ab-sprints.PNG"
     },
     {
         "exerciseName" : "Afata",
@@ -345,7 +383,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Full Body 1",
-        "link": "https://www.youtube.com/embed/M39fyahPrtU"
+        "link": "https://www.youtube.com/embed/M39fyahPrtU",
+        "img": "/images/muscle-diagrams/afata.PNG"
     },
     {
         "exerciseName" : "Balancing Triceps/Biceps",
@@ -353,7 +392,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Full Body 1",
-        "link": "https://www.youtube.com/embed/5tvR0kDXCl8"
+        "link": "https://www.youtube.com/embed/5tvR0kDXCl8",
+        "img": "/images/muscle-diagrams/balancing-triceps-biceps.PNG"
     },
     {
         "exerciseName" : "Arabesque Lunge",
@@ -361,7 +401,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Full Body 1",
-        "link": "https://www.youtube.com/embed/5tvR0kDXCl8"
+        "link": "https://www.youtube.com/embed/5tvR0kDXCl8",
+        "img": "/images/muscle-diagrams/arabesque-lunges.PNG"
     },
     {
         "exerciseName" : "Bear Crawl",
@@ -369,7 +410,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Full Body 2",
-        "link": "https://www.youtube.com/embed/t8XLor7unqU"
+        "link": "https://www.youtube.com/embed/t8XLor7unqU",
+        "img": "/images/muscle-diagrams/bear-crawls.PNG"
     },
     {
         "exerciseName" : "Up-Down Planks",
@@ -377,7 +419,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Full Body 2",
-        "link": "https://www.youtube.com/embed/L4oFJRDAU4Q"
+        "link": "https://www.youtube.com/embed/L4oFJRDAU4Q",
+        "img": "/images/muscle-diagrams/up-down-planks.PNG"
     },
     {
         "exerciseName" : "Kick Backs",
@@ -385,7 +428,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Full Body 2",
-        "link": "https://www.youtube.com/embed/7eBxlQd6tWI"
+        "link": "https://www.youtube.com/embed/7eBxlQd6tWI",
+        "img": "/images/muscle-diagrams/kick-backs.PNG"
     },
     {
         "exerciseName" : "Plank Rotation",
@@ -393,7 +437,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Full Body 2",
-        "link": "https://www.youtube.com/embed/7eBxlQd6tWI"
+        "link": "https://www.youtube.com/embed/7eBxlQd6tWI",
+        "img": "/images/muscle-diagrams/plank-rotations.PNG"
     },
     {
         "exerciseName" : "High Knees",
@@ -401,7 +446,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Full Body 2",
-        "link": "https://www.youtube.com/embed/DfjpR6dzLVg"
+        "link": "https://www.youtube.com/embed/DfjpR6dzLVg",
+        "img": "/images/muscle-diagrams/high-knees.PNG"
     },
     {
         "exerciseName" : "Reverse Crunches",
@@ -409,7 +455,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Full Body 3",
-        "link": "https://www.youtube.com/embed/QYNZwyDKmhk"
+        "link": "https://www.youtube.com/embed/QYNZwyDKmhk",
+        "img": "/images/muscle-diagrams/crunches.PNG"
     },
     {
         "exerciseName" : "Raised Leg Push Ups",

@@ -5,15 +5,16 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { useQuery, useMutation } from '@apollo/client';
 import { QUERY_WORKOUTS, QUERY_USER_WORKOUTS, QUERY_WORKOUT_TYPES } from '../utils/queries'
 import { Link } from 'react-router-dom';
+import '../index.css'
 
 function HomeButtons() {
     return (
         <div className="homebuttons">
-            <Accordion>
+            <Accordion class="accordion">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Standard Workouts</Accordion.Header>
                     <Accordion.Body>
-                        <div className="home-workout-buttons-standardf">
+                        <div>
                             <ButtonGroup vertical>
                                 <Link className='text-dark' to='/workouts/fullbody'>Full Body Workouts</Link>                             
                                 <Link className='text-dark' to='/workouts/armworkouts'>Arm Workouts</Link>
