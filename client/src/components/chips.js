@@ -1,22 +1,18 @@
 import React from 'react'
-import Chip from `@trimbleinc/modus-react-bootstrap/Chip`
-import { QUERY_EXERCISES } from '../../utils/queries'
+import Chip from '@trimbleinc/modus-react-bootstrap/Chip'
 
-export default function exerciseChip() {
-    const { loading, data } = useQuery(QUERY_EXERCISES);
-    const exercises = data?.exercises || [];
+export default function exerciseChip({ exercise }) {
     return (
       <div className="chip">
-          {exercises && exercises.map(exercise => (
+          {exercise && exercise.map(exercise => (
           <Chip
           icon={<i className="material-icons">check</i>}
-          label={data.exerciseName}
+          label={exercise.exerciseName}
           variant="solid"
           type="filter"
           className="mr-2">
           </Chip>
         ))}
-  
       </div>
     );
   };
