@@ -11,6 +11,8 @@ import Homepage from './pages/homepage';
 import ExerciseGuide from './pages/exerciseguide.js';
 import Liveworkout from './pages/liveworkout.js';
 import WorkoutPage from './pages/workoutpage.js';
+import Signup from './pages/signup';
+import Login from './pages/login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from '../src/components/navbar'
 import Footer from '../src/components/footer'
@@ -21,7 +23,7 @@ import CustomWorkoutPage from '../src/pages/customworkouts'
 //   cache: new InMemoryCache(),
 // });
 const httpLink = createHttpLink({
-  uri: 'http://localhost:3001/graphql ',
+  uri: 'http://localhost:3001/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
@@ -53,6 +55,14 @@ function App() {
               <Route
                 path="/"
                 element={<Homepage />}
+              />
+              <Route
+                path="/login"
+                element={<Login />}
+              />
+              <Route
+                path="/signup"
+                element={<Signup />}
               />
               <Route
                 path="/customworkouts"
