@@ -77,9 +77,12 @@ query findWorkOutByID ($ID: String){
       duration
       bodyArea
       link
+    }
   }
 }
+
 }`;
+
 
 // export const QUERY_WORKOUT_TYPES = gql`
 //   query typeOfExercises {

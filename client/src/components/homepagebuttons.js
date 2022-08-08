@@ -9,18 +9,18 @@ import '../index.css'
 
 function HomeButtons() {
     return (
-        <div className="homebuttons">
+        <div className="home-buttons">
             <Accordion class="accordion">
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Standard Workouts</Accordion.Header>
+                    <Accordion.Header className="accordion-standard" style={{marginTop: '20px'}}>Standard Workouts</Accordion.Header>
                     <Accordion.Body>
                         <div>
                             <ButtonGroup vertical>
-                                <Link className='text-dark' to='/workouts/fullbody'>Full Body Workouts</Link>                             
-                                <Link className='text-dark' to='/workouts/armworkouts'>Arm Workouts</Link>
-                                <Link className='text-dark' to='/workouts/chestworkouts'>Chest Workouts</Link>
-                                <Link className='text-dark' to='/workouts/abworkouts'>Ab Workouts</Link>
-                                <Link className='text-dark' to='/workouts/legworkouts'>Legs Workouts</Link>
+                                <Link className='acc-link' to='/workouts/fullbody'>Full Body Workouts</Link>                             
+                                <Link className='acc-link' to='/workouts/armworkouts'>Arm Workouts</Link>
+                                <Link className='acc-link' to='/workouts/chestworkouts'>Chest Workouts</Link>
+                                <Link className='acc-link' to='/workouts/abworkouts'>Ab Workouts</Link>
+                                <Link className='acc-link' to='/workouts/legworkouts'>Legs Workouts</Link>
                             </ButtonGroup>
                         </div>
                     </Accordion.Body>
@@ -49,15 +49,15 @@ function HomeButtons() {
             <br />
 
             <div className="create-workout-button">
-                <Button variant="primary" size="lg" active>
+                <Button style={{backgroundColor: '#639183', border:'none'}} size="lg" active>
                     Create Custom Workout
                 </Button>{' '}
             </div>
 
             <br />
 
-            <div className="create-workout-button">
-            <Link className='text-dark' to='/exerciseguide'>Exercise Guide</Link>
+            <div className="exercise-guide-button">
+            <Link style={{marginBottom: '20px'}} className='exercise-guide-btn' to='/exerciseguide'>Exercise Guide</Link>
             </div>
 
         </div>
