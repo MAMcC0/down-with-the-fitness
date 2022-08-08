@@ -15,17 +15,16 @@ function NavBar() {
         Auth.logout();
     };
     return (
-        <div className="navbar">
-            <Navbar>
-                <Container>
+            <Navbar className="navbar">
+                <Container className="all-nav-items">
                     <Navbar.Brand
                         style={{ color: 'white' }}
                         href="#home">Down WTF</Navbar.Brand>
                     <p>|</p>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
+                    
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
+                        <Nav>
                             <NavDropdown className="dropdown" title="☰" id="basic-nav-dropdown">
                                 <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/workouts">Standard Workouts</NavDropdown.Item>
                                 <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/customworkouts">My Custom Workouts</NavDropdown.Item>
@@ -33,23 +32,23 @@ function NavBar() {
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="#action/3.4">
                                     {Auth.loggedIn() ? (
-                                        <>
-                                            <Link className="btn btn-lg btn-info m-2" to="/me">
+                                        <div className="nav-auth-buttons">
+                                            <Link className="profile-button" to="/me">
                                                 {Auth.getProfile().data.username}'s profile
                                             </Link>
-                                            <button className="btn btn-lg btn-light m-2" onClick={logout}>
+                                            <button className="logout-button" onClick={logout}>
                                                 Logout
                                             </button>
-                                        </>
+                                        </div>
                                     ) : (
-                                        <>
-                                            <Link className="btn btn-lg btn-info m-2" to="/login">
+                                        <div className="nav-auth-buttons">
+                                            <Link className="login-button" to="/login">
                                                 Login
                                             </Link>
-                                            <Link className="btn btn-lg btn-light m-2" to="/signup">
+                                            <Link className="signup-button" to="/signup">
                                                 Signup
                                             </Link>
-                                        </>
+                                        </div>
                                     )}
                                 </NavDropdown.Item>
                             </NavDropdown>
@@ -57,7 +56,6 @@ function NavBar() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </div>
     );
 }
 
