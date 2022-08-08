@@ -1,37 +1,29 @@
-import { useQuery } from '@apollo/client';
-import Accordion from 'react-bootstrap/Accordion';
-import { QUERY_WORKOUTS } from '../utils/queries'
-import ListGroup from 'react-bootstrap/ListGroup';
 import React from 'react'
+import Accordion from 'react-bootstrap/Accordion';
+import ListGroup from 'react-bootstrap/ListGroup';
+import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 
-let workoutChoice = []
+const CustomWorkoutChoices = ({listUserWorkouts}) => {
 
-const CustomWorkoutChoices = () => {
-    const { loading, data } = useQuery(QUERY_WORKOUTS);
-    console.log(data)
-    const workout = data?.exercises || [];
-   
-    // for (let i = 0; i < data.length; i++) {
-    //     if (workout.workoutType === 1) {
-    //         workoutChoice.push(workout.workoutType[i])
-    //     }
-    //     console.log(workoutChoice)
-    //     return workoutChoice;
-    // }
+    let navigate = useNavigate();
 
     return (
         <div>
-            {workout && workout.map(workout => (
+            {listUserWorkouts && listUserWorkouts.map(({ workoutName, exercises, _id }, i) => (
                 <Accordion>
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header>{workout.workoutName}</Accordion.Header>
+                    <Accordion.Item eventKey={i}>
+                        <Accordion.Header>{workoutName}</Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
-                                {workout.exercises.map(exercise => (
+                                {exercises.map(exercise => (
                                     <ListGroup.Item>{exercise.exerciseName} x {exercise.duration}</ListGroup.Item>
                                 ))}
                             </ListGroup>
+                            <Button id={_id} onClick={() => navigate(`/customworkouts/${_id}`)}>
+                                Start
+                            </Button>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
