@@ -3,8 +3,14 @@ import { QUERY_WORKOUTS } from '../utils/queries';
 import WorkoutTimer from '../components/workouttimer';
 import ExerciseTimer from '../components/exercisetimer';
 import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
+
+
 
 function LiveWorkout() {
+  
+
+  
   const { data } = useQuery(QUERY_WORKOUTS);
   let [timerWorkout, setTimer] = useState(setTimer(data));
   let [exerciseTime, setExerciseTime] = useState(ExerciseTimer(data));
