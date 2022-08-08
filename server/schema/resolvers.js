@@ -30,11 +30,20 @@ const resolvers = {
     specificWorkouts: async (parent, { workoutType, userCreated }) => {
       return Workout.find({ workoutType: workoutType }, { userCreated: userCreated }).populate( 'exercises' );
     },
-
+    
     listUserWorkouts: async (parent, { userCreated }) => {
-      return Workout.find({ userCreated: true }).populate( 'exercises' );    }
+      return Workout.find({ userCreated: true }).populate( 'exercises' );    },
+
+    findWorkOutByID: async (parent, {_id}) => {
+      const liveWorkout = await Workout.find({_id}).populate({ path: 'exercises'});
+      return liveWorkout;
+    }
+
   },
   
+
+
+
   Mutation: {
     createWorkout: async (parent, { workoutInfo }, context) => {
       try {

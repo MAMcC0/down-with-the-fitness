@@ -4,15 +4,15 @@
   font-family: 'Overpass', sans-serif;
 }
 
-body {
+
+html {
   background-color: #e1faf9;
 }
 
 .navbar {
   color: white;
   background-color: #023C40;
-  display: flex;
-  justify-content: space-between;
+  font-size: 1.5rem;
 }
 
 .dropdown a {
@@ -21,4 +21,45 @@ body {
 
 .home-body {
   background-color: #e1faf9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accordion-standard {
+  color: white;
+  background-color: #639183;
+  font-size: 1rem!important;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+#root .bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: #e1faf9!important;
+}
+
+.accordion-item {
+  background-color: #639183;
+  border: none!important;
+}
+
+.footer {
+  background-color: #023C40;
+  position: absolute;
+  bottom: 0;
+}
+
+.btn-primary, .exercise-guide-btn, .accordion-button {
+  color: white!important;
+  background-color: #639183!important;
+  padding: 0.5rem 1rem 0.5rem 1rem!important;
+  font-size: 1rem!important;
+  border-radius: 0.5rem!important;
+  text-decoration: none!important;
+}
+
+.dropdown a:hover {
+  color: rgb(199, 199, 199)!important;
 }
