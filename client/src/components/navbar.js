@@ -16,12 +16,8 @@ function NavBar() {
                     <Nav className="me-auto">
                         <NavDropdown title="Workouts" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/workouts">Standard Workouts</NavDropdown.Item>
-                            <NavDropdown.Item href="/">
-                                My Custom Workouts
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">
-                                Exercise Guide
-                            </NavDropdown.Item>
+                            <NavDropdown.Item href="/customworkouts">My Custom Workouts</NavDropdown.Item>
+                            <NavDropdown.Item href="/exerciseguide">Exercise Guide</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">
                                 Sign-out

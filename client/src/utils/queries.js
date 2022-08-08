@@ -3,8 +3,8 @@ import { gql } from '@apollo/client';
 
 
 export const QUERY_WORKOUTS = gql`
-  query workouts {
-    workouts {
+  query workouts($userCreated: userCreated) {
+    workouts(userCreated: false) {
       _id
       workoutName
       workoutType
@@ -35,8 +35,8 @@ export const QUERY_WORKOUTS = gql`
 // `;
 
 export const QUERY_USER_WORKOUTS = gql`
-  query listUserWorkouts($userCreated: Boolean) {
-    workouts(userCreated: true) {
+  query listUserWorkouts($userCreated: userCreated) {
+    workouts(userCreated: false) {
       workoutName
       workoutType
       userCreated
@@ -46,6 +46,7 @@ export const QUERY_USER_WORKOUTS = gql`
         duration
         bodyArea
         link
+        img
       }
     }
   }
