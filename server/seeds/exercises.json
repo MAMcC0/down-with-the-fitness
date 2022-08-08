@@ -5,7 +5,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Arms 1",
-        "link": "https://www.youtube.com/embed/UPV4156lSyc"
+        "link": "https://www.youtube.com/embed/UPV4156lSyc",
+        "Img": "../../client/public/images/muscle-diagrams/overhead-punches.PNG"
     },
     {
         "exerciseName": "Archers",
@@ -13,7 +14,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Arms 2",
-        "link": "https://www.youtube.com/embed/3Qp8BQ0Rcrc"
+        "link": "https://www.youtube.com/embed/3Qp8BQ0Rcrc",
+        "Img": "../../client/public/images/muscle-diagrams/overhead-punches.PNG"
     },
     {
         "exerciseName": "Raised Arm Circles",
@@ -21,7 +23,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Arms 3",
-        "link": "https://www.youtube.com/embed/g3oaRLbo-yw"
+        "link": "https://www.youtube.com/embed/g3oaRLbo-yw",
+        "Img": "../../client/public/images/muscle-diagrams/overhead-punches.PNG"
     },
     {
         "exerciseName": "Push-ups",

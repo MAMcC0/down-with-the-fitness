@@ -5,7 +5,7 @@ const ExerciseCard = ({ fullBodyExercises }) => {
         <div>
             {fullBodyExercises && fullBodyExercises.map(exercise => (
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src="{exercise.exerciseImg}" />
                     <Card.Body>
                         <Card.Title>{exercise.exerciseName}</Card.Title>
                         <Card.Text>
