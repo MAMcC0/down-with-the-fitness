@@ -1,21 +1,28 @@
-import React from 'react'
 import WorkoutChoices from '../components/workoutchoices'
 import { useQuery } from '@apollo/client';
-import { QUERY_WORKOUTS } from '../utils/queries';
+import { QUERY_SPECIFIC_WORKOUT_TYPE } from '../utils/queries';
+import { useLocation } from 'react-router-dom';
 
+function WorkoutPage() {
+    const location = useLocation()
+    const specificWorkoutType = location.state.workoutType;
+    const customWorkout = location.state.userCreated;
+    console.log(specificWorkoutType)
+    console.log(location.state.workoutType)
+    const { loading, error, data } = useQuery(QUERY_SPECIFIC_WORKOUT_TYPE, {
+        variables: { workoutType: specificWorkoutType, userCreated: customWorkout }
+    });
+    const specificWorkouts = data?.specificWorkouts || [];
+    console.log(data)
+    console.log(specificWorkouts)
 
-function WorkoutPage() { 
-    const { loading, data } = useQuery(QUERY_WORKOUTS);
-    const workout = data?.workouts || [];
-    console.log(workout)
-    
     return (
         <div>
             {loading ? (
                 <div>Loading...</div>
             ) : (
                 <WorkoutChoices 
-                workout={workout}
+                specificWorkouts={specificWorkouts}
                 />
             )
             }
@@ -23,4 +30,4 @@ function WorkoutPage() {
     )
 }
 
-export default  WorkoutPage;
+export default WorkoutPage;

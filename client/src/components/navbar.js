@@ -12,7 +12,7 @@ function NavBar() {
             <Container>
                 <Navbar.Brand
                 style={{color: 'white'}} 
-                 href="#home">Down WTF</Navbar.Brand>
+                href="#home">Down WTF</Navbar.Brand>
                 <p>|</p>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

@@ -49,8 +49,8 @@ export const QUERY_EXERCISES = gql`
 `;
 
 export const QUERY_SPECIFIC_WORKOUT_TYPE = gql`
-  query workouts($workoutType: String) {
-    workouts(workoutType: $workoutType) {
+  query specificWorkouts($workoutType: String, $userCreated: Boolean) {
+    specificWorkouts(workoutType: $workoutType, usercreated: $userCreated) {
       workoutName
       workoutType
       userCreated

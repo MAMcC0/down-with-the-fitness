@@ -5,13 +5,13 @@ import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
 
-const WorkoutChoices = ({ workout }) => {
+const WorkoutChoices = ({ specificWorkouts }) => {
 
     let navigate = useNavigate();
 
     return (
         <div>
-            {workout.map(({ workoutName, exercises, _id }, i) => (
+            {specificWorkouts.map(({ workoutName, exercises, _id }, i) => (
                 <Accordion>
                     <Accordion.Item eventKey={i}>
                         <Accordion.Header>{workoutName}</Accordion.Header>
