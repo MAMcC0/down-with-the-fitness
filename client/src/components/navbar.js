@@ -8,21 +8,22 @@ import '../index.css'
 
 function NavBar() {
     return (
-        <Navbar className="navbar">
+        <div className="navbar">
+        <Navbar>
             <Container>
                 <Navbar.Brand
-                style={{color: 'white'}} 
+                style={{color: 'white', fontSize: '1.5rem'}} 
                  href="#home">Down WTF</Navbar.Brand>
                 <p>|</p>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle className="nav-toggle" aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <NavDropdown className="dropdown" title="☰" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/workouts">Standard Workouts</NavDropdown.Item>
-                            <NavDropdown.Item href="/customworkouts">My Custom Workouts</NavDropdown.Item>
-                            <NavDropdown.Item href="/exerciseguide">Exercise Guide</NavDropdown.Item>
+                            <NavDropdown.Item className="nav-item" style={{color: 'black'}} href="/workouts">Standard Workouts</NavDropdown.Item>
+                            <NavDropdown.Item className="nav-item" style={{color: 'black'}} href="/customworkouts">My Custom Workouts</NavDropdown.Item>
+                            <NavDropdown.Item className="nav-item" style={{color: 'black'}} href="/exerciseguide">Exercise Guide</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item className="nav-item" style={{color: 'black'}} href="#action/3.4">
                                 Sign-out
                             </NavDropdown.Item>
                         </NavDropdown>
@@ -30,6 +31,7 @@ function NavBar() {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        </div>
     );
 }
 
