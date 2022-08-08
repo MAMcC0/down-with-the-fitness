@@ -21,22 +21,9 @@ export const QUERY_WORKOUTS = gql`
   }
 `;
 
-// export const QUERY_WORKOUT_TYPES = gql`
-//   query typeOfExercises {
-//     workouts {
-//       workoutType
-//       userCreated
-//       exercises {
-//         exerciseName
-//         bodyArea
-//       }
-//     }
-//   }
-// `;
-
 export const QUERY_USER_WORKOUTS = gql`
-  query listUserWorkouts($userCreated: Boolean) {
-    workouts(userCreated: true) {
+  query listUserWorkouts {
+    listUserWorkouts {
       workoutName
       workoutType
       userCreated
@@ -46,6 +33,7 @@ export const QUERY_USER_WORKOUTS = gql`
         duration
         bodyArea
         link
+        img
       }
     }
   }
@@ -79,3 +67,16 @@ export const QUERY_SPECIFIC_WORKOUT_TYPE = gql`
     }
   }
 `;
+
+// export const QUERY_WORKOUT_TYPES = gql`
+//   query typeOfExercises {
+//     workouts {
+//       workoutType
+//       userCreated
+//       exercises {
+//         exerciseName
+//         bodyArea
+//       }
+//     }
+//   }
+// `;

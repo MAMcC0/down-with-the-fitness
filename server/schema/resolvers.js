@@ -18,17 +18,17 @@ const resolvers = {
       }
     },
     
-    workouts: async () => {
+    workouts: async (parent, { userCreated }) => {
       try {
-        return await Workout.find({}).populate({ path: 'exercises' });
+        return await Workout.find({ userCreated: false }).populate( 'exercises' );
       }
       catch (err) {
         console.log(err);
       }
     },
 
-    listUserWorkouts: async (parent, { userID }) => {
-      return User.findOne({ userID }).populate({ path: 'workouts' }).populate({ path: 'workouts', populate: 'exercises' });
+    listUserWorkouts: async (parent, { userCreated }) => {
+      return Workout.find({ userCreated: true }).populate( 'exercises' );
     }
   },
   
