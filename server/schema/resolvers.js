@@ -18,35 +18,39 @@ const resolvers = {
       }
     },
     
-    workouts: async (parent, { userCreated }) => {
+    workouts: async () => {
       try {
-        return await Workout.find({ userCreated: false }).populate( 'exercises' );
+        return await Workout.find({}).populate({ path: 'exercises' });
       }
       catch (err) {
         console.log(err);
       }
     },
 
-    listUserWorkouts: async (parent, { userCreated }) => {
-      return Workout.find({ userCreated: true }).populate( 'exercises' );
+    listUserWorkouts: async (parent, { userID }) => {
+      return User.findOne({ userID }).populate({ path: 'workouts' }).populate({ path: 'workouts', populate: 'exercises' });
     }
   },
   
   Mutation: {
     createWorkout: async (parent, { workoutInfo }, context) => {
       try {
-        console.log(workoutInfo);
         if (context.user) {
           const workoutData = await Workout.create(
             { workoutName: workoutInfo.workoutName, workoutType: workoutInfo.workoutType }
           )
-          console.log(workoutData);
-          const updatedWorkoutData = await Workout.findOneAndUpdate(
+          let updatedWorkoutData = await Workout.findOneAndUpdate(
             { _id: workoutData._id },
             { $push: { exercises: workoutInfo.exercises } },
             { new: true }
-          ).populate('exercises')
-          return updatedWorkoutData;
+          ).populate('exercises')       
+          const addtoUser = await User.findOneAndUpdate(
+            {_id: context.user._id},
+            { $push: {workouts:updatedWorkoutData._id}},
+            { new: true }
+          ).populate('workouts').populate({path: 'workouts', populate: 'exercises'})
+          console.log(updatedWorkoutData);
+          return addtoUser;
         }
       } catch (err) {
         console.log(err);
@@ -54,13 +58,13 @@ const resolvers = {
       }
 
     },
-    removeWorkout: async (parent, { workoutId }, context) => {
+    removeWorkout: async (parent, { _id }, context) => {
       if (context.user) {
-        const updatedWorkoutData = await Workout.findOneAndUpdate(
-          { _id: context.workout.workoutId },
-          { $pull: { workoutData: { workoutId } } },
+        const updatedWorkoutData = await User.findOneAndUpdate(
+          { _id: context.user._id },
+          { $pull: { workouts: _id } },
           { new: true }
-        )
+        ).populate('workouts').populate({path: 'workouts', populate: 'exercises'})
         return updatedWorkoutData;
       }
       throw new AuthenticationError('You need to be logged in!');
