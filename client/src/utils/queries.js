@@ -1,7 +1,5 @@
 import { gql } from '@apollo/client';
 
-
-
 export const QUERY_WORKOUTS = gql`
   query workouts {
     workouts {
@@ -39,7 +37,6 @@ export const QUERY_USER_WORKOUTS = gql`
   }
 `;
 
-
 export const QUERY_EXERCISES = gql`
   query fullBodyExercises {
   fullBodyExercises {
@@ -66,6 +63,23 @@ export const QUERY_SPECIFIC_WORKOUT_TYPE = gql`
       }
     }
   }
+`;
+
+export const QUERY_SPECIFIC_WORKOUT = gql`
+query findWorkOutByID ($ID: String){
+  findWorkOutByID(_id: $ID) {
+    workoutName
+    workoutType
+    userCreated
+    exercises {
+      exerciseName
+      description
+      duration
+      bodyArea
+      link
+    }
+  }
+}
 `;
 
 // export const QUERY_WORKOUT_TYPES = gql`

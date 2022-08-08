@@ -23,7 +23,7 @@ import CustomWorkoutPage from '../src/pages/customworkouts'
 //   cache: new InMemoryCache(),
 // });
 const httpLink = createHttpLink({
-  uri: 'http://localhost:3001/graphql',
+  uri: '/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
@@ -42,7 +42,6 @@ const client = new ApolloClient({
   link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
 });
-
 
 function App() {
   return (
