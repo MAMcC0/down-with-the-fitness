@@ -82,6 +82,7 @@ query findWorkOutByID ($ID: String){
 }
 `;
 
+
 // export const QUERY_WORKOUT_TYPES = gql`
 //   query typeOfExercises {
 //     workouts {
