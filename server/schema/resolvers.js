@@ -29,9 +29,16 @@ const resolvers = {
 
     listUserWorkouts: async (parent, { userID }) => {
       return User.findOne({ userID }).populate({ path: 'workouts' }).populate({ path: 'workouts', populate: 'exercises' });
-    }
+    },
+    findWorkoutById: async (parent, { _id }) => {
+      const liveWorkout = await Workout.findOne({_id});
+      return liveWorkout;
+    },
   },
   
+
+
+
   Mutation: {
     createWorkout: async (parent, { workoutInfo }, context) => {
       try {
