@@ -6,7 +6,7 @@
         "bodyArea": "Arms",
         "workoutName": "Arms 1",
         "link": "https://www.youtube.com/embed/UPV4156lSyc",
-        "Img": "../../client/public/images/muscle-diagrams/overhead-punches.PNG"
+        "img": "/images/muscle-diagrams/overhead-punches.PNG"
     },
     {
         "exerciseName": "Archers",
@@ -15,7 +15,7 @@
         "bodyArea": "Arms",
         "workoutName": "Arms 2",
         "link": "https://www.youtube.com/embed/3Qp8BQ0Rcrc",
-        "Img": "../../client/public/images/muscle-diagrams/overhead-punches.PNG"
+        "img": "/images/muscle-diagrams/overhead-punches.PNG"
     },
     {
         "exerciseName": "Raised Arm Circles",
@@ -24,7 +24,7 @@
         "bodyArea": "Arms",
         "workoutName": "Arms 3",
         "link": "https://www.youtube.com/embed/g3oaRLbo-yw",
-        "Img": "../../client/public/images/muscle-diagrams/overhead-punches.PNG"
+        "img": "/images/muscle-diagrams/overhead-punches.PNG"
     },
     {
         "exerciseName": "Push-ups",
@@ -32,7 +32,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Arms 1",
-        "link": "https://www.youtube.com/embed/v9LABVJzv8A"
+        "link": "https://www.youtube.com/embed/v9LABVJzv8A",
+        "img": "/images/muscle-diagrams/overhead-punches.PNG"
     },
     {
         "exerciseName": "Jab + Jab + Cross",

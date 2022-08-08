@@ -16,6 +16,7 @@ const typeDefs = gql`
     duration: Int
     bodyArea: String
     link: String
+    img: String
   }
 
   type Workout {

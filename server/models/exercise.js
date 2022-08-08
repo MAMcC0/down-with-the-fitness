@@ -31,6 +31,9 @@ const exerciseSchema = new Schema({
     link: {
         type: String,
     },
+    img: {
+        type: String,
+    }
 })
 
 const Exercise = model('Exercise', exerciseSchema);

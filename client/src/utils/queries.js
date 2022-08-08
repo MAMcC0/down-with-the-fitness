@@ -15,6 +15,7 @@ export const QUERY_WORKOUTS = gql`
         duration
         bodyArea
         link
+        img
       }
     }
   }
@@ -57,6 +58,7 @@ export const QUERY_EXERCISES = gql`
     exerciseName
     description
     link
+    img
   }
 }
 `;

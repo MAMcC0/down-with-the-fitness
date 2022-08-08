@@ -26,10 +26,12 @@ const resolvers = {
         console.log(err);
       }
     },
+
     listUserWorkouts: async (parent, { userID }) => {
       return User.findOne({ userID }).populate({ path: 'workouts' }).populate({ path: 'workouts', populate: 'exercises' });
     }
   },
+  
   Mutation: {
     createWorkout: async (parent, { workoutInfo }, context) => {
       try {
