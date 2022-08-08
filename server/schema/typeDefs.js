@@ -41,8 +41,8 @@ const typeDefs = gql`
   }
 
   type Query {
-    listUserWorkouts(userID: ID!): User
-    workouts: [Workout] 
+    listUserWorkouts(userCreated: Boolean): [Workout]
+    workouts(userCreated: Boolean): [Workout] 
     # typeOfExercises: [Exercise]
     fullBodyExercises: [Exercise]
     findWorkOutByID(_id: ID!): [Workout]

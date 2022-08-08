@@ -1,7 +1,5 @@
 import { gql } from '@apollo/client';
 
-
-
 export const QUERY_WORKOUTS = gql`
   query workouts {
     workouts {
@@ -38,7 +36,6 @@ export const QUERY_USER_WORKOUTS = gql`
     }
   }
 `;
-
 
 export const QUERY_EXERCISES = gql`
   query fullBodyExercises {
