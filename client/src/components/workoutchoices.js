@@ -12,13 +12,6 @@ const WorkoutChoices = ({ workout }) => {
 
     let navigate = useNavigate();
 
- // async function redirect(event, id) {
-  //  event.preventDefault();
-   // await submitWorkout(event.target);
-  //  navigate(To = , { replace: true });
-  //}
-
-
    
 
     return (

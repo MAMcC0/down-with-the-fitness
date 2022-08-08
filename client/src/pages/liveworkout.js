@@ -3,7 +3,6 @@ import { QUERY_WORKOUTS } from '../utils/queries';
 import WorkoutTimer from '../components/workouttimer';
 import ExerciseTimer from '../components/exercisetimer';
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom';
 
 
 
@@ -12,7 +11,7 @@ function LiveWorkout() {
 
   
   const { data } = useQuery(QUERY_WORKOUTS);
-  let [timerWorkout, setTimer] = useState(setTimer(data));
+  let [timerWorkout, setTimer] = useState(timerDuration(data));
   let [exerciseTime, setExerciseTime] = useState(ExerciseTimer(data));
   const [currentEx, setCurrentEx] = useState('');
   let [index, setIndex] = useState(0);
@@ -27,6 +26,8 @@ function LiveWorkout() {
     return duration; 
 };
   
+
+
   let ExerciseTimer = (data) => {
     let duration = data.workouts.exercise.duration[index];
     return duration;
