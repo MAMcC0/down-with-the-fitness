@@ -11,17 +11,20 @@ function LiveWorkout() {
 
   
   const { data } = useQuery(QUERY_WORKOUTS);
-  let [timerWorkout, setTimer] = useState(timerDuration(data));
-  let [exerciseTime, setExerciseTime] = useState(ExerciseTimer(data));
+  const workouts = data?.workouts || [];
+
+
+  let [timerWorkout, setTimer] = useState(0);
+  let [exerciseTime, setExerciseTime] = useState(0);
   const [currentEx, setCurrentEx] = useState('');
   let [index, setIndex] = useState(0);
   const [checkTime, setCheckTime] = useState(false);
   
   let timerDuration = (data) => {
       
-    let workoutArray = data.workout.exercises;
+   console.log(data);
     let duration = 0;
-    workoutArray.forEach(exercise => duration = exercise.duration + duration);
+    data.forEach(exercise => duration = exercise.duration + duration);
     
     return duration; 
 };
@@ -32,6 +35,12 @@ function LiveWorkout() {
     let duration = data.workouts.exercise.duration[index];
     return duration;
   };
+
+useEffect(() => {
+   setTimer(timerDuration(workouts))
+  //  setExerciseTime(ExerciseTimer(workouts))
+}, [workouts])
+
 
   useEffect(() => {
     const timer = setInterval(() => {
