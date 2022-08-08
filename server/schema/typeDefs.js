@@ -41,8 +41,8 @@ const typeDefs = gql`
   }
 
   type Query {
-    listUserWorkouts(userCreated: Boolean): [Workout]
-    workouts(userCreated: Boolean): [Workout] 
+    listUserWorkouts(userID: ID!): User
+    workouts: [Workout] 
     # typeOfExercises: [Exercise]
     fullBodyExercises: [Exercise]
   }
@@ -51,8 +51,8 @@ const typeDefs = gql`
     createUser(username: String!, email: String!, password: String!) : Auth
     deleteUser(_id: String!) : User
     login(email: String, password: String) : Auth
-    createWorkout(workoutInfo: WorkoutInput) : Workout
-    removeWorkout(workoutId: ID!) : Workout
+    createWorkout(workoutInfo: WorkoutInput) : User
+    removeWorkout(_id: ID!) : User
     updateUser(_id: ID! , password:String): User
  } 
 `;
