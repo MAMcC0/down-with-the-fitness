@@ -8,12 +8,21 @@ html {
   background-color: #e1faf9;
 }
 
+.nav-style {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
 .navbar {
   color: white;
-  
   background-color: #023C40;
   font-size: 1.5rem;
+}
+
+.nav-header, .nav-style p {
+  margin-top: 10px;
 }
 
 .accordion .acc-link {
@@ -21,14 +30,10 @@ html {
   color: black;
 }
 
-.all-nav-items {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-div.container {
-  width: 100%;
-  display: flex;
+.navbar-expand .navbar-collapse {
+  display: flex!important;
+  flex-basis: auto;
+  justify-content: flex-end;
 }
 
 .signup-button, .logout-button {
@@ -84,7 +89,7 @@ button.btn.btn-primary {
   color: white!important;
   background-color: #639183!important;
   padding: 0.5rem 1rem 0.5rem 1rem!important;
-  font-size: 1rem!important;
+  font-size: 1.25rem!important;
   border-radius: 0.5rem!important;
   text-decoration: none!important;
 }

@@ -17,9 +17,10 @@ function NavBar() {
     return (
             <Navbar className="navbar">
                 <Container className="all-nav-items">
-                    <Navbar.Brand
+                    <div className="nav-style">
+                    <Navbar.Brand className="nav-header"
                         style={{ color: 'white' }}
-                        href="#home">Down WTF</Navbar.Brand>
+                        href="/">Down With The Fitness</Navbar.Brand>
                     <p>|</p>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     
@@ -42,7 +43,7 @@ function NavBar() {
                                             </button>
                                         </div>
                                     ) : (
-                                        <div className="nav-auth-buttons">.
+                                        <div className="nav-auth-buttons">
                                             <Link className="login-button" to="/login">
                                                 Login
                                             </Link>
@@ -52,9 +53,10 @@ function NavBar() {
                                         </div>
                                     )}
                                 </NavDropdown.Item>
-                            </NavDropdown>
+                            </NavDropdown>                            
                         </Nav>
                     </Navbar.Collapse>
+                    </div>
                 </Container>
             </Navbar>
     );
