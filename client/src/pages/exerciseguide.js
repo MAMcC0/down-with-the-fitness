@@ -9,13 +9,16 @@ function ExercisePage() {
   console.log(exercise)
 
   return (
-    <div>
+    <div className="ex-card-container">
+        <h1 className="ex-header">Exercise Guide</h1>
         {loading ? (
             <div>Loading...</div>
         ) : (
+            <div className="exercise-card">
             <ExerciseCard 
             fullBodyExercises={exercise}
             />
+            </div>
         )
         }
     </div>

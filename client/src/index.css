@@ -11,9 +11,9 @@ html {
 
 .navbar {
   color: white;
+  
   background-color: #023C40;
   font-size: 1.5rem;
-
 }
 
 .accordion .acc-link {
@@ -89,16 +89,50 @@ button.btn.btn-primary {
   text-decoration: none!important;
 }
 
-.create-workout-button, .exercise-guide-button {
+.create-workout-modal, .create-workout-button {
   color: white!important;
   background-color: #639183!important;
   font-size: 1rem!important;
   border-radius: 0.5rem!important;
   text-decoration: none!important;
+  min-width: 60%!important;
+}
+
+.btn-primary {
+  --bs-btn-border-color: none!important;
+}
+
+.exercise-guide-button {
+  color: white!important;
+  background-color: #639183!important;
+  font-size: 1rem!important;
+  border-radius: 0.5rem!important;
+  text-decoration: none!important;
+  border: none;
+  min-width: 60%!important;
 }
 
 .exercise-guide-btn {
   padding-left: 0px!important;
+}
+
+.ex-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.ex-header {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-top: 40px;
+  color: #46675d;
+}
+
+.card {
+  margin: 20px 0 20px 0;
 }
 
 .dropdown a:hover {

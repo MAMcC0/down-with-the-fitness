@@ -26,6 +26,7 @@ function NavBar() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav>
                             <NavDropdown className="dropdown" title="☰" id="basic-nav-dropdown">
+                                <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/">Home</NavDropdown.Item>
                                 <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/workouts">Standard Workouts</NavDropdown.Item>
                                 <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/customworkouts">My Custom Workouts</NavDropdown.Item>
                                 <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/exerciseguide">Exercise Guide</NavDropdown.Item>
