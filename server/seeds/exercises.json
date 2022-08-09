@@ -464,7 +464,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Full Body 3",
-        "link": "https://www.youtube.com/embed/XA8T_bHHkl0"
+        "link": "https://www.youtube.com/embed/XA8T_bHHkl0",
+        "img": "/images/muscle-diagrams/raised-leg-push-ups.PNG"
     },
     {
         "exerciseName" : "Lunge Step-Ups",
@@ -472,7 +473,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Full Body 3",
-        "link": "https://www.youtube.com/embed/KM6-6xTRpow"
+        "link": "https://www.youtube.com/embed/KM6-6xTRpow",
+        "img": "/images/muscle-diagrams/lunge-step-ups.PNG"
     },
     {
         "exerciseName" : "Get-Ups",
@@ -480,7 +482,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Full Body 3",
-        "link": "https://www.youtube.com/embed/n47X4HOhfUk"
+        "link": "https://www.youtube.com/embed/n47X4HOhfUk",
+        "img": "/images/muscle-diagrams/get-ups.PNG"
     },
     {
         "exerciseName" : "Squats",
@@ -488,7 +491,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Full Body 3",
-        "link": "https://www.youtube.com/embed/xqvCmoLULNY"
+        "link": "https://www.youtube.com/embed/xqvCmoLULNY",
+        "img": "/images/muscle-diagrams/squats.PNG"
     },
     {
         "exerciseName" : "Sit Ups",
@@ -496,7 +500,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Full Body Hit!",
-        "link": "https://www.youtube.com/embed/swOyWKk7Oko"
+        "link": "https://www.youtube.com/embed/swOyWKk7Oko",
+        "img": "/images/muscle-diagrams/sit-ups.PNG"
     },
     {
         "exerciseName" : "Donkey Kicks",
@@ -504,7 +509,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Full Body Hit!",
-        "link": "https://www.youtube.com/embed/SJ1Xuz9D-ZQ"
+        "link": "https://www.youtube.com/embed/SJ1Xuz9D-ZQ",
+        "img": "/images/muscle-diagrams/donkey-kicks.PNG"
     },
     {
         "exerciseName" : "Leg Raises",
@@ -512,7 +518,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Full Body Hit!",
-        "link": "https://www.youtube.com/embed/Wp4BlxcFTkE"
+        "link": "https://www.youtube.com/embed/Wp4BlxcFTkE",
+        "img": "/images/muscle-diagrams/leg-raises.PNG"
     },
     {
         "exerciseName" : "Superman",
@@ -520,7 +527,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Full Body Hit!",
-        "link": "https://www.youtube.com/embed/z6PJMT2y8GQ"
+        "link": "https://www.youtube.com/embed/z6PJMT2y8GQ",
+        "img": "/images/muscle-diagrams/supermans.PNG"
     },
     {
         "exerciseName" : "Straight Arm Plank",
@@ -528,7 +536,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Full Body Hit!",
-        "link": "https://www.youtube.com/embed/OxTE4Fu-Kmw"
+        "link": "https://www.youtube.com/embed/OxTE4Fu-Kmw",
+        "img": "/images/muscle-diagrams/straight-arm-plank.PNG"
     },
     {
         "exerciseName" : "Bridges",
@@ -536,7 +545,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Leg Day!",
-        "link": "https://www.youtube.com/embed/_leI4qFfPVw"
+        "link": "https://www.youtube.com/embed/_leI4qFfPVw",
+        "img": "/images/muscle-diagrams/bridges.PNG"
     },
     {
         "exerciseName" : "Mountain Climbers",
@@ -544,7 +554,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Leg Day!",
-        "link": "https://www.youtube.com/embed/zT-9L3CEcmk"
+        "link": "https://www.youtube.com/embed/zT-9L3CEcmk",
+        "img": "/images/muscle-diagrams/mountain-climbers.PNG"
     },
     {
         "exerciseName" : "Side Lying Leg Lift",
@@ -552,7 +563,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Leg Day!",
-        "link": "https://www.youtube.com/embed/jgh6sGwtTwk"
+        "link": "https://www.youtube.com/embed/jgh6sGwtTwk",
+        "img": "/images/muscle-diagrams/side-lying-leg-lifts.PNG"
     },
     {
         "exerciseName" : "Jump Knee Tucks",
@@ -560,7 +572,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Leg Day!",
-        "link": "https://www.youtube.com/embed/ArZXCfbjxWs"
+        "link": "https://www.youtube.com/embed/ArZXCfbjxWs",
+        "img": "/images/muscle-diagrams/jump-knee-tucks.PNG"
     },
     {
         "exerciseName" : "Scissor Kicks",
@@ -568,7 +581,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Ab Crusher!",
-        "link": "https://www.youtube.com/embed/0vDI5aU402c"
+        "link": "https://www.youtube.com/embed/0vDI5aU402c",
+        "img": "/images/muscle-diagrams/scissor-kicks.PNG"
     },
     {
         "exerciseName" : "Hollow Hold",
@@ -576,7 +590,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Ab Crusher!",
-        "link": "https://www.youtube.com/embed/4xRpGgttca8"
+        "link": "https://www.youtube.com/embed/4xRpGgttca8",
+        "img": "/images/muscle-diagrams/hollow-hold.PNG"
     },
     {
         "exerciseName" : "Jack Knives",
@@ -584,7 +599,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Ab Crusher!",
-        "link": "https://www.youtube.com/embed/GtkoW7TMHqw"
+        "link": "https://www.youtube.com/embed/GtkoW7TMHqw",
+        "img": "/images/muscle-diagrams/jack-knives.PNG"
     },
     {
         "exerciseName" : "Half Wipers",
@@ -592,7 +608,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Ab Crusher!",
-        "link": "https://www.youtube.com/embed/VfONiltq6IE"
+        "link": "https://www.youtube.com/embed/VfONiltq6IE",
+        "img": "/images/muscle-diagrams/half-wipers.PNG"
     },
     {
         "exerciseName" : "Plank Rolls",
@@ -600,7 +617,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Ab Crusher!",
-        "link": "https://www.youtube.com/embed/t3elxPJ1HU4"
+        "link": "https://www.youtube.com/embed/t3elxPJ1HU4",
+        "img": "/images/muscle-diagrams/plank-rolls.PNG"
     },
     {
         "exerciseName" : "Chest Squeeze",
@@ -608,7 +626,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest Workout",
-        "link": "https://www.youtube.com/embed/anxpxp0rbHs"
+        "link": "https://www.youtube.com/embed/anxpxp0rbHs",
+        "img": "/images/muscle-diagrams/chest-squeeze.PNG"
     },
     {
         "exerciseName" : "Shoulder Taps",
@@ -616,7 +635,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest Workout",
-        "link": "https://www.youtube.com/embed/C6At19Q9i2Q"
+        "link": "https://www.youtube.com/embed/C6At19Q9i2Q",
+        "img": "/images/muscle-diagrams/shoulder-taps.PNG"
     },
     {
         "exerciseName" : "Diamond Push Ups",
@@ -624,7 +644,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest Workout",
-        "link": "https://www.youtube.com/embed/XtU2VQVuLYs"
+        "link": "https://www.youtube.com/embed/XtU2VQVuLYs",
+        "img": "/images/muscle-diagrams/diamond-push-ups.PNG"
     },
     {
         "exerciseName" : "Wall Walks",
@@ -632,7 +653,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest Workout",
-        "link": "https://www.youtube.com/embed/2v-yninc1ww"
+        "link": "https://www.youtube.com/embed/2v-yninc1ww",
+        "img": "/images/muscle-diagrams/wall-walks.PNG"
     },
     {
         "exerciseName" : "Hand Stand Push Ups",
@@ -640,7 +662,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest Workout",
-        "link": "https://www.youtube.com/embed/04FFqnk4qcQ"
+        "link": "https://www.youtube.com/embed/04FFqnk4qcQ",
+        "img": "/images/muscle-diagrams/hand-stand-push-ups.PNG"
     },
     {
         "exerciseName" : "Reverse Plank Bridge",
@@ -648,7 +671,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
-        "link": "https://www.youtube.com/embed/hW4cbpEaVG0"
+        "link": "https://www.youtube.com/embed/hW4cbpEaVG0",
+        "img": "/images/muscle-diagrams/reverse-plank-bridges.PNG"
     },
     {
         "exerciseName" : "Forward Arm Circles",
@@ -656,7 +680,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
-        "link": "https://www.youtube.com/embed/140RTNMciH8"
+        "link": "https://www.youtube.com/embed/140RTNMciH8",
+        "img": "/images/muscle-diagrams/forward-arms-circles.PNG"
     },
     {
         "exerciseName" : "Tricep Dips",
@@ -664,7 +689,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
-        "link": "https://www.youtube.com/embed/0326dy_-CzM"
+        "link": "https://www.youtube.com/embed/0326dy_-CzM",
+        "img": "/images/muscle-diagrams/tricep-dips.PNG"
     },
     {
         "exerciseName" : "Big Arm Chops",
@@ -672,7 +698,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
-        "link": "https://www.youtube.com/embed/4h8ppROoJxU"
+        "link": "https://www.youtube.com/embed/4h8ppROoJxU",
+        "img": "/images/muscle-diagrams/big-arm-chops.PNG"
     },
     {
         "exerciseName" : "Small Arm Chops",
@@ -680,7 +707,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
-        "link": "https://www.youtube.com/embed/Z2k_hXBdmkw"
+        "link": "https://www.youtube.com/embed/Z2k_hXBdmkw",
+        "img": "/images/muscle-diagrams/small-arm-chops.PNG"
     },
     {
         "exerciseName" : "Romanian Deadlift",
@@ -688,7 +716,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Get Those Legs Burning!",
-        "link": "https://www.youtube.com/embed/7j-2w4-P14I"
+        "link": "https://www.youtube.com/embed/7j-2w4-P14I",
+        "img": "/images/muscle-diagrams/romanian-deadlifts.PNG"
     },
     {
         "exerciseName" : "Good Morning",
@@ -696,7 +725,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Get Those Legs Burning!",
-        "link": "https://www.youtube.com/embed/7j-2w4-P14I"
+        "link": "https://www.youtube.com/embed/7j-2w4-P14I",
+        "img": "/images/muscle-diagrams/good-mornings.PNG"
     },
     {
         "exerciseName" : "Walking Lunges",
@@ -704,7 +734,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Get Those Legs Burning!",
-        "link": "https://www.youtube.com/embed/L8fvypPrzzs"
+        "link": "https://www.youtube.com/embed/L8fvypPrzzs",
+        "img": "/images/muscle-diagrams/walking-lunges.PNG"
     },
     {
         "exerciseName" : "Step Ups/Downs",
@@ -712,7 +743,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Get Those Legs Burning!",
-        "link": "https://www.youtube.com/embed/elhu-WC1qk4"
+        "link": "https://www.youtube.com/embed/elhu-WC1qk4",
+        "img": "/images/muscle-diagrams/step-ups-downs.PNG"
     },
     {
         "exerciseName" : "Bulgarian Split Squats",
@@ -720,7 +752,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Get Those Legs Burning!",
-        "link": "https://www.youtube.com/embed/K-6DG1hcHzU"
+        "link": "https://www.youtube.com/embed/K-6DG1hcHzU",
+        "img": "/images/muscle-diagrams/bulgarian-split-squats.PNG"
     },
     {
         "exerciseName" : "Single Arm Row",
@@ -728,7 +761,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Push Day!",
-        "link": "https://www.youtube.com/embed/xl1YiqQY2vA"
+        "link": "https://www.youtube.com/embed/xl1YiqQY2vA",
+        "img": "/images/muscle-diagrams/single-arm-rows.PNG"
     },
     {
         "exerciseName" : "Hammer Curls",
@@ -736,7 +770,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Push Day!",
-        "link": "https://www.youtube.com/embed/fM0TQLoesLs"
+        "link": "https://www.youtube.com/embed/fM0TQLoesLs",
+        "img": "/images/muscle-diagrams/hammer-curls.PNG"
     },
     {
         "exerciseName" : "Bicycle Crunches",
@@ -744,7 +779,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Push Day!",
-        "link": "https://www.youtube.com/embed/cbKIDZ_XyjY"
+        "link": "https://www.youtube.com/embed/cbKIDZ_XyjY",
+        "img": "/images/muscle-diagrams/bicycle-crunches.PNG"
     },
     {
         "exerciseName" : "Seated Knee Tucks",
@@ -752,7 +788,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Push Day!",
-        "link": "https://www.youtube.com/embed/HR_1AqBmVAU"
+        "link": "https://www.youtube.com/embed/HR_1AqBmVAU",
+        "img": "/images/muscle-diagrams/seated-knee-tucks.PNG"
     },
     {
         "exerciseName" : "Triangle Crunch",
@@ -760,7 +797,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Push Day!",
-        "link": "https://www.youtube.com/embed/9t4bKvpJ2ng"
+        "link": "https://www.youtube.com/embed/9t4bKvpJ2ng",
+        "img": "/images/muscle-diagrams/triangle-crunch.PNG"
     },
     {
         "exerciseName" : "Side-to-Side Shuffle",
@@ -768,7 +806,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Cardio Day!",
-        "link": "https://www.youtube.com/embed/DwHiXO5ps_I"
+        "link": "https://www.youtube.com/embed/DwHiXO5ps_I",
+        "img": "/images/muscle-diagrams/side-to-side-shuffle.PNG"
     },
     {
         "exerciseName" : "Jumping Jacks",
@@ -776,7 +815,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Cardio Day!",
-        "link": "https://www.youtube.com/embed/iSSAk4XCsRA"
+        "link": "https://www.youtube.com/embed/iSSAk4XCsRA",
+        "img": "/images/muscle-diagrams/jumping-jacks.PNG"
     },
     {
         "exerciseName" : "Bunny Hops",
@@ -784,7 +824,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Cardio Day!",
-        "link": "https://www.youtube.com/embed/UDZBGzeQea0"
+        "link": "https://www.youtube.com/embed/UDZBGzeQea0",
+        "img": "/images/muscle-diagrams/bunny-hops.PNG"
     },
     {
         "exerciseName" : "Froggers",
@@ -792,7 +833,8 @@
         "duration": 30,
         "bodyArea": "Legs",
         "workoutName": "Leg Day!",
-        "link": "https://www.youtube.com/embed/ArZXCfbjxWs"
+        "link": "https://www.youtube.com/embed/ArZXCfbjxWs",
+        "img": "/images/muscle-diagrams/froggers.PNG"
     },
     {
         "exerciseName" : "Scissor Kicks",
@@ -800,7 +842,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Ab Crusher!",
-        "link": "https://www.youtube.com/embed/0vDI5aU402c"
+        "link": "https://www.youtube.com/embed/0vDI5aU402c",
+        "img": "/images/muscle-diagrams/scissor-kicks.PNG"
     },
     {
         "exerciseName" : "Hollow Hold",
@@ -808,7 +851,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Ab Crusher!",
-        "link": "https://www.youtube.com/embed/4xRpGgttca8"
+        "link": "https://www.youtube.com/embed/4xRpGgttca8",
+        "img": "/images/muscle-diagrams/hollow-hold.PNG"
     },
     {
         "exerciseName" : "Jack Knives",
@@ -816,7 +860,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Ab Crusher!",
-        "link": "https://www.youtube.com/embed/GtkoW7TMHqw"
+        "link": "https://www.youtube.com/embed/GtkoW7TMHqw",
+        "img": "/images/muscle-diagrams/jack-knives.PNG"
     },
     {
         "exerciseName" : "Half Wipers",
@@ -824,7 +869,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Ab Crusher!",
-        "link": "https://www.youtube.com/embed/VfONiltq6IE"
+        "link": "https://www.youtube.com/embed/VfONiltq6IE",
+        "img": "/images/muscle-diagrams/half-wipers.PNG"
     },
     {
         "exerciseName" : "Plank Rolls",
@@ -832,7 +878,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Ab Crusher!",
-        "link": "https://www.youtube.com/embed/t3elxPJ1HU4"
+        "link": "https://www.youtube.com/embed/t3elxPJ1HU4",
+        "img": "/images/muscle-diagrams/plank-rolls.PNG"
     },
     {
         "exerciseName" : "Chest Squeeze",
@@ -840,7 +887,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest Workout",
-        "link": "https://www.youtube.com/embed/anxpxp0rbHs"
+        "link": "https://www.youtube.com/embed/anxpxp0rbHs",
+        "img": "/images/muscle-diagrams/chest-squeeze.PNG"
     },
     {
         "exerciseName" : "Shoulder Taps",
@@ -848,7 +896,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest Workout",
-        "link": "https://www.youtube.com/embed/C6At19Q9i2Q"
+        "link": "https://www.youtube.com/embed/C6At19Q9i2Q",
+        "img": "/images/muscle-diagrams/shoulder-taps.PNG"
     },
     {
         "exerciseName" : "Diamond Push Ups",
@@ -856,7 +905,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest Workout",
-        "link": "https://www.youtube.com/embed/XtU2VQVuLYs"
+        "link": "https://www.youtube.com/embed/XtU2VQVuLYs",
+        "img": "/images/muscle-diagrams/diamond-push-ups.PNG"
     },
     {
         "exerciseName" : "Wall Walks",
@@ -864,7 +914,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest Workout",
-        "link": "https://www.youtube.com/embed/2v-yninc1ww"
+        "link": "https://www.youtube.com/embed/2v-yninc1ww",
+        "img": "/images/muscle-diagrams/wall-walks.PNG"
     },
     {
         "exerciseName" : "Hand Stand Push Ups",
@@ -872,7 +923,8 @@
         "duration": 30,
         "bodyArea": "Chest",
         "workoutName": "Chest Workout",
-        "link": "https://www.youtube.com/embed/04FFqnk4qcQ"
+        "link": "https://www.youtube.com/embed/04FFqnk4qcQ",
+        "img": "/images/muscle-diagrams/hand-stand-push-ups.PNG"
     },
     {
         "exerciseName" : "Reverse Plank Bridge",
@@ -880,7 +932,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
-        "link": "https://www.youtube.com/embed/hW4cbpEaVG0"
+        "link": "https://www.youtube.com/embed/hW4cbpEaVG0",
+        "img": "/images/muscle-diagrams/reverse-plank-bridge.PNG"
     },
     {
         "exerciseName" : "Forward Arm Circles",
@@ -888,7 +941,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
-        "link": "https://www.youtube.com/embed/140RTNMciH8"
+        "link": "https://www.youtube.com/embed/140RTNMciH8",
+        "img": "/images/muscle-diagrams/forward-arm-circles.PNG"
     },
     {
         "exerciseName" : "Tricep Dips",
@@ -896,7 +950,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
-        "link": "https://www.youtube.com/embed/0326dy_-CzM"
+        "link": "https://www.youtube.com/embed/0326dy_-CzM",
+        "img": "/images/muscle-diagrams/tricep-dips.PNG"
     },
     {
         "exerciseName" : "Big Arm Chops",
@@ -904,7 +959,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
-        "link": "https://www.youtube.com/embed/4h8ppROoJxU"
+        "link": "https://www.youtube.com/embed/4h8ppROoJxU",
+        "img": "/images/muscle-diagrams/big-arm-chops.PNG"
     },
     {
         "exerciseName" : "Small Arm Chops",
@@ -912,7 +968,8 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
-        "link": "https://www.youtube.com/embed/Z2k_hXBdmkw"
+        "link": "https://www.youtube.com/embed/Z2k_hXBdmkw",
+        "img": "/images/muscle-diagrams/small-arm-chops.PNG"
     },
     {
         "exerciseName" : "Get Those Legs Burning!",
@@ -920,6 +977,7 @@
         "duration": 30,
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
-        "link": "https://www.youtube.com/embed/Z2k_hXBdmkw"
+        "link": "https://www.youtube.com/embed/Z2k_hXBdmkw",
+        "img": "/images/muscle-diagrams/get-those-legs-burning.PNG"
     }
 ]
