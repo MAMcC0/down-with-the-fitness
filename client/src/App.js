@@ -69,11 +69,15 @@ function App() {
                 element={<Profile />}
               />
               <Route
-                path="/customworkouts"
+                path="/customworkouts/type"
                 element={<CustomWorkoutPage />}
               />
               <Route
                 path="/workouts"
+                element={<WorkoutPage />}
+              />
+              <Route
+                path="/workouts/type"
                 element={<WorkoutPage />}
               />
               <Route

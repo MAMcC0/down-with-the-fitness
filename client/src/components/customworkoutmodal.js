@@ -11,7 +11,7 @@ export default function CustomWorkoutModal(props) {
     const handleShow = () => setShow(true);
 
     return (
-    <div className="create-workout-modal">
+        <div className="create-workout-modal">
         <Button variant="dark" onClick={handleShow}>Create Custom Workout</Button>
         <Modal show={show} onHide={handleClose}
             {...props}
