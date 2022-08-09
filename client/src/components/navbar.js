@@ -26,30 +26,30 @@ function NavBar() {
                     
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav>
-                            <NavDropdown className="dropdown" title="☰" id="basic-nav-dropdown">
-                                <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/">Home</NavDropdown.Item>
-                                <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/workouts">Standard Workouts</NavDropdown.Item>
-                                <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/customworkouts">My Custom Workouts</NavDropdown.Item>
-                                <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/exerciseguide">Exercise Guide</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="#action/3.4">
-                                    {Auth.loggedIn() ? (
-                                        <div className="nav-auth-buttons">
-                                            <Link className="profile-button" to="/me">
-                                                {Auth.getProfile().data.username}'s profile
-                                            </Link>
-                                            <button className="logout-button" onClick={logout}>
-                                                Logout
-                                            </button>
-                                        </div>
-                                    ) : (
-                                        <div className="nav-auth-buttons">
-                                            <Link className="login-button" to="/login">
-                                                Login
-                                            </Link>
-                                            <Link className="signup-button" to="/signup">
-                                                Signup
-                                            </Link>
+                            <NavDropdown className="dropdown" title="☰" id="basic-nav-dropdown" align="end">
+                                    <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/">Home</NavDropdown.Item>
+                                    <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/workouts">Standard Workouts</NavDropdown.Item>
+                                    <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/customworkouts">My Custom Workouts</NavDropdown.Item>
+                                    <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="/exerciseguide">Exercise Guide</NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item className="nav-item" style={{ color: 'black' }} href="#action/3.4">
+                                        {Auth.loggedIn() ? (
+                                            <div className="nav-auth-buttons">
+                                                <Link className="profile-button" to="/me">
+                                                    {Auth.getProfile().data.username}'s profile
+                                                </Link>
+                                                <button className="logout-button" onClick={logout}>
+                                                    Logout
+                                                </button>
+                                            </div>
+                                        ) : (
+                                            <div className="nav-auth-buttons">
+                                                <Link className="login-button" to="/login">
+                                                    Login
+                                                </Link>
+                                                <Link className="signup-button" to="/signup">
+                                                    Signup
+                                                </Link>
                                         </div>
                                     )}
                                 </NavDropdown.Item>
