@@ -9,6 +9,15 @@ const resolvers = {
     // typeOfExercises: async (parent) => {
     //   return await Exercise.find();
     // },
+    user: async (parent, { username }) => {
+      return User.findOne({ username }).populate({path: 'workouts', populate: {path: 'exercises'}});
+    },
+    me: async (parent, args, context) => {
+      if (context.user) {
+        return User.findOne({ _id: context.user._id }).populate({path: 'workouts', populate: {path: 'exercises'}});
+      }
+      throw new AuthenticationError('You need to be logged in!');
+    },
     fullBodyExercises: async (parent) => {
       try {
         return await Exercise.find();

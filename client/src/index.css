@@ -4,7 +4,6 @@
   font-family: 'Overpass', sans-serif;
 }
 
-
 html {
   background-color: #e1faf9;
 }
@@ -13,6 +12,31 @@ html {
   color: white;
   background-color: #023C40;
   font-size: 1.5rem;
+
+}
+
+.accordion .acc-link {
+  text-decoration: none;
+  color: black;
+}
+
+.all-nav-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div.container {
+  width: 100%;
+  display: flex;
+}
+
+.signup-button, .logout-button {
+  color: #4b6f64!important;
+  background-color: #b8d0c9!important;
+  padding: 0.5rem 1rem 0.5rem 1rem!important;
+  font-size: 1rem!important;
+  border-radius: 0.5rem!important;
+  text-decoration: none!important;
 }
 
 .dropdown a {
@@ -51,13 +75,29 @@ html {
   bottom: 0;
 }
 
-.btn-primary, .exercise-guide-btn, .accordion-button {
+button.btn.btn-primary {
+  transition: none!important;
+}
+
+.btn-primary, .exercise-guide-btn, .accordion-button, .login-button, .profile-button {
   color: white!important;
   background-color: #639183!important;
   padding: 0.5rem 1rem 0.5rem 1rem!important;
   font-size: 1rem!important;
   border-radius: 0.5rem!important;
   text-decoration: none!important;
+}
+
+.create-workout-button, .exercise-guide-button {
+  color: white!important;
+  background-color: #639183!important;
+  font-size: 1rem!important;
+  border-radius: 0.5rem!important;
+  text-decoration: none!important;
+}
+
+.exercise-guide-btn {
+  padding-left: 0px!important;
 }
 
 .dropdown a:hover {
