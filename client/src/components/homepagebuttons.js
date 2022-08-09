@@ -118,9 +118,7 @@ function HomeButtons() {
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
-
             <br />
-
             <Accordion>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>My Custom Workouts</Accordion.Header>
