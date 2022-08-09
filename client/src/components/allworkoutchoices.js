@@ -10,6 +10,7 @@ const AllWorkoutChoices = ({ listAllStandardWorkouts }) => {
     let navigate = useNavigate();
 
     return (
+
         <div>
             {listAllStandardWorkouts && listAllStandardWorkouts.map(({ workoutName, exercises, _id }, i) => (
                 <Accordion>
