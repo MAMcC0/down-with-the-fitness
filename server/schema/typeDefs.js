@@ -44,7 +44,6 @@ const typeDefs = gql`
     user(username: String!): User
     me: User
     workouts: [Workout] 
-    listUserWorkouts(userCreated: Boolean): [Workout]
     # typeOfExercises: [Exercise]
     fullBodyExercises: [Exercise]
     specificWorkouts(workoutType: String, userCreated: Boolean): [Workout]
