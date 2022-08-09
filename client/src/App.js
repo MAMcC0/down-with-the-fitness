@@ -13,6 +13,7 @@ import Liveworkout from './pages/liveworkout.js';
 import WorkoutPage from './pages/workoutpage.js';
 import Signup from './pages/signup';
 import Login from './pages/login';
+import Profile from './pages/profile';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from '../src/components/navbar'
 import Footer from '../src/components/footer'
@@ -64,11 +65,19 @@ function App() {
                 element={<Signup />}
               />
               <Route
-                path="/customworkouts"
+                path="/me"
+                element={<Profile />}
+              />
+              <Route
+                path="/customworkouts/type"
                 element={<CustomWorkoutPage />}
               />
               <Route
                 path="/workouts"
+                element={<WorkoutPage />}
+              />
+              <Route
+                path="/workouts/type"
                 element={<WorkoutPage />}
               />
               <Route

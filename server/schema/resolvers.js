@@ -9,6 +9,15 @@ const resolvers = {
     // typeOfExercises: async (parent) => {
     //   return await Exercise.find();
     // },
+    user: async (parent, { username }) => {
+      return User.findOne({ username }).populate({path: 'workouts', populate: {path: 'exercises'}});
+    },
+    me: async (parent, args, context) => {
+      if (context.user) {
+        return User.findOne({ _id: context.user._id }).populate({path: 'workouts', populate: {path: 'exercises'}});
+      }
+      throw new AuthenticationError('You need to be logged in!');
+    },
     fullBodyExercises: async (parent) => {
       try {
         return await Exercise.find();
@@ -26,10 +35,14 @@ const resolvers = {
         console.log(err);
       }
     },
-  
+
+    specificWorkouts: async (parent, { workoutType, userCreated }) => {
+      return Workout.find({$and: [{ workoutType: workoutType }, { userCreated: false }]}).populate( 'exercises' );
+    },
     
-    listUserWorkouts: async (parent, { userCreated }) => {
-      return Workout.find({ userCreated: true }).populate( 'exercises' );    },
+    listUserWorkouts: async (parent, { workoutType, userCreated }) => {
+      return Workout.find({$and: [{ workoutType: workoutType }, { userCreated: true }]}).populate( 'exercises' );    
+    },
 
     findWorkOutByID: async (parent, {_id}) => {
       const liveWorkout = await Workout.find({_id}).populate({ path: 'exercises'});

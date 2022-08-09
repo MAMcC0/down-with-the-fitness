@@ -7,7 +7,6 @@ import { QUERY_SPECIFIC_WORKOUT } from '../utils/queries';
 
 function LiveWorkout() {
 
-  
     let { id } = useParams();
  
 
@@ -17,6 +16,7 @@ function LiveWorkout() {
     console.log(workouts);
     
   }, [workouts])
+
 
 
 
@@ -34,6 +34,7 @@ function LiveWorkout() {
       )
 
       }
+
     </div>
   )
 
