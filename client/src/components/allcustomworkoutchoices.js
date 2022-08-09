@@ -5,13 +5,13 @@ import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
 
-const AllWorkoutChoices = ({ listAllStandardWorkouts }) => {
+const AllCustomWorkoutChoices = ({ listAllUserWorkouts }) => {
 
     let navigate = useNavigate();
 
     return (
         <div>
-            {listAllStandardWorkouts && listAllStandardWorkouts.map(({ workoutName, exercises, _id }, i) => (
+            {listAllUserWorkouts && listAllUserWorkouts.map(({ workoutName, exercises, _id }, i) => (
                 <Accordion>
                     <Accordion.Item eventKey={i}>
                         <Accordion.Header>{workoutName}</Accordion.Header>
@@ -32,4 +32,4 @@ const AllWorkoutChoices = ({ listAllStandardWorkouts }) => {
     )
 }
 
-export default AllWorkoutChoices;
+export default AllCustomWorkoutChoices;

@@ -69,6 +69,42 @@ export const QUERY_USER_WORKOUTS = gql`
   }
 `;
 
+export const QUERY_ALL_USER_WORKOUTS = gql`
+  query listAllUserWorkouts($userCreated: Boolean) {
+    listAllUserWorkouts(userCreated: $userCreated) {
+      workoutName
+      workoutType
+      userCreated
+      exercises {
+        exerciseName
+        description
+        duration
+        bodyArea
+        link
+        img
+      }
+    }
+  }
+`;
+
+export const QUERY_ALL_STANDARD_WORKOUTS = gql`
+  query listAllStandardWorkouts($userCreated: Boolean) {
+    listAllStandardWorkouts(userCreated: $userCreated) {
+      workoutName
+      workoutType
+      userCreated
+      exercises {
+        exerciseName
+        description
+        duration
+        bodyArea
+        link
+        img
+      }
+    }
+  }
+`;
+
 export const QUERY_EXERCISES = gql`
   query fullBodyExercises {
   fullBodyExercises {

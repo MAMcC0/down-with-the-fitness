@@ -40,6 +40,14 @@ const resolvers = {
       return Workout.find({$and: [{ workoutType: workoutType }, { userCreated: false }]}).populate( 'exercises' );
     },
     
+    listAllStandardWorkouts: async (parent, { userCreated }) => {
+      return Workout.find( { userCreated: false } ).populate( 'exercises' );    
+    },
+
+    listAllUserWorkouts: async (parent, { userCreated }) => {
+      return Workout.find( { userCreated: true } ).populate( 'exercises' );    
+    },
+
     listUserWorkouts: async (parent, { workoutType, userCreated }) => {
       return Workout.find({$and: [{ workoutType: workoutType }, { userCreated: true }]}).populate( 'exercises' );    
     },

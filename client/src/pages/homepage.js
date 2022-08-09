@@ -1,15 +1,20 @@
 import React from 'react'
 import HomeButtons from '../components/homepagebuttons'
+import { QUERY_EXERCISES } from '../utils/queries'
+import { useQuery } from '@apollo/client'
 
+function HomeContainer() {
 
-function homeContainer() {
-
+    const { loading, data } = useQuery(QUERY_EXERCISES);
+    const chipData = data?.fullBodyExercises || [];
 
     return (
         <div class="home-body">
-        <HomeButtons />
+        <HomeButtons 
+        chipData={chipData}
+        />
         </div>
     )
 }
 
-export default homeContainer;
+export default HomeContainer;

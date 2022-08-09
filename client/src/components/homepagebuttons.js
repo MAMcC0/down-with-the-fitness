@@ -13,7 +13,7 @@ import CustomWorkoutForm from './customform';
 
 
 
-function HomeButtons() {
+function HomeButtons({ chipData }) {
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -156,7 +156,7 @@ function HomeButtons() {
                         </div>
                         <div>
                             <Chips
-                                fullBodyExercises={exerciseChip}
+                                chipData={chipData}
                             />
                         </div>
                     </Modal.Body>

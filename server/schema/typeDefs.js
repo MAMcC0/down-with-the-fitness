@@ -48,6 +48,8 @@ const typeDefs = gql`
     fullBodyExercises: [Exercise]
     specificWorkouts(workoutType: String, userCreated: Boolean): [Workout]
     listUserWorkouts(workoutType: String, userCreated: Boolean): [Workout]
+    listAllUserWorkouts(userCreated: Boolean): [Workout]
+    listAllStandardWorkouts(userCreated: Boolean): [Workout]
     findWorkOutByID(_id: ID!): [Workout]
 
   }

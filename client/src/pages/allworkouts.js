@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import AllWorkoutChoices from '../components/workoutchoices'
+import AllWorkoutChoices from '../components/allworkoutchoices'
 import { useQuery } from '@apollo/client';
-import { QUERY_WORKOUTS } from '../utils/queries';
+import { QUERY_ALL_STANDARD_WORKOUTS } from '../utils/queries';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 function AllWorkouts() {
@@ -14,8 +14,9 @@ function AllWorkouts() {
     const location = useLocation()
     console.log(location)
 
-    const { loading, data } = useQuery(QUERY_WORKOUTS);
-    const allWorkoutInfo = data?.workouts || [];
+    const { loading, data } = useQuery(QUERY_ALL_STANDARD_WORKOUTS);
+    console.log(data)
+    const allWorkoutInfo = data?.listAllStandardWorkouts || [];
     console.log(allWorkoutInfo)
 
     return (
@@ -24,7 +25,7 @@ function AllWorkouts() {
                 <div>Loading...</div>
             ) : (
                 <AllWorkoutChoices
-                    allWorkoutInfo={allWorkoutInfo}
+                    listAllStandardWorkouts={allWorkoutInfo}
                 />
             )
             }

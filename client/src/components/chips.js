@@ -1,10 +1,11 @@
 import React from 'react'
 import Chip from '@trimbleinc/modus-react-bootstrap/Chip'
 
-export default function exerciseChip({ exercise }) {
+export default function exerciseChip({ chipData }) {
+
     return (
       <div className="chip">
-          {exercise && exercise.map(exercise => (
+          {chipData && chipData.map(exercise => (
           <Chip
           icon={<i className="material-icons">check</i>}
           label={exercise.exerciseName}
