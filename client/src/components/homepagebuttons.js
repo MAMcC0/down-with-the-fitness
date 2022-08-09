@@ -6,10 +6,19 @@ import { Link } from 'react-router-dom';
 import '../index.css'
 import WorkoutPage from '../pages/workoutpage';
 import { useNavigate, useLocation } from 'react-router-dom';
+import Modal from 'react-bootstrap/Modal';
+import exerciseChip from './chips';
+import Chips from './chips'
+import CustomWorkoutForm from './customform';
 
 
 
 function HomeButtons() {
+
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     const {state} = useLocation()
     let navigate = useNavigate();
     const [workoutType, setWorkoutType] = useState('')
@@ -118,7 +127,7 @@ function HomeButtons() {
                     <Accordion.Body>
                         <div className="home-workout-buttons-custom">
                             <ButtonGroup vertical>
-                                <button onClick={customWorkoutRender} >All Workouts</button>
+                                <button onClick={customWorkoutRender} >Full Body Workouts</button>
                                 <button onClick={customWorkoutRender} >Arm Workouts</button>
                                 <button onClick={customWorkoutRender} >Chest Workouts</button>
                                 <button onClick={customWorkoutRender} >Ab Workouts</button>
@@ -129,11 +138,31 @@ function HomeButtons() {
                 </Accordion.Item>
             </Accordion>
             <br />
-            <div className="create-workout-button">
-                <Button style={{backgroundColor: '#639183', border:'none'}} size="lg" active>
-                    Create Custom Workout
-                </Button>{' '}
-            </div>
+            <div className="create-workout-modal">
+        <Button variant="dark" onClick={handleShow}>Create Custom Workout</Button>
+        <Modal show={show} onHide={handleClose}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <Modal.Header closeButton>
+                <Modal.Title>Create Custom Workout</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <div>
+                <CustomWorkoutForm />
+                </div>
+                <div>
+                <Chips
+                        fullBodyExercises={exerciseChip}
+                    />
+                </div>
+            </Modal.Body>
+            <Modal.Footer>
+                <Button variant="dark" onClick={handleClose}>Create</Button>
+            </Modal.Footer>
+        </Modal>
+    </div>
             <br />
             <div className="exercise-guide-button">
             <Link style={{marginBottom: '20px'}} className='exercise-guide-btn' to='/exerciseguide'>Exercise Guide</Link>

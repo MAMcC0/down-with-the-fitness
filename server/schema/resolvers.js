@@ -31,7 +31,7 @@ const resolvers = {
       return Workout.find({$and: [{ workoutType: workoutType }, { userCreated: false }]}).populate( 'exercises' );
     },
     
-    listUserWorkouts: async (parent, { userCreated }) => {
+    listUserWorkouts: async (parent, { workoutType, userCreated }) => {
       return Workout.find({$and: [{ workoutType: workoutType }, { userCreated: true }]}).populate( 'exercises' );    
     },
 

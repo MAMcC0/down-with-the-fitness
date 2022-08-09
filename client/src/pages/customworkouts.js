@@ -25,7 +25,6 @@ function CustomWorkoutPage() {
 
     return (
         <div>
-        <div>custom</div>
         <div>
             {loading ? (
                 <div>Loading...</div>
