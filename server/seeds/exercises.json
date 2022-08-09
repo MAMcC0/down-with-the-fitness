@@ -194,8 +194,8 @@
         "duration": 30,
         "bodyArea": "Abs",
         "workoutName": "Abs 2",
-        "link": "https://www.youtube.com/embed/Akf3IP0H9fA" ,
-        "img": "/images/muscle-diagrams/elbow-plank-kleg-raises.PNG"
+        "link": "https://www.youtube.com/embed/Akf3IP0H9fA",
+        "img": "/images/muscle-diagrams/elbow-plank-leg-raises.PNG"
     },
     {
         "exerciseName" : "Side Star Planks",
@@ -231,7 +231,7 @@
         "bodyArea": "Abs",
         "workoutName": "Abs 3",
         "link": "https://www.youtube.com/embed/ZL9Y-IIedb0",
-        "img": "/images/muscle-diagrams/knee-to-elbow.PNG"
+        "img": "/images/muscle-diagrams/standing-knee-to-elbow.PNG"
     },
     {
         "exerciseName" : "V-Ups",
@@ -290,7 +290,7 @@
     {
         "exerciseName" : "Side Splits",
         "description": "Legs into split position as far as you can go, then bounce once at your limit",
-        "duration": 45,
+        "duration":30,
         "bodyArea": "Legs",
         "workoutName": "Legs 3",
         "link": "https://www.youtube.com/embed/HAQvQXovwuo",
@@ -357,7 +357,7 @@
         "bodyArea": "Legs",
         "workoutName": "Legs 1",
         "link": "https://www.youtube.com/embed/H8RrfDOLiZU",
-        "img": "/images/muscle-diagrams/side-leg-raises.PNG"
+        "img": "/images/muscle-diagrams/side-leg-raise.PNG"
     },
     {
         "exerciseName" : "Air Guitar",
@@ -393,7 +393,7 @@
         "bodyArea": "Arms",
         "workoutName": "Full Body 1",
         "link": "https://www.youtube.com/embed/5tvR0kDXCl8",
-        "img": "/images/muscle-diagrams/balancing-triceps-biceps.PNG"
+        "img": "/images/muscle-diagrams/balancing-biceps-triceps.PNG"
     },
     {
         "exerciseName" : "Arabesque Lunge",
@@ -411,7 +411,7 @@
         "bodyArea": "Abs",
         "workoutName": "Full Body 2",
         "link": "https://www.youtube.com/embed/t8XLor7unqU",
-        "img": "/images/muscle-diagrams/bear-crawls.PNG"
+        "img": "/images/muscle-diagrams/bear-crawl.PNG"
     },
     {
         "exerciseName" : "Up-Down Planks",
@@ -420,7 +420,7 @@
         "bodyArea": "Arms",
         "workoutName": "Full Body 2",
         "link": "https://www.youtube.com/embed/L4oFJRDAU4Q",
-        "img": "/images/muscle-diagrams/up-down-planks.PNG"
+        "img": "/images/muscle-diagrams/up-down-plank.PNG"
     },
     {
         "exerciseName" : "Kick Backs",
@@ -663,7 +663,7 @@
         "bodyArea": "Chest",
         "workoutName": "Chest Workout",
         "link": "https://www.youtube.com/embed/04FFqnk4qcQ",
-        "img": "/images/muscle-diagrams/hand-stand-push-ups.PNG"
+        "img": "/images/muscle-diagrams/handstand-push-ups.PNG"
     },
     {
         "exerciseName" : "Reverse Plank Bridge",
@@ -672,7 +672,7 @@
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
         "link": "https://www.youtube.com/embed/hW4cbpEaVG0",
-        "img": "/images/muscle-diagrams/reverse-plank-bridges.PNG"
+        "img": "/images/muscle-diagrams/reverse-plank-bridge.PNG"
     },
     {
         "exerciseName" : "Forward Arm Circles",
@@ -681,7 +681,7 @@
         "bodyArea": "Arms",
         "workoutName": "Upper Body Day!!",
         "link": "https://www.youtube.com/embed/140RTNMciH8",
-        "img": "/images/muscle-diagrams/raised-arms-circles.PNG"
+        "img": "/images/muscle-diagrams/raised-arm-circles.PNG"
     },
     {
         "exerciseName" : "Tricep Dips",
@@ -717,7 +717,7 @@
         "bodyArea": "Legs",
         "workoutName": "Get Those Legs Burning!",
         "link": "https://www.youtube.com/embed/7j-2w4-P14I",
-        "img": "/images/muscle-diagrams/romanian-deadlifts.PNG"
+        "img": "/images/muscle-diagrams/romanian-deadlift.PNG"
     },
     {
         "exerciseName" : "Good Morning",
@@ -762,7 +762,7 @@
         "bodyArea": "Arms",
         "workoutName": "Push Day!",
         "link": "https://www.youtube.com/embed/xl1YiqQY2vA",
-        "img": "/images/muscle-diagrams/single-arm-rows.PNG"
+        "img": "/images/muscle-diagrams/single-arm-row.PNG"
     },
     {
         "exerciseName" : "Hammer Curls",
