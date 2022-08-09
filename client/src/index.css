@@ -8,6 +8,11 @@ html {
   background-color: #e1faf9;
 }
 
+.profile-pic {
+  width: 17rem;
+  padding: 3%;
+}
+
 .navbar {
   color: white;
   background-color: #023C40;
