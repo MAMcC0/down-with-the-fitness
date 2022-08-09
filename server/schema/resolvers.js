@@ -28,11 +28,12 @@ const resolvers = {
     },
 
     specificWorkouts: async (parent, { workoutType, userCreated }) => {
-      return Workout.find({ workoutType: workoutType }, { userCreated: userCreated }).populate( 'exercises' );
+      return Workout.find({$and: [{ workoutType: workoutType }, { userCreated: false }]}).populate( 'exercises' );
     },
     
     listUserWorkouts: async (parent, { userCreated }) => {
-      return Workout.find({ userCreated: true }).populate( 'exercises' );    },
+      return Workout.find({$and: [{ workoutType: workoutType }, { userCreated: true }]}).populate( 'exercises' );    
+    },
 
     findWorkOutByID: async (parent, {_id}) => {
       const liveWorkout = await Workout.find({_id}).populate({ path: 'exercises'});

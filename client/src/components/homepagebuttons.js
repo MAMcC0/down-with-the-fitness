@@ -13,34 +13,76 @@ function HomeButtons() {
     const {state} = useLocation()
     let navigate = useNavigate();
     const [workoutType, setWorkoutType] = useState('')
-    function handlePageChange(event) {
+    function standardWorkoutRender(event) {
         let type;
         switch (event.target.innerHTML) {
-            case ('All Workouts'):
+            case ('Full Body Workouts'):
                 type = 'Full Body'
                 setWorkoutType(type)
                 console.log(workoutType)
-                navigate('/workouts', {state: {workoutType: type, userCreated: true}})
+                navigate('/workouts/type/', {state: {workoutType: type, userCreated: false}})
                 break;
             case ('Arm Workouts'):
                 type = 'Arms'
                 setWorkoutType(type)
                 console.log(workoutType)
+                navigate('/workouts/type', {state: {workoutType: type, userCreated: false}})
                 break;
             case ('Chest Workouts'):
                 type = 'Chest'
                 setWorkoutType(type)
                 console.log(workoutType)
+                navigate('/workouts/type', {state: {workoutType: type, userCreated: false}})
                 break;
             case ('Ab Workouts'):
                 type = 'Abs'
                 setWorkoutType(type)
                 console.log(workoutType)
+                navigate('/workouts/type', {state: {workoutType: type, userCreated: false}})
                 break;
             case ('Legs Workouts'):
                 type = 'Legs'
                 setWorkoutType(type)
                 console.log(workoutType)
+                navigate('/workouts/type', {state: {workoutType: type, userCreated: false}})
+                break;
+            default:
+                break;
+        }
+    }
+
+    function customWorkoutRender(event) {
+        let type;
+        switch (event.target.innerHTML) {
+            case ('Full Body Workouts'):
+                type = 'Full Body'
+                setWorkoutType(type)
+                console.log(workoutType)
+                navigate('/customworkouts/type/', {state: {workoutType: type, userCreated: true}})
+                break;
+            case ('Arm Workouts'):
+                type = 'Arms'
+                setWorkoutType(type)
+                console.log(workoutType)
+                navigate('/customworkouts/type', {state: {workoutType: type, userCreated: true}})
+                break;
+            case ('Chest Workouts'):
+                type = 'Chest'
+                setWorkoutType(type)
+                console.log(workoutType)
+                navigate('/customworkouts/type', {state: {workoutType: type, userCreated: true}})
+                break;
+            case ('Ab Workouts'):
+                type = 'Abs'
+                setWorkoutType(type)
+                console.log(workoutType)
+                navigate('/customworkouts/type', {state: {workoutType: type, userCreated: true}})
+                break;
+            case ('Legs Workouts'):
+                type = 'Legs'
+                setWorkoutType(type)
+                console.log(workoutType)
+                navigate('/customworkouts/type', {state: {workoutType: type, userCreated: true}})
                 break;
             default:
                 break;
@@ -57,11 +99,11 @@ function HomeButtons() {
                     <Accordion.Body>
                         <div>
                             <ButtonGroup vertical>
-                                <Link onClick={handlePageChange} className='acc-link' to='/workouts/fullbody'>Full Body Workouts</Link>                             
-                                <Link onClick={handlePageChange} className='acc-link' to='/workouts/armworkouts'>Arm Workouts</Link>
-                                <Link onClick={handlePageChange} className='acc-link' to='/workouts/chestworkouts'>Chest Workouts</Link>
-                                <Link onClick={handlePageChange} className='acc-link' to='/workouts/abworkouts'>Ab Workouts</Link>
-                                <Link onClick={handlePageChange} className='acc-link' to='/workouts/legworkouts'>Legs Workouts</Link>
+                                <button onClick={standardWorkoutRender} >Full Body Workouts</button>                             
+                                <button onClick={standardWorkoutRender} >Arm Workouts</button>
+                                <button onClick={standardWorkoutRender} >Chest Workouts</button>
+                                <button onClick={standardWorkoutRender} >Ab Workouts</button>
+                                <button onClick={standardWorkoutRender} >Legs Workouts</button>
                             </ButtonGroup>
                         </div>
                     </Accordion.Body>
@@ -76,11 +118,11 @@ function HomeButtons() {
                     <Accordion.Body>
                         <div className="home-workout-buttons-custom">
                             <ButtonGroup vertical>
-                                <Link className='text-dark' to='/customworkouts/all'>All Workouts</Link>
-                                <Link className='text-dark' to='/customworkouts/arms'>Arm Workouts</Link>
-                                <Link className='text-dark' to='/customworkouts/chest'>Chest Workouts</Link>
-                                <Link className='text-dark' to='/customworkouts/abs'>Ab Workouts</Link>
-                                <Link className='text-dark' to='/customworkouts/legs'>Legs Workouts</Link>
+                                <button onClick={customWorkoutRender} >All Workouts</button>
+                                <button onClick={customWorkoutRender} >Arm Workouts</button>
+                                <button onClick={customWorkoutRender} >Chest Workouts</button>
+                                <button onClick={customWorkoutRender} >Ab Workouts</button>
+                                <button onClick={customWorkoutRender} >Legs Workouts</button>
                             </ButtonGroup>
                         </div>
                     </Accordion.Body>

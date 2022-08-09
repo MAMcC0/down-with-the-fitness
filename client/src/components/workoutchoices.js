@@ -11,7 +11,7 @@ const WorkoutChoices = ({ specificWorkouts }) => {
 
     return (
         <div>
-            {specificWorkouts.map(({ workoutName, exercises, _id }, i) => (
+            {specificWorkouts && specificWorkouts.map(({ workoutName, exercises, _id }, i) => (
                 <Accordion>
                     <Accordion.Item eventKey={i}>
                         <Accordion.Header>{workoutName}</Accordion.Header>

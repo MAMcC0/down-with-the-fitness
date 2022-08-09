@@ -20,8 +20,8 @@ export const QUERY_WORKOUTS = gql`
 `;
 
 export const QUERY_USER_WORKOUTS = gql`
-  query listUserWorkouts {
-    listUserWorkouts {
+  query listUserWorkouts($workoutType: String, $userCreated: Boolean) {
+    listUserWorkouts(workoutType: $workoutType, userCreated: $userCreated) {
       workoutName
       workoutType
       userCreated
@@ -50,7 +50,7 @@ export const QUERY_EXERCISES = gql`
 
 export const QUERY_SPECIFIC_WORKOUT_TYPE = gql`
   query specificWorkouts($workoutType: String, $userCreated: Boolean) {
-    specificWorkouts(workoutType: $workoutType, usercreated: $userCreated) {
+    specificWorkouts(workoutType: $workoutType, userCreated: $userCreated) {
       workoutName
       workoutType
       userCreated
