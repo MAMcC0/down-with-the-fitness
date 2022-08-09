@@ -9,8 +9,8 @@ import '../index.css'
 
 function HomeButtons() {
     return (
-        <div className="home-buttons">
-            <Accordion class="accordion">
+        <div className="home-buttons" style={{width: '60%'}}>
+            <Accordion className="accordion">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header className="accordion-standard" style={{marginTop: '20px'}}>Standard Workouts</Accordion.Header>
                     <Accordion.Body>
@@ -33,13 +33,13 @@ function HomeButtons() {
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>My Custom Workouts</Accordion.Header>
                     <Accordion.Body>
-                        <div className="home-workout-buttons-custom">
+                        <div className="standard-buttons">
                             <ButtonGroup vertical>
-                            <Link className='text-dark' to='/customworkouts/fullbody'>Full Body Workouts</Link>                             
-                                <Link className='text-dark' to='/customworkouts/armworkouts'>Arm Workouts</Link>
-                                <Link className='text-dark' to='/customworkouts/chestworkouts'>Chest Workouts</Link>
-                                <Link className='text-dark' to='/customworkouts/abworkouts'>Ab Workouts</Link>
-                                <Link className='text-dark' to='/customworkouts/legworkouts'>Legs Workouts</Link>
+                            <Link className='acc-link' to='/customworkouts/fullbody'>Full Body Workouts</Link>                             
+                                <Link className='acc-link' to='/customworkouts/armworkouts'>Arm Workouts</Link>
+                                <Link className='acc-link' to='/customworkouts/chestworkouts'>Chest Workouts</Link>
+                                <Link className='acc-link' to='/customworkouts/abworkouts'>Ab Workouts</Link>
+                                <Link className='acc-link' to='/customworkouts/legworkouts'>Legs Workouts</Link>
                             </ButtonGroup>
                         </div>
                     </Accordion.Body>
@@ -49,7 +49,7 @@ function HomeButtons() {
             <br />
 
             <div className="create-workout-button">
-                <Button style={{backgroundColor: '#639183', border:'none'}} size="lg" active>
+                <Button style={{backgroundColor: '#639183', border: 'none'}} >
                     Create Custom Workout
                 </Button>{' '}
             </div>
@@ -57,7 +57,7 @@ function HomeButtons() {
             <br />
 
             <div className="exercise-guide-button">
-            <Link style={{marginBottom: '20px'}} className='exercise-guide-btn' to='/exerciseguide'>Exercise Guide</Link>
+            <Button style={{backgroundColor: '#639183', border: 'none'}} ><Link className='exercise-guide-btn' to='/exerciseguide'>Exercise Guide</Link></Button>
             </div>
 
         </div>
