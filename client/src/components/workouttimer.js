@@ -104,23 +104,19 @@ export default function WorkoutTimer({ workouts }) {
 
     return (
         <div>
+
                             <Card.Text> <button className={`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`} onClick={toggle}>Start</button>
                                 <p>{timerWorkout}</p>
                                 <p>{exerciseTime}</p>
-                                </Card.Text>
-            <div>
-                {exercises && exercises.map(exercise => (
+
+            <div className="live-card">
+                {workouts && workouts.map(workouts => (
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                            <Card.Title>{exercise.exerciseName}</Card.Title>
-                            <Card.Img variant="top" src={exercise.img} />
-                            <Card.Text>
-                                {exercise.description}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                ))}
-            </div>
-        </div>
+                            <Card.Text className="card-text">
+                            <Card.Title>{workouts.exerciseName}</Card.Title>
+                                <p>Workout time left: {timerWorkout}</p>
+                                <p>Time left on this exercise: {exerciseTime}</p>
+
     )
 }
