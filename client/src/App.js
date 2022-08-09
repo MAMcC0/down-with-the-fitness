@@ -13,6 +13,7 @@ import Liveworkout from './pages/liveworkout.js';
 import WorkoutPage from './pages/workoutpage.js';
 import Signup from './pages/signup';
 import Login from './pages/login';
+import Profile from './pages/profile';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from '../src/components/navbar'
 import Footer from '../src/components/footer'
@@ -62,6 +63,10 @@ function App() {
               <Route
                 path="/signup"
                 element={<Signup />}
+              />
+              <Route
+                path="/me"
+                element={<Profile />}
               />
               <Route
                 path="/customworkouts"
