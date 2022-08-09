@@ -66,19 +66,16 @@ export const QUERY_SPECIFIC_WORKOUT_TYPE = gql`
 `;
 
 export const QUERY_SPECIFIC_WORKOUT = gql`
-query findWorkOutByID ($ID: String){
-  findWorkOutByID(_id: $ID) {
+query findWorkOutByID ($id: ID!){
+  findWorkOutByID(_id: $id) {
     workoutName
-    workoutType
-    userCreated
     exercises {
       exerciseName
-      description
       duration
-      bodyArea
       link
-    }
+      img
   }
+}
 }
 `;
 
