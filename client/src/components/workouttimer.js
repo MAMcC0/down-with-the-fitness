@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
@@ -14,7 +14,12 @@ export default function WorkoutTimer({ workouts }) {
     const [currentEx, setCurrentEx] = useState('');
     let [index, setIndex] = useState(0);
     const [checkTime, setCheckTime] = useState(false);
+    const [int, setInt] = useState()
+    const [exercises, setExercises] = useState([])
 
+    useEffect(() => {
+        setExercises(workouts[0]?.exercises)
+    }, [])
 
 
     useEffect(() => {
@@ -22,40 +27,48 @@ export default function WorkoutTimer({ workouts }) {
         setExerciseTime(ExerciseTimer())
     }, [workouts])
 
+    let interval;
     useEffect(() => {
         let exName = workouts[0]?.exercises[index]?.exerciseName;
         setCurrentEx(exName);
         let newIndex = index++;
         setIndex(newIndex);
 
-        let interval = null;
         if (isActive) {
-            setInterval(() => {
+            interval = setInterval(() => {
                 setExerciseTime(exerciseTime => exerciseTime - 1);
                 if (exerciseTime === 0) {
-                    clearInterval(interval)
+                    clearInterval(int)
+                    setInt(0)
+                    isActive(false);
+                    return
                 }
-            }, 1000);
+            }, 100);
+            setInt(interval);
         }
         return () => {
-            clearInterval(interval);
+            clearInterval(int);
         }
     },
 
         [checkTime, isActive]);
 
+        let interval2
     useEffect(() => {
-        let interval = null;
         if (isActive) {
-            interval = setInterval(() => {
+            interval2 = setInterval(() => {
                 setTimer(timerWorkout => timerWorkout - 1);
                 if (timerWorkout === 0) {
-                    clearInterval(interval)
+                    clearInterval(int)
+                    setInt(0)
+                    
+                    return
                 }
-            }, 1000);
+            }, 100);
+            setInt(interval2)
         }
         return () => {
-            clearInterval(interval);
+            clearInterval(int );
         }
     }, [timerWorkout, isActive])
 
@@ -91,6 +104,11 @@ export default function WorkoutTimer({ workouts }) {
 
     return (
         <div>
+
+                            <Card.Text> <button className={`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`} onClick={toggle}>Start</button>
+                                <p>{timerWorkout}</p>
+                                <p>{exerciseTime}</p>
+
             <div className="live-card">
                 {workouts && workouts.map(workouts => (
                     <Card style={{ width: '18rem' }}>
@@ -99,16 +117,6 @@ export default function WorkoutTimer({ workouts }) {
                             <Card.Title>{workouts.exerciseName}</Card.Title>
                                 <p>Workout time left: {timerWorkout}</p>
                                 <p>Time left on this exercise: {exerciseTime}</p>
-                                </Card.Text>
-                            <Card.Img variant="top" src={workouts.img} />
-                            <Card.Text>
-                                {workouts.description}
-                            </Card.Text>
-                            <Button style={{color: 'white', backgroundColor: '#639183'}} className={`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`} onClick={toggle}>Start</Button>
-                        </Card.Body>
-                    </Card>
-                ))}
-            </div>
-        </div>
+
     )
 }
