@@ -41,6 +41,8 @@ const typeDefs = gql`
   }
 
   type Query {
+    user(username: String!): User
+    me: User
     listUserWorkouts(userCreated: Boolean): [Workout]
     workouts(userCreated: Boolean): [Workout] 
     # typeOfExercises: [Exercise]
