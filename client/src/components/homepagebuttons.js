@@ -108,11 +108,11 @@ function HomeButtons() {
                     <Accordion.Body>
                         <div>
                             <ButtonGroup vertical>
-                                <button onClick={standardWorkoutRender} >Full Body Workouts</button>
-                                <button onClick={standardWorkoutRender} >Arm Workouts</button>
-                                <button onClick={standardWorkoutRender} >Chest Workouts</button>
-                                <button onClick={standardWorkoutRender} >Ab Workouts</button>
-                                <button onClick={standardWorkoutRender} >Legs Workouts</button>
+                                <button className="accordion-item" onClick={standardWorkoutRender} >Full Body Workouts</button>
+                                <button className="accordion-item" onClick={standardWorkoutRender} >Arm Workouts</button>
+                                <button className="accordion-item" onClick={standardWorkoutRender} >Chest Workouts</button>
+                                <button className="accordion-item" onClick={standardWorkoutRender} >Ab Workouts</button>
+                                <button className="accordion-item" onClick={standardWorkoutRender} >Legs Workouts</button>
                             </ButtonGroup>
                         </div>
                     </Accordion.Body>
@@ -126,11 +126,11 @@ function HomeButtons() {
                         <div className="standard-buttons">
                             <ButtonGroup vertical>
 
-                                <button onClick={customWorkoutRender} >Full Body Workouts</button>
-                                <button onClick={customWorkoutRender} >Arm Workouts</button>
-                                <button onClick={customWorkoutRender} >Chest Workouts</button>
-                                <button onClick={customWorkoutRender} >Ab Workouts</button>
-                                <button onClick={customWorkoutRender} >Legs Workouts</button>
+                                <button className="accordion-item" onClick={customWorkoutRender} >Full Body Workouts</button>
+                                <button className="accordion-item" onClick={customWorkoutRender} >Arm Workouts</button>
+                                <button className="accordion-item" onClick={customWorkoutRender} >Chest Workouts</button>
+                                <button className="accordion-item" onClick={customWorkoutRender} >Ab Workouts</button>
+                                <button className="accordion-item" onClick={customWorkoutRender} >Legs Workouts</button>
 
                             </ButtonGroup>
                         </div>
@@ -139,7 +139,9 @@ function HomeButtons() {
             </Accordion>
             <br />
             <div className="create-workout-modal">
-                <Button variant="dark" onClick={handleShow}>Create Custom Workout</Button>
+                <div className="create-workout-button" style={{ backgroundColor: '#639183', border: '#639183' }}>
+                <Button onClick={handleShow}>Create Custom Workout</Button>
+                </div>
                 <Modal show={show} onHide={handleClose}
                     size="lg"
                     aria-labelledby="contained-modal-title-vcenter"
@@ -162,12 +164,6 @@ function HomeButtons() {
                         <Button variant="dark" onClick={handleClose}>Create</Button>
                     </Modal.Footer>
                 </Modal>
-            </div>
-
-            <div className="create-workout-button">
-                <Button style={{ backgroundColor: '#639183', border: 'none' }} >
-                    Create Custom Workout
-                </Button>{' '}
             </div>
 
 
