@@ -11,11 +11,6 @@ export const QUERY_USER = gql`
       workoutName
       workoutType
       userCreated
-      exercises {
-        exerciseName
-        duration
-        _id
-      }
     }
   }
   }
@@ -32,11 +27,6 @@ export const QUERY_ME = gql`
          workoutName
          workoutType
          userCreated
-         exercises {
-          exerciseName
-           duration
-           _id
-          }
          }
       }
       }

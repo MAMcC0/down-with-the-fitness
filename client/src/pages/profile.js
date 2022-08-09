@@ -40,23 +40,14 @@ const Profile = () => {
                 <h2 className="col-12 col-md-10 bg-dark text-light p-3 mb-5">
                     Viewing {userParam ? `${user.username}'s` : 'your'} profile.
                 </h2>
-                {data.me.workouts.map(({ workoutName, workoutType, _id, exercises }) =>
-                (<div key={_id}>
+                <div>
                     <p>
-                        {workoutName}
+                        {user.username}
                     </p>
                     <p>
-                    {workoutType}
+                        {user.email}
                     </p>
-                    {exercises?.map(({exerciseName, duration, _id: exerciseId}) =>
-                    <div key={exerciseId}>
-                    <p> {exerciseName} </p>
-                    <p> {duration} </p>
-                    </div>
-                    )}
                 </div>
-                )
-                )}
             </div>
         </div>
     );
