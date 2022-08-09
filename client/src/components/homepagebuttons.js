@@ -101,7 +101,7 @@ function HomeButtons() {
 
 
     return (
-        <div className="home-buttons" style={{ width: '60%' }}>
+        <div className="home-buttons" style={{ width: '70%' }}>
             <Accordion className="accordion">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header className="accordion-standard" style={{ marginTop: '20px' }}>Standard Workouts</Accordion.Header>
