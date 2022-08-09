@@ -1,17 +1,25 @@
 import React, { useState, useEffect } from 'react';
+import { Button, Card } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+
 
 export default function WorkoutTimer({ workouts }) {
 
+    console.log(workouts)
+
+    let navigate = useNavigate();
     let [timerWorkout, setTimer] = useState(0);
-    let [exerciseTime, setExerciseTime] = useState(0);
+    let [isActive, setIsActive] = useState(false);
+    let [exerciseTime, setExerciseTime] = useState(30);
     const [currentEx, setCurrentEx] = useState('');
     let [index, setIndex] = useState(0);
     const [checkTime, setCheckTime] = useState(false);
 
+
+
     useEffect(() => {
-        console.log(workouts)
-        setTimer(timerDuration(workouts[0]?.exercises))
-        //  setExerciseTime(ExerciseTimer(workouts))
+        setTimer(timerDuration(workouts))
+        setExerciseTime(ExerciseTimer())
     }, [workouts])
 
     useEffect(() => {
@@ -19,32 +27,55 @@ export default function WorkoutTimer({ workouts }) {
         setCurrentEx(exName);
         let newIndex = index++;
         setIndex(newIndex);
-        console.log(workouts);
-    }, [checkTime]);
+
+        let interval = null;
+        if (isActive) {
+            setInterval(() => {
+                setExerciseTime(exerciseTime => exerciseTime - 1);
+                if (exerciseTime === 0) {
+                    clearInterval(interval)
+                }
+            }, 1000);
+        }
+        return () => {
+            clearInterval(interval);
+        }
+    },
+
+        [checkTime, isActive]);
 
     useEffect(() => {
-        const timer = setInterval(() => {
-            let descTime = timerWorkout--;
-            let exerciseDescTime = exerciseTime--;
-            setTimer(descTime);
-            setExerciseTime(exerciseDescTime);
-            checkExerciseTime(exerciseTime);
-        }, 1000);
-    }, [timerWorkout]);
+        let interval = null;
+        if (isActive) {
+            interval = setInterval(() => {
+                setTimer(timerWorkout => timerWorkout - 1);
+                if (timerWorkout === 0) {
+                    clearInterval(interval)
+                }
+            }, 1000);
+        }
+        return () => {
+            clearInterval(interval);
+        }
+    }, [timerWorkout, isActive])
 
-    let timerDuration = (data) => {
 
-        console.log(data);
-        let duration = 0;
-        data.forEach(exercise => duration = exercise.duration + duration);
+
+
+    function toggle() {
+        setIsActive(!isActive);
+    }
+
+
+    let timerDuration = (workouts) => {
+        let workoutsTime = workouts[0]?.exercises[0].duration
+        let duration = workoutsTime * workouts[0].exercises.length;
 
         return duration;
     };
 
-
-
-    let ExerciseTimer = (data) => {
-        let duration = data.workouts.exercise.duration[index];
+    let ExerciseTimer = () => {
+        let duration = 30;
         return duration;
     };
 
@@ -60,8 +91,23 @@ export default function WorkoutTimer({ workouts }) {
 
     return (
         <div>
-            <p>Workouts</p>
+            <button className={`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`} onClick={toggle}>Start</button>
+            <p>{timerWorkout}</p>
+            <p>{exerciseTime}</p>
+
+            <div>
+                {workouts && workouts.map(workouts => (
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Body>
+                            <Card.Title>{workouts.exerciseName}</Card.Title>
+                            <Card.Img variant="top" src={workouts.img} />
+                            <Card.Text>
+                                {workouts.description}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                ))}
+            </div>
         </div>
     )
 }
-
