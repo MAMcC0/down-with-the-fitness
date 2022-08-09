@@ -27,9 +27,9 @@ const resolvers = {
       }
     },
     
-    workouts: async (parent, { userCreated }) => {
+    workouts: async (parent) => {
       try {
-        return await Workout.find({ userCreated: false }).populate({ path: 'exercises' });
+        return await Workout.find().populate({ path: 'exercises' });
       }
       catch (err) {
         console.log(err);

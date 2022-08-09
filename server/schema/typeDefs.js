@@ -43,7 +43,7 @@ const typeDefs = gql`
   type Query {
     user(username: String!): User
     me: User
-    workouts(userCreated: Boolean): [Workout] 
+    workouts: [Workout] 
     # typeOfExercises: [Exercise]
     fullBodyExercises: [Exercise]
     specificWorkouts(workoutType: String, userCreated: Boolean): [Workout]
