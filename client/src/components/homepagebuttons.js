@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, {useState } from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { Link } from 'react-router-dom';
 import '../index.css'
-import WorkoutPage from '../pages/workoutpage';
+// import WorkoutPage from '../pages/workoutpage';
 import { useNavigate, useLocation } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
 import exerciseChip from './chips';
@@ -141,7 +141,7 @@ function HomeButtons() {
             </Accordion>
             <br />
             <div className="create-workout-modal">
-                <Button variant="dark" onClick={handleShow}>Create Custom Workout</Button>
+                <Button style={{ backgroundColor: '#639183', border: 'none' }} onClick={handleShow} className="create-workout-button">Create Custom Workout</Button>
                 <Modal show={show} onHide={handleClose}
                     size="lg"
                     aria-labelledby="contained-modal-title-vcenter"
@@ -165,14 +165,6 @@ function HomeButtons() {
                     </Modal.Footer>
                 </Modal>
             </div>
-
-            <div className="create-workout-button">
-                <Button style={{ backgroundColor: '#639183', border: 'none' }} >
-                    Create Custom Workout
-                </Button>{' '}
-            </div>
-
-
             <br />
             <div className="exercise-guide-button">
                 <Button style={{ backgroundColor: '#639183', border: 'none' }} ><Link className='exercise-guide-btn' to='/exerciseguide'>Exercise Guide</Link></Button>
