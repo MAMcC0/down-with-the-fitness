@@ -32,7 +32,6 @@ function WorkoutPage() {
                 />
             )
             }
-            hello
         </div>
     )
 }

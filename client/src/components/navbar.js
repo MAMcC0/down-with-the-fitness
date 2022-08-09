@@ -41,7 +41,7 @@ function NavBar() {
                                             </button>
                                         </div>
                                     ) : (
-                                        <div className="nav-auth-buttons">
+                                        <div className="nav-auth-buttons">.
                                             <Link className="login-button" to="/login">
                                                 Login
                                             </Link>
