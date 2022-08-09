@@ -24,9 +24,11 @@ function AllWorkouts() {
             {loading ? (
                 <div>Loading...</div>
             ) : (
+                <div className="all-workouts-container">
                 <AllWorkoutChoices
                     listAllStandardWorkouts={allWorkoutInfo}
                 />
+                </div>
             )
             }
         </div>
