@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react'
 import WorkoutTimer from '../components/workouttimer';
-import ExerciseTimer from '../components/exercisetimer';
 import { useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { QUERY_SPECIFIC_WORKOUT } from '../utils/queries';
