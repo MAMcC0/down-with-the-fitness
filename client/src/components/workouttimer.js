@@ -13,6 +13,7 @@ export default function WorkoutTimer({ workouts }) {
   let [index, setIndex] = useState(0);
   const [checkTime, setCheckTime] = useState(false);
   const [int, setInt] = useState();
+  const [int2, setInt2] = useState();
   const [exercises, setExercises] = useState([]);
 
   useEffect(() => {
@@ -24,7 +25,7 @@ export default function WorkoutTimer({ workouts }) {
     setExerciseTime(ExerciseTimer());
   }, [workouts]);
 
-  let interval;
+  // let interval;
   useEffect(() => {
     let exName = workouts[0]?.exercises[index]?.exerciseName;
     setCurrentEx(exName);
@@ -32,40 +33,63 @@ export default function WorkoutTimer({ workouts }) {
     setIndex(newIndex);
 
     if (isActive) {
-      interval = setInterval(() => {
+
+      setInt2(setInterval(() => {
         setExerciseTime((exerciseTime) => exerciseTime - 1);
         if (exerciseTime === 0) {
-          clearInterval(int);
-          setInt(0);
-          isActive(false);
+          clearInterval(int2);
+   
           return;
         }
-      }, 100);
-      setInt(interval);
+      }, 1000));
+
     }
-    return () => {
-      clearInterval(int);
-    };
-  }, [checkTime, isActive]);
+    setIsActive(false)
+
+  }, [ isActive]);
+
+  useEffect(() => {
+ 
+    if (exerciseTime< 1) {
+  
+      clearInterval(int2);
+
+
+      return;
+    }
+
+ 
+}, [exerciseTime]);
 
   let interval2;
   useEffect(() => {
     if (isActive) {
-      interval2 = setInterval(() => {
+
+      setInt(setInterval(() => {
         setTimer((timerWorkout) => timerWorkout - 1);
         if (timerWorkout === 0) {
           clearInterval(int);
-          setInt(0);
+
 
           return;
         }
-      }, 100);
-      setInt(interval2);
+      }, 1000));
+      setIsActive(false)
     }
-    return () => {
-      clearInterval(int);
-    };
-  }, [timerWorkout, isActive]);
+  }, [isActive]);
+
+  useEffect(() => {
+ 
+        if (timerWorkout < 1) {
+          console.log("count")
+          clearInterval(int);
+
+
+          return;
+        }
+  
+     
+  }, [timerWorkout]);
 
   function toggle() {
     setIsActive(!isActive);
