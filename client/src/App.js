@@ -19,8 +19,6 @@ import NavBar from '../src/components/navbar'
 import Footer from '../src/components/footer'
 import CustomWorkoutPage from '../src/pages/customworkouts'
 import AllWorkouts from './pages/allworkouts';
-import AllCustomWorkouts from './pages/allcustomworkouts';
-
 
 // const client = new ApolloClient({
 //   uri: '/graphql',
@@ -78,10 +76,6 @@ function App() {
               <Route
                 path="/workouts"
                 element={<AllWorkouts />}
-              />
-              <Route
-                path="/customworkouts"
-                element={<AllCustomWorkouts />}
               />
               <Route
                 path="/workouts/type"

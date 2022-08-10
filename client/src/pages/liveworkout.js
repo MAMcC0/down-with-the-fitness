@@ -6,8 +6,8 @@ import { QUERY_SPECIFIC_WORKOUT } from '../utils/queries';
 
 function LiveWorkout() {
 
-    let { id } = useParams();
- 
+    let { type, id } = useParams();
+    console.log(id);
 
   const { loading, data } = useQuery(QUERY_SPECIFIC_WORKOUT, {variables : {id}});
   const workouts = data?.findWorkOutByID || [];
