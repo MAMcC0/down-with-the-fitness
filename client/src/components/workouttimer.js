@@ -16,16 +16,18 @@ export default function WorkoutTimer({ workouts }) {
   const [int2, setInt2] = useState();
   const [exercises, setExercises] = useState([]);
 
+  // Sets the exercises to an array of all exercises returned. 
   useEffect(() => {
     setExercises(workouts[0]?.exercises);
   }, []);
 
+  // Sets the both overall workout and individual exercise timers
   useEffect(() => {
     setTimer(timerDuration(workouts));
     setExerciseTime(ExerciseTimer());
   }, [workouts]);
 
-  // let interval;
+  // If the start button is pressed, start the countdown for the exercise timer. 
   useEffect(() => {
   
     if (isActive) {
@@ -44,7 +46,7 @@ export default function WorkoutTimer({ workouts }) {
 
   }, [ isActive]);
 
-
+// Sets the upcoming workout based on the current workout. 
   useEffect(()=> {
     let exName = workouts[0]?.exercises[0];
     console.log(exName);
@@ -53,7 +55,7 @@ export default function WorkoutTimer({ workouts }) {
     setIndex(newIndex);
   })
 
-
+// stops the exercise timer if less than one.
   useEffect(() => {
  
     if (exerciseTime< 1) {
@@ -72,7 +74,7 @@ useEffect(() => {
     navigate('/')
   }
 })
-//effect for countdown of total exercise
+  // If the start button is pressed, start the countdown for the workout timer. 
   let interval2;
   useEffect(() => {
     if (isActive) {
@@ -104,6 +106,7 @@ useEffect(() => {
      
   }, [timerWorkout]);
 
+  // Restart the exercise timer when the current exercise hits zero
   useEffect(() => {
     if(timerWorkout > 0 && exerciseTime === 0){
       setExerciseTime(30)
@@ -117,14 +120,13 @@ useEffect(() => {
       }, 1000));
     }
   })
-//toggles button of start to active/inactive
 
+//toggles button of start to active/inactive
   function toggle() {
     setIsActive(!isActive);
   }
 
   //calculates the time needed for the workout
-
   let timerDuration = (workouts) => {
     let workoutsTime = workouts[0]?.exercises[0].duration;
     let duration = workoutsTime * workouts[0].exercises.length;
@@ -132,11 +134,13 @@ useEffect(() => {
     return duration;
   };
 
+  // sets exercise duration for exercise timer. 
   let ExerciseTimer = () => {
     let duration = 30;
     return duration;
   };
 
+  // Checks time to change exercises
   const checkExerciseTime = (exTime) => {
     if (exTime === 0) {
       return setCheckTime(true);

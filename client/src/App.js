@@ -19,6 +19,7 @@ import NavBar from '../src/components/navbar'
 import Footer from '../src/components/footer'
 import CustomWorkoutPage from '../src/pages/customworkouts'
 import AllWorkouts from './pages/allworkouts';
+import AllCustomWorkouts from './pages/allcustomworkouts';
 
 //creates link for graphql
 const httpLink = createHttpLink({
@@ -69,6 +70,10 @@ function App() {
               <Route
                 path="/customworkouts/type"
                 element={<CustomWorkoutPage />}
+              />
+                            <Route
+                path="/customworkouts"
+                element={<AllCustomWorkouts />}
               />
               <Route
                 path="/workouts"

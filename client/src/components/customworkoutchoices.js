@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
-
+// Defines accordion JSX that renders the users workouts specifically based on what body area the user chooses on the home page. 
 const CustomWorkoutChoices = ({listUserWorkouts}) => {
 
     let navigate = useNavigate();

@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Auth from '../utils/auth';
 import '../index.css'
 
-
+// Creates a persistent navbar that handles the functions of returning home, login/logout route, standard workouts all inclusive list, custom workouts all inclusive list.
 function NavBar() {
     const logout = (event) => {
         event.preventDefault();
