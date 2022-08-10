@@ -27,11 +27,7 @@ export default function WorkoutTimer({ workouts }) {
 
   // let interval;
   useEffect(() => {
-    let exName = workouts[0]?.exercises[index]?.exerciseName;
-    setCurrentEx(exName);
-    let newIndex = index++;
-    setIndex(newIndex);
-
+  
     if (isActive) {
 
       setInt2(setInterval(() => {
@@ -47,6 +43,16 @@ export default function WorkoutTimer({ workouts }) {
     setIsActive(false)
 
   }, [ isActive]);
+
+
+  useEffect(()=> {
+    let exName = workouts[0]?.exercises[0];
+    console.log(exName);
+    setCurrentEx(exName);
+    let newIndex = index++;
+    setIndex(newIndex);
+  })
+
 
   useEffect(() => {
  
@@ -149,8 +155,8 @@ useEffect(() => {
         >
           Start
         </button>
-        <p>{timerWorkout}</p>
-        <p>{exerciseTime}</p>
+        <p>Workout finished in {timerWorkout} seconds!</p>
+        <p>Hold that exercise for {exerciseTime} more seconds!</p>
       </Card.Text>
       <div>
         {exercises &&
