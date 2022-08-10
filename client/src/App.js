@@ -20,18 +20,15 @@ import Footer from '../src/components/footer'
 import CustomWorkoutPage from '../src/pages/customworkouts'
 import AllWorkouts from './pages/allworkouts';
 
-// const client = new ApolloClient({
-//   uri: '/graphql',
-//   cache: new InMemoryCache(),
-// });
+//creates link for graphql
 const httpLink = createHttpLink({
   uri: '/graphql',
 });
-
+//checks to see if someone is logged in
 const authLink = setContext((_, { headers }) => {
 
   const token = localStorage.getItem('id_token');
-
+//returns bearer tokens
   return {
     headers: {
       ...headers,
@@ -39,12 +36,12 @@ const authLink = setContext((_, { headers }) => {
     },
   };
 });
-
+//concats link together
 const client = new ApolloClient({
   link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
 });
-
+//all routes for app
 function App() {
   return (
     <div>
