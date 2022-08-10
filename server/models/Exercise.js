@@ -1,5 +1,9 @@
 const { Schema, model } = require('mongoose');
 
+// This exercise schema initializes the exerciseName, description, 
+// duration, bodyArea, workoutName, link, and image.
+// This schema allows us to push pre-seeded data to the front-end 
+// so that it may be rendered onto the page
 const exerciseSchema = new Schema({
     exerciseName: {
         type: String,
@@ -35,7 +39,7 @@ const exerciseSchema = new Schema({
         type: String,
     }
 })
-
+// defining an Exercise variable so it can be used in the resolvers/typeDefs
 const Exercise = model('Exercise', exerciseSchema);
-
+//exporting Exercise variable
 module.exports = Exercise;

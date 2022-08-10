@@ -1,14 +1,17 @@
 const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
-
+# type for user that includes:
+# id, username, email, and the workouts array
   type User {
     _id: ID
     username: String
     email: String
     workouts: [Workout]
   }
-
+# type for Exercise that includes:
+# id, exerciseName, description, duration,
+# bodyArea, link, & image
   type Exercise {
     _id: ID
     exerciseName: String
@@ -18,7 +21,9 @@ const typeDefs = gql`
     link: String
     img: String
   }
-
+# type for Workout that includes:
+# id, workoutName, workoutType, userCreated, createdAt,
+# & exercise array
   type Workout {
     _id: ID
     workoutName: String
@@ -27,19 +32,21 @@ const typeDefs = gql`
     createdAt: String
     exercises: [Exercise]
   }
-
-
+# type to take in users custom workout
+# that indludes: workoutName, workoutType, and exercises array
   input WorkoutInput {
     workoutName: String!
     workoutType: String!
     exercises: [String!]
   }
-
+#type Auth that includes:
+# token & user
   type Auth {
     token: ID!
     user: User
   }
-
+# type Query that lists all of the queries
+# and required arguments
   type Query {
     user(username: String!): User
     me: User
@@ -53,7 +60,8 @@ const typeDefs = gql`
     findWorkOutByID(_id: ID!): [Workout]
 
   }
-  
+  # type Mutation that lists all of the queries
+  # and required arguments
    type Mutation {
     createUser(username: String!, email: String!, password: String!) : Auth
     deleteUser(_id: String!) : User
@@ -63,5 +71,5 @@ const typeDefs = gql`
     updateUser(_id: ID! , password:String): User
  } 
 `;
-
+// exports typeDefs
 module.exports = typeDefs;
