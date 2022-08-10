@@ -1,6 +1,7 @@
 import React from 'react'
 import Chip from '@trimbleinc/modus-react-bootstrap/Chip'
 
+// // Defines chip JSX that renders the each individual exercise within a small chip UI element.
 export default function exerciseChip({ chipData }) {
 
     return (

@@ -23,11 +23,11 @@ export const QUERY_ME = gql`
       username
       email
       workouts {
-         _id
-         workoutName
-         workoutType
-         userCreated
-         }
+        _id
+        workoutName
+        workoutType
+        userCreated
+        }
       }
       }
 `;

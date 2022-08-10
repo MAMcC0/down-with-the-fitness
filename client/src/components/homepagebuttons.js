@@ -12,9 +12,10 @@ import Chips from './chips'
 import CustomWorkoutForm from './customform';
 
 
-
+// Handles all functionality of homepage, outside of the navbar.
 function HomeButtons({ chipData }) {
 
+    // Creates modal functionality for the "create exercise" modal
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -24,6 +25,8 @@ function HomeButtons({ chipData }) {
     const [workoutType, setWorkoutType] = useState('')
     function standardWorkoutRender(event) {
         let type;
+
+        // Creates switch cases to determine what route to use, based on what the user click within the standard workouts accordion.
         switch (event.target.innerHTML) {
             case ('Full Body Workouts'):
                 type = 'Full Body'
@@ -62,6 +65,7 @@ function HomeButtons({ chipData }) {
 
     function customWorkoutRender(event) {
         let type;
+             // Creates switch cases to determine what route to use, based on what the user click within the custom workouts accordion.
         switch (event.target.innerHTML) {
             case ('Full Body Workouts'):
                 type = 'Full Body'
@@ -99,7 +103,7 @@ function HomeButtons({ chipData }) {
     }
 
 
-
+// Returns the 2 accordions, button to render modal, and exercise guide button. 
     return (
         <div className="home-buttons" style={{ width: '70%' }}>
             <Accordion className="accordion">

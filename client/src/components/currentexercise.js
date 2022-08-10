@@ -3,6 +3,7 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
+// Returns a card that renders the current exercise while the user is in a live workout.
 
 function currentExerciseCard() {
   return (

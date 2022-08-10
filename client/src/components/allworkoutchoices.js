@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
-
+// Defines accordion JSX that renders all of the standard workouts, including exercises within those workouts. 
 const AllWorkoutChoices = ({ listAllStandardWorkouts }) => {
 
     let navigate = useNavigate();

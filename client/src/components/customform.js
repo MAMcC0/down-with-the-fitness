@@ -2,19 +2,7 @@ import React from 'react'
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
-// function targetAreaSelection(userInput) {
-//   //if else if chain
-//   // return renderfunction(match)
-//   //function targetAreaSelection(){
-//   //if(arms === exercise.bodyarea where body area equals arms){
-//   //return renderfunction(arms)
-//   // }
-//   // function renderfunction(retobj)
-//   // for loop retObj.length
-//   // (things needed to create chips)
-//   // }
-// }
-
+// Exports a form that includes a title input field, a dropdown to choose what target body area the user wants to focus on.
 export default function CustomWorkoutForm() {
 
   return (

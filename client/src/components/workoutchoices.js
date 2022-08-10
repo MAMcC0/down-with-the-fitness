@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
-
+// Returns an accordion that will list workouts and exercises.
 const WorkoutChoices = ({ specificWorkouts }) => {
 
     let navigate = useNavigate();

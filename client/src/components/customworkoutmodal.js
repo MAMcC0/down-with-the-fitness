@@ -5,6 +5,7 @@ import exerciseChip from './chips';
 import Chips from './chips'
 import CustomWorkoutForm from './customform';
 
+// defines a modal used to create a custom workout, using the chips and custom workout form components.
 export default function CustomWorkoutModal(props) {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);

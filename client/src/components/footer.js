@@ -1,6 +1,7 @@
 import React from 'react'
 import '../index.css'
 
+// Renders the saddest, littlest footer ever to exist. Kept iFrame from spotify to show future historians that we really tried. 
 function footer() {
     return ( 
         <div class="footer">
