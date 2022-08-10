@@ -60,7 +60,13 @@ export default function WorkoutTimer({ workouts }) {
 
  
 }, [exerciseTime]);
-
+//navigate home at end of workout
+useEffect(() => {
+  if(timerWorkout === 0 && exerciseTime === 0){
+    navigate('/')
+  }
+})
+//effect for countdown of total exercise
   let interval2;
   useEffect(() => {
     if (isActive) {
@@ -77,6 +83,7 @@ export default function WorkoutTimer({ workouts }) {
       setIsActive(false)
     }
   }, [isActive]);
+//effect for clearing interval
 
   useEffect(() => {
  
@@ -91,9 +98,26 @@ export default function WorkoutTimer({ workouts }) {
      
   }, [timerWorkout]);
 
+  useEffect(() => {
+    if(timerWorkout > 0 && exerciseTime === 0){
+      setExerciseTime(30)
+      setInt2(setInterval(() => {
+        setExerciseTime((exerciseTime) => exerciseTime - 1);
+        if (exerciseTime === 0) {
+          clearInterval(int2);
+   
+          return;
+        }
+      }, 1000));
+    }
+  })
+//toggles button of start to active/inactive
+
   function toggle() {
     setIsActive(!isActive);
   }
+
+  //calculates the time needed for the workout
 
   let timerDuration = (workouts) => {
     let workoutsTime = workouts[0]?.exercises[0].duration;
