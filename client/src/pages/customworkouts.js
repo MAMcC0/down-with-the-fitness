@@ -6,13 +6,9 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 function CustomWorkoutPage() {
     const navigation = useNavigate();
-
-    useEffect(() => {
-        console.log(navigation)
-    })
-
+       //alls useLocation method to pass into compontents to grab body types from query
     const location = useLocation()
-    console.log(location)
+    //grabs the type of workouts and usercreated from url to pass into query
     const customWorkoutType = location.state.workoutType;
     const customWorkout = location.state.userCreated;
 

@@ -4,10 +4,11 @@ import { QUERY_EXERCISES } from '../utils/queries'
 import ExerciseCard from '../components/exercisecard';
 
 function ExercisePage() {
+    //queries all exercises
   const { loading, data } = useQuery(QUERY_EXERCISES);
   const exercise = data?.fullBodyExercises || [];
-  console.log(exercise)
-
+  
+//ternary allowing data to load then calls on exercise card component
   return (
     <div className="ex-card-container">
         <h1 className="ex-header">Exercise Guide</h1>

@@ -1,24 +1,22 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import AllWorkoutChoices from '../components/allworkoutchoices'
 import { useQuery } from '@apollo/client';
 import { QUERY_ALL_STANDARD_WORKOUTS } from '../utils/queries';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 function AllWorkouts() {
+    //calls useNaviagation method to pass into compontents to redirect to live workout page
     const navigation = useNavigate();
 
-    useEffect(() => {
-        console.log(navigation)
-    })
-
+    // calls useLocation method to pass into compontents to grab body types from query
     const location = useLocation()
-    console.log(location)
+
 
     const { loading, data } = useQuery(QUERY_ALL_STANDARD_WORKOUTS);
-    console.log(data)
+    //lists all pre-seeded workouts
     const allWorkoutInfo = data?.listAllStandardWorkouts || [];
-    console.log(allWorkoutInfo)
-
+    
+    //ternary to show loading page if loading otherwise wait till it returns data
     return (
         <div>
             {loading ? (
