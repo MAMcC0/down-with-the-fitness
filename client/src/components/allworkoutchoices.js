@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const AllWorkoutChoices = ({ listAllStandardWorkouts }) => {
 
     let navigate = useNavigate();
-
+    
     return (
 
         <div>

@@ -13,6 +13,7 @@ export default function WorkoutTimer({ workouts }) {
   let [index, setIndex] = useState(0);
   const [checkTime, setCheckTime] = useState(false);
   const [int, setInt] = useState();
+  const [int2, setInt2] = useState();
   const [exercises, setExercises] = useState([]);
 
   useEffect(() => {
@@ -24,52 +25,105 @@ export default function WorkoutTimer({ workouts }) {
     setExerciseTime(ExerciseTimer());
   }, [workouts]);
 
-  let interval;
+  // let interval;
   useEffect(() => {
-    let exName = workouts[0]?.exercises[index]?.exerciseName;
+  
+    if (isActive) {
+
+      setInt2(setInterval(() => {
+        setExerciseTime((exerciseTime) => exerciseTime - 1);
+        if (exerciseTime === 0) {
+          clearInterval(int2);
+   
+          return;
+        }
+      }, 1000));
+
+    }
+    setIsActive(false)
+
+  }, [ isActive]);
+
+
+  useEffect(()=> {
+    let exName = workouts[0]?.exercises[0];
+    console.log(exName);
     setCurrentEx(exName);
     let newIndex = index++;
     setIndex(newIndex);
+  })
 
-    if (isActive) {
-      interval = setInterval(() => {
-        setExerciseTime((exerciseTime) => exerciseTime - 1);
-        if (exerciseTime === 0) {
-          clearInterval(int);
-          setInt(0);
-          isActive(false);
-          return;
-        }
-      }, 100);
-      setInt(interval);
+
+  useEffect(() => {
+ 
+    if (exerciseTime< 1) {
+  
+      clearInterval(int2);
+
+
+      return;
     }
-    return () => {
-      clearInterval(int);
-    };
-  }, [checkTime, isActive]);
 
+ 
+}, [exerciseTime]);
+//navigate home at end of workout
+useEffect(() => {
+  if(timerWorkout === 0 && exerciseTime === 0){
+    navigate('/')
+  }
+})
+//effect for countdown of total exercise
   let interval2;
   useEffect(() => {
     if (isActive) {
-      interval2 = setInterval(() => {
+
+      setInt(setInterval(() => {
         setTimer((timerWorkout) => timerWorkout - 1);
         if (timerWorkout === 0) {
           clearInterval(int);
-          setInt(0);
+
 
           return;
         }
-      }, 100);
-      setInt(interval2);
+      }, 1000));
+      setIsActive(false)
     }
-    return () => {
-      clearInterval(int);
-    };
-  }, [timerWorkout, isActive]);
+  }, [isActive]);
+//effect for clearing interval
+
+  useEffect(() => {
+ 
+        if (timerWorkout < 1) {
+          console.log("count")
+          clearInterval(int);
+
+
+          return;
+        }
+  
+     
+  }, [timerWorkout]);
+
+  useEffect(() => {
+    if(timerWorkout > 0 && exerciseTime === 0){
+      setExerciseTime(30)
+      setInt2(setInterval(() => {
+        setExerciseTime((exerciseTime) => exerciseTime - 1);
+        if (exerciseTime === 0) {
+          clearInterval(int2);
+   
+          return;
+        }
+      }, 1000));
+    }
+  })
+//toggles button of start to active/inactive
 
   function toggle() {
     setIsActive(!isActive);
   }
+
+  //calculates the time needed for the workout
 
   let timerDuration = (workouts) => {
     let workoutsTime = workouts[0]?.exercises[0].duration;
@@ -101,8 +155,8 @@ export default function WorkoutTimer({ workouts }) {
         >
           Start
         </button>
-        <p>{timerWorkout}</p>
-        <p>{exerciseTime}</p>
+        <p>Workout finished in {timerWorkout} seconds!</p>
+        <p>Hold that exercise for {exerciseTime} more seconds!</p>
       </Card.Text>
       <div>
         {exercises &&

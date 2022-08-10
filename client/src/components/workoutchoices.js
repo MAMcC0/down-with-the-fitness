@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const WorkoutChoices = ({ specificWorkouts }) => {
 
     let navigate = useNavigate();
+    console.log(specificWorkouts)
 
     return (
         <div>
