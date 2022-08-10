@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Navigate, useParams } from 'react-router-dom';
-import { useQuery } from '@apollo/client';
-
+import { useMutation, useQuery } from '@apollo/client';
+import { Button } from 'react-bootstrap';
 
 import { QUERY_USER, QUERY_ME } from '../utils/queries';
-
+import { DELETE_USER } from '../utils/mutations';
 import Auth from '../utils/auth';
 import { shouldInclude } from '@apollo/client/utilities';
 import { blue } from '@mui/material/colors';
@@ -15,9 +15,19 @@ const Profile = () => {
     const { loading, data } = useQuery(userParam ? QUERY_USER : QUERY_ME, {
         variables: { username: userParam },
     });
+  
     console.log(data);
     const user = data?.me || data?.user || {};
-    // navigate to personal profile page if username is yours
+    
+
+    useEffect(()=> {
+        
+    })
+
+
+
+
+
     if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
         return <Navigate to="/" />;
     }
@@ -51,6 +61,8 @@ const Profile = () => {
                         <p className="p-2 bg-light border">
                             {user.email}
                         </p>
+                        <Button id={user._id}>Delete Account</Button>
+
                     </div>
                 </div>
             </div>
