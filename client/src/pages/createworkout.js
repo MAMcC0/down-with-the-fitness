@@ -6,10 +6,11 @@ import CustomWorkoutModal from '../components/customworkoutmodal';
 import CustomWorkoutForm from '../components/customform';
 
 function CustomWorkoutPage() {
+    //grabs all exercieses for users to chose
     const { loading, data } = useQuery(QUERY_EXERCISES);
     const exercise = data?.fullBodyExercises || [];
 
-
+// calls modal compontent to render exercises
     return (
         <div>
             {loading ? (

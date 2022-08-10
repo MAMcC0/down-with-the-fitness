@@ -7,13 +7,16 @@ import { CREATE_USER } from '../utils/mutations';
 import Auth from '../utils/auth';
 
 const Signup = () => {
+//sets state for form for signUp
+
   const [formState, setFormState] = useState({
     username: '',
     email: '',
     password: '',
   });
+  //queries for usercreation
   const [createUser, { error, data }] = useMutation(CREATE_USER);
-
+//on submite grabs info and sets state to that info
   const handleChange = (event) => {
     const { name, value } = event.target;
 
@@ -26,7 +29,7 @@ const Signup = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
     console.log(formState);
-
+//calls create user based on that variables
     try {
       const { data } = await createUser({
         variables: { ...formState },

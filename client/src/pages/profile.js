@@ -1,31 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Navigate, useParams } from 'react-router-dom';
-import { useQuery } from '@apollo/client';
-
-
+import { useMutation, useQuery } from '@apollo/client';
+import { Button } from 'react-bootstrap';
 import { QUERY_USER, QUERY_ME } from '../utils/queries';
-
 import Auth from '../utils/auth';
-import { shouldInclude } from '@apollo/client/utilities';
-import { blue } from '@mui/material/colors';
+
 
 const Profile = () => {
     const { username: userParam } = useParams();
-    console.log(userParam);
+    //grabs username from url to show on profile
+    //gets user info if logged in to display
     const { loading, data } = useQuery(userParam ? QUERY_USER : QUERY_ME, {
         variables: { username: userParam },
     });
-    console.log(data);
+  
+    
     const user = data?.me || data?.user || {};
-    // navigate to personal profile page if username is yours
+    //if not logged in with no profle redirects to home
     if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
         return <Navigate to="/" />;
     }
-
+//allows for loading
     if (loading) {
         return <div>Loading...</div>;
     }
-    console.log(user, Auth.loggedIn(), Auth.getProfile());
+    //if there is no username sends message that they need to be logged in
     if (!user?.username) {
         return (
 
@@ -51,6 +50,8 @@ const Profile = () => {
                         <p className="p-2 bg-light border">
                             {user.email}
                         </p>
+                        <Button id={user._id}>Delete Account</Button>
+
                     </div>
                 </div>
             </div>

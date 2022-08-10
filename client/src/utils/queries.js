@@ -1,5 +1,5 @@
 import { gql } from '@apollo/client';
-
+//to grab a user
 export const QUERY_USER = gql`
   query user($username: String!) {
     user(username: $username) {
@@ -15,7 +15,7 @@ export const QUERY_USER = gql`
   }
   }
 `;
-
+//to check to see if they are logged in
 export const QUERY_ME = gql`
   query me {
     me {
@@ -31,7 +31,7 @@ export const QUERY_ME = gql`
       }
       }
 `;
-
+// grabs all workouts 
 export const QUERY_WORKOUTS = gql`
   query workouts {
     workouts {
@@ -50,7 +50,7 @@ export const QUERY_WORKOUTS = gql`
     }
   }
 `;
-
+//grabs all of user created workouts
 export const QUERY_USER_WORKOUTS = gql`
   query listUserWorkouts($workoutType: String, $userCreated: Boolean) {
     listUserWorkouts(workoutType: $workoutType, userCreated: $userCreated) {
@@ -86,7 +86,7 @@ export const QUERY_ALL_USER_WORKOUTS = gql`
     }
   }
 `;
-
+//grabs normal workouts
 export const QUERY_ALL_STANDARD_WORKOUTS = gql`
   query listAllStandardWorkouts($userCreated: Boolean) {
     listAllStandardWorkouts(userCreated: $userCreated) {
@@ -105,7 +105,7 @@ export const QUERY_ALL_STANDARD_WORKOUTS = gql`
     }
   }
 `;
-
+//grabs exercises
 export const QUERY_EXERCISES = gql`
   query fullBodyExercises {
   fullBodyExercises {
@@ -116,7 +116,7 @@ export const QUERY_EXERCISES = gql`
   }
 }
 `;
-
+//grabs all workouts under a specific workout type
 export const QUERY_SPECIFIC_WORKOUT_TYPE = gql`
   query specificWorkouts($workoutType: String, $userCreated: Boolean) {
     specificWorkouts(workoutType: $workoutType, userCreated: $userCreated) {
@@ -134,7 +134,7 @@ export const QUERY_SPECIFIC_WORKOUT_TYPE = gql`
     }
   }
 `;
-
+//gets a specific workout
 export const QUERY_SPECIFIC_WORKOUT = gql`
 query findWorkOutByID ($id: ID!){
   findWorkOutByID(_id: $id) {
@@ -150,15 +150,3 @@ query findWorkOutByID ($id: ID!){
 `;
 
 
-// export const QUERY_WORKOUT_TYPES = gql`
-//   query typeOfExercises {
-//     workouts {
-//       workoutType
-//       userCreated
-//       exercises {
-//         exerciseName
-//         bodyArea
-//       }
-//     }
-//   }
-// `;

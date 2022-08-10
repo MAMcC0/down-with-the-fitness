@@ -5,9 +5,10 @@ const { authMiddleware } = require('./utils/auth');
 
 const { typeDefs, resolvers } = require('./schema');
 const db = require('./config/connection');
-
+//sets port if hosted to host url or on local port 3001
 const PORT = process.env.PORT || 3001;
 const app = express();
+//creates apollo server using typeDef resolvers and sets context to our authorization page
 const server = new ApolloServer({
   typeDefs,
   resolvers,
