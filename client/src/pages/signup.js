@@ -32,7 +32,7 @@ const Signup = () => {
         variables: { ...formState },
       });
 
-      Auth.login(data.addUser.token);
+      Auth.login(data.addUser.idToken);
     } catch (e) {
       console.error(e);
     }
@@ -46,8 +46,8 @@ const Signup = () => {
           <div className="card-body">
             {data ? (
               <p>
-                Success! You may now head{' '}
-                <Link to="/">back to the homepage.</Link>
+                Success!{' '}
+                <Link to="/login">Please Login</Link>
               </p>
             ) : (
               <form onSubmit={handleFormSubmit}>
