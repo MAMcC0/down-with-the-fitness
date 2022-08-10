@@ -35,6 +35,8 @@ WHEN I finish my workout, <br>
 THEN I can rate my workouts. <br>
 
 ## Links
+Live: https://down-with-the-fitness.herokuapp.com/
+Repo: https://github.com/MAMcC0/down-with-the-fitness
 
 ## Contributers
 Meredith McCollum <br>
