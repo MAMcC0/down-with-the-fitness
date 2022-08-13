@@ -34,6 +34,9 @@ THEN I am guided through the workout by a set of on screen prompts. <br>
 WHEN I finish my workout, <br>
 THEN I can rate my workouts. <br>
 
+## Preview
+![Screenshot (81)](https://user-images.githubusercontent.com/86750930/184510452-66ce1842-e05d-41ac-9faa-58be2615ce21.png)
+
 ## Links
 Live: https://down-with-the-fitness.herokuapp.com/
 Repo: https://github.com/MAMcC0/down-with-the-fitness
