@@ -10,7 +10,7 @@ export default function CustomWorkoutForm() {
       <fieldset>
         <Form.Group className="mb-3">
           <Form.Label htmlFor="TextInput">Workout Title</Form.Label>
-          <Form.Control id="TextInput" placeholder=" input" />
+          <Form.Control id="TextInput" placeholder="ex. Feel the Burn" />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label htmlFor="TargetArea">Target Area</Form.Label>
