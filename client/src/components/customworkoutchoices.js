@@ -21,7 +21,7 @@ const CustomWorkoutChoices = ({listUserWorkouts}) => {
                                     <ListGroup.Item>{exercise.exerciseName} x {exercise.duration}</ListGroup.Item>
                                 ))}
                             </ListGroup>
-                            <Button id={_id} onClick={() => navigate(`/customworkouts/${_id}`)}>
+                            <Button id={_id} onClick={() => navigate(`/workouts/${_id}`)}>
                                 Start
                             </Button>
                         </Accordion.Body>
