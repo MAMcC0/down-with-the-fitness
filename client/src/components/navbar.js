@@ -20,8 +20,7 @@ function NavBar() {
                     <div className="nav-style">
                     <Navbar.Brand className="nav-header"
                         style={{ color: 'white' }}
-                        href="/">Down With The Fitness</Navbar.Brand>
-                    <p>|</p>
+                        href="/">Down With The Fitness |</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     
                     <Navbar.Collapse id="basic-navbar-nav">
