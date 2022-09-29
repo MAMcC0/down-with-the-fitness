@@ -90,10 +90,19 @@ button.btn.btn-primary {
   border: none;
 }
 
-.btn-primary, .exercise-guide-btn, .accordion-button, .login-button, .profile-button {
+.btn-primary, .exercise-guide-btn, .accordion-button, .profile-button {
   color: white!important;
   background-color: #639183!important;
   font-size: 1.25rem!important;
+  border-radius: 0.5rem!important;
+  text-decoration: none!important;
+}
+
+.login-button {
+  color: #ffffff!important;
+  background-color: #639183!important;
+  padding: 0.5rem 1rem 0.5rem 1rem!important;
+  font-size: 1rem!important;
   border-radius: 0.5rem!important;
   text-decoration: none!important;
 }
