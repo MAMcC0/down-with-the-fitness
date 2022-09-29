@@ -29,7 +29,7 @@ const httpLink = createHttpLink({
 const authLink = setContext((_, { headers }) => {
 
   const token = localStorage.getItem('id_token');
-//returns bearer tokens
+  //returns bearer tokens
   return {
     headers: {
       ...headers,
@@ -71,7 +71,7 @@ function App() {
                 path="/customworkouts/type"
                 element={<CustomWorkoutPage />}
               />
-                            <Route
+              <Route
                 path="/customworkouts"
                 element={<AllCustomWorkouts />}
               />

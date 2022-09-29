@@ -27,7 +27,7 @@ export default function CustomWorkoutModal(props) {
                 <div>
                 <CustomWorkoutForm />
                 </div>
-                <div>
+                <div className="flex-wrap">
                 <Chips
                         fullBodyExercises={exerciseChip}
                     />
