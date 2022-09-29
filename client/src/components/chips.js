@@ -8,7 +8,6 @@ export default function exerciseChip({ chipData }) {
       <div className="chip">
           {chipData && chipData.map(exercise => (
           <Chip
-          icon={<i className="material-icons">check</i>}
           label={exercise.exerciseName}
           variant="solid"
           type="filter"

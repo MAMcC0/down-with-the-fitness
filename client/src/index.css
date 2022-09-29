@@ -172,6 +172,18 @@ button.btn.btn-primary {
   align-items: center;
 }
 
+.chip {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center;
+  padding: .15rem !important;
+  margin: 5px;
+}
+
+/* .chip-solid:focus {
+  background-color: #639183 !important;
+} */
+
 #live-button {
   color: white!important;
   background-color: #639183!important;
