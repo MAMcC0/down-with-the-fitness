@@ -21,7 +21,7 @@ export default function CustomWorkoutModal(props) {
             centered
         >
             <Modal.Header closeButton>
-                <Modal.Title>Create Custom Workout</Modal.Title>
+                <Modal.Title class="modal-title">Create Custom Workout</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <div>

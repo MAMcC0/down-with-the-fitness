@@ -105,6 +105,7 @@ button.btn.btn-primary {
   font-size: 1rem!important;
   border-radius: 0.5rem!important;
   text-decoration: none!important;
+  margin: 10px;
 }
 
 .create-workout-modal, .create-workout-button {
@@ -114,6 +115,19 @@ button.btn.btn-primary {
   border-radius: 0.5rem!important;
   text-decoration: none!important;
   min-width: 60%!important;
+}
+
+.modal-title {
+  font-size: 1.25rem !important;
+}
+
+.workout-title, .target-area {
+  font-size: 1rem;
+}
+
+.select {
+  color: rgb(150, 150, 150);
+  padding-top: 10px;
 }
 
 .create-workout-button {
@@ -184,6 +198,10 @@ button.btn.btn-primary {
   background-color: #639183 !important;
 } */
 
+.dropdown a:hover {
+  color: rgb(199, 199, 199)!important;
+}
+
 #live-button {
   color: white!important;
   background-color: #639183!important;
@@ -193,6 +211,6 @@ button.btn.btn-primary {
   min-width: 60%!important;
 }
 
-.dropdown a:hover {
-  color: rgb(199, 199, 199)!important;
+#TextInput {
+  font-size: 1rem;
 }
